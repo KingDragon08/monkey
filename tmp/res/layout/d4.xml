@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/ol" android:layout_width="fill_parent" android:layout_height="32.0dip" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/i5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/f3" android:id="@id/c_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fi" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/jb" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="8.0dip" android:src="@drawable/o7" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ScrollView android:id="@id/rr" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout android:orientation="vertical" android:background="@color/gz" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/f7" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/f_" android:gravity="center_horizontal" android:id="@id/rs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="32.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="16.0dip">
+                        <TextView android:textSize="14.0sp" android:textColor="@color/f_" android:layout_width="88.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/a8y" />
+                        <EditText android:textSize="14.0sp" android:textColorHint="@color/f9" android:id="@id/rt" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:hint="@string/us" android:maxLines="1" android:maxLength="@integer/n" android:layout_weight="1.0" android:inputType="number" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/gs" android:id="@id/ru" android:paddingLeft="13.0dip" android:paddingTop="8.0dip" android:paddingRight="13.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/rm" />
+                    </LinearLayout>
+                    <View android:background="@color/f7" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+                    <LinearLayout android:orientation="horizontal" android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                        <TextView android:textSize="14.0sp" android:textColor="@color/f_" android:gravity="center|left" android:layout_width="88.0dip" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="@string/gf" />
+                        <EditText android:textSize="14.0sp" android:textColor="@color/fj" android:textColorHint="@color/f9" android:id="@id/rv" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:hint="@string/uo" android:maxLines="1" />
+                    </LinearLayout>
+                    <View android:background="@color/f7" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+                    <LinearLayout android:orientation="horizontal" android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                        <TextView android:textSize="14.0sp" android:textColor="@color/f_" android:gravity="center|left" android:layout_width="88.0dip" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="@string/ade" />
+                        <EditText android:textSize="14.0sp" android:textColor="@color/fj" android:textColorHint="@color/f9" android:id="@id/rw" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:hint="@string/ut" android:maxLines="1" android:inputType="textPassword" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/ej" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                        <CheckBox android:id="@id/rx" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:button="@drawable/o_" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/f_" android:id="@id/ry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/dq" />
+                    </LinearLayout>
+                    <Button android:textSize="17.0sp" android:textColor="@color/ps" android:id="@id/rz" android:background="@drawable/iw" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_margin="32.0dip" android:text="@string/qa" style="?android:attr/borderlessButtonStyle" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

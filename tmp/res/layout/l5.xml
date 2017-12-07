@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/hp" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="3.0dip" android:layout_centerVertical="true" app:placeholderImage="@drawable/a55" app:placeholderImageScaleType="be" app:roundAsCircle="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/f3" android:id="@id/mi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.5dip" />
+</LinearLayout>

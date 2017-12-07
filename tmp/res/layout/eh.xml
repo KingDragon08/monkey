@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gi" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/fj" android:gravity="center" android:id="@id/fb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+    <View android:id="@id/za" android:visibility="gone" style="@style/ProfileDividerStyle" />
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="107.5dip">
+        <TextView android:id="@id/dg" android:text="@string/at0" android:drawableTop="@drawable/a_n" style="@style/dialog_video_text" />
+        <TextView android:id="@id/zb" android:text="@string/at1" android:drawableTop="@drawable/a_k" style="@style/dialog_video_text" />
+        <TextView android:id="@id/di" android:text="@string/aa3" android:drawableTop="@drawable/a8k" style="@style/dialog_video_text" />
+        <TextView android:id="@id/zc" android:text="@string/aab" android:drawableTop="@drawable/a8m" style="@style/dialog_video_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="107.5dip">
+        <TextView android:id="@id/dk" android:text="@string/ast" android:drawableTop="@drawable/a_j" style="@style/dialog_video_text" />
+        <TextView android:id="@id/zf" android:text="@string/a4i" android:drawableTop="@drawable/a7u" style="@style/dialog_video_text" />
+        <TextView android:id="@id/zd" android:text="@string/a1f" android:drawableTop="@drawable/a50" style="@style/dialog_video_text" />
+        <TextView android:id="@id/ze" android:visibility="invisible" android:drawableTop="@drawable/a8m" style="@style/dialog_video_text" />
+    </LinearLayout>
+    <View style="@style/ProfileDividerStyle" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/zg" android:paddingLeft="27.0dip" android:paddingRight="35.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff404040" android:gravity="center_vertical" android:id="@id/zh" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableLeft="@drawable/aap" android:drawablePadding="3.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff808080" android:id="@id/zi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/aec" android:drawablePadding="6.0dip" />
+    </LinearLayout>
+    <View style="@style/ProfileDividerStyle" />
+    <TextView android:textSize="17.0sp" android:textColor="@color/gp" android:gravity="center" android:id="@id/tv" android:layout_width="fill_parent" android:layout_height="64.0dip" android:text="@string/g7" />
+</LinearLayout>

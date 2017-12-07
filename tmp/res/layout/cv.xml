@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="17.0sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/amg" />
+        <TextView android:textSize="17.0sp" android:textColor="@android:color/holo_red_dark" android:id="@id/rg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+        <TextView android:textSize="17.0sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/amb" />
+        <TextView android:textSize="17.0sp" android:textColor="@android:color/holo_red_dark" android:id="@id/rh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ry" />
+        <TextView android:textSize="20.0dip" android:textColor="@android:color/holo_red_dark" android:id="@id/ri" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hf" />
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/holo_red_dark" android:id="@id/rj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/n_" />
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/holo_red_dark" android:id="@id/rk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a4n" />
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/holo_red_dark" android:id="@id/rl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,8 @@
+{
+    "packageName":"com.ss.android.ugc.live.shortvideo",
+    "versionCode":1,
+    "dependOnHost":{
+        "packageName":"com.ss.android.ugc.live",
+        "minVersionCode":274
+    }
+}

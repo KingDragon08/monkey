@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/c_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.5dip" android:text="" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/fn" android:id="@id/acf" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="-5.0dip" android:layout_marginRight="0.0dip" android:layout_toRightOf="@id/c_" android:layout_alignTop="@id/c_" style="@style/notification_count" />
+    <TextView android:id="@id/acg" android:background="@drawable/ex" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="0.0dip" android:layout_toRightOf="@id/c_" android:layout_alignTop="@id/c_" />
+</RelativeLayout>

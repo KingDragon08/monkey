@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/id" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/acu" android:layout_width="fill_parent" android:layout_height="wrap_content" app:placeholderImage="@color/fn" app:placeholderImageScaleType="be" app:roundedCornerRadius="2.0dip" />
+    <View android:id="@id/jh" android:background="@color/kd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.5" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/acv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.ss.android.ugc.live.comment.CommentLoadingView android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/adu" />
+        <TextView android:id="@id/acw" android:layout_marginTop="10.0dip" android:text="视频上传中" style="@style/upload_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/acx" android:paddingLeft="19.0dip" android:paddingRight="19.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/acy" android:layout_marginBottom="10.0dip" android:text="@string/ap4" android:maxLines="2" style="@style/upload_text" />
+        <View android:background="@color/or" style="@style/ProfileDividerStyle" />
+        <com.ss.android.ugc.live.feed.widget.ShareIconLayout android:orientation="horizontal" android:id="@id/acz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ad0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:text="@string/a96" style="@style/upload_text" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <Button android:id="@id/ad1" android:layout_marginRight="19.0dip" android:text="@string/ac3" style="@style/upload_btn" />
+            <Button android:id="@id/ad2" android:text="@string/m6" style="@style/upload_btn" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/ad3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15.0sp" android:textColor="@color/l8" android:ellipsize="none" android:id="@id/ad4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="7.0dip" android:maxLines="2" />
+        <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/ad5" android:layout_width="@dimen/d9" android:layout_height="@dimen/d9" android:layout_marginLeft="8.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@id/ad4" app:placeholderImage="@drawable/a55" app:placeholderImageScaleType="b_" app:roundAsCircle="true" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/l8" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ad6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxEms="6" android:singleLine="true" android:layout_toRightOf="@id/ad5" android:layout_alignTop="@id/ad5" android:layout_alignBottom="@id/ad5" />
+    </RelativeLayout>
+</RelativeLayout>

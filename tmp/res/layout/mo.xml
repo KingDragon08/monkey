@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/aoi" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+    <TextView android:id="@id/aoh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" style="@style/ss_comment_section_text" />
+</FrameLayout>

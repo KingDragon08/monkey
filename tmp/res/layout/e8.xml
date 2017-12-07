@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gi" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/f3" android:gravity="center" android:id="@id/wo" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <View android:id="@id/wp" android:layout_marginBottom="24.5dip" style="@style/RecyclerShareTitleTailDividerStyle" />
+    <android.support.v7.widget.RecyclerView android:id="@id/wq" android:layout_width="fill_parent" android:layout_height="85.0dip" />
+    <View android:id="@id/wr" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" style="@style/RecyclerShareContentDividerStyle" />
+    <android.support.v7.widget.RecyclerView android:id="@id/ws" android:layout_width="fill_parent" android:layout_height="85.0dip" />
+    <View android:layout_marginTop="16.0dip" style="@style/RecyclerShareTitleTailDividerStyle" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/g8" android:gravity="center" android:id="@id/wt" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/g7" />
+</LinearLayout>

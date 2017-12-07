@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="83" android:drawable="@drawable/ah_" />
+    <item android:duration="83" android:drawable="@drawable/ahe" />
+    <item android:duration="83" android:drawable="@drawable/ahf" />
+    <item android:duration="83" android:drawable="@drawable/ahg" />
+    <item android:duration="83" android:drawable="@drawable/ahh" />
+    <item android:duration="83" android:drawable="@drawable/ahi" />
+    <item android:duration="83" android:drawable="@drawable/ahj" />
+    <item android:duration="83" android:drawable="@drawable/ahk" />
+    <item android:duration="83" android:drawable="@drawable/ahl" />
+    <item android:duration="83" android:drawable="@drawable/aha" />
+    <item android:duration="83" android:drawable="@drawable/ahb" />
+    <item android:duration="83" android:drawable="@drawable/ahc" />
+    <item android:duration="83" android:drawable="@drawable/ahd" />
+</animation-list>

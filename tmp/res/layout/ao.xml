@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/dc" layout="@layout/profile_live_title_bar" />
+    <RelativeLayout android:id="@id/ho" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_centerInParent="true">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/hp" android:layout_width="@dimen/cz" android:layout_height="@dimen/cz" app:placeholderImage="@drawable/aee" app:placeholderImageScaleType="b9" app:roundAsCircle="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/ok" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/e_" android:lineSpacingExtra="2.0sp" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/hq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleSmall" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ffb0b0b0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/a67" />
+        <EditText android:textSize="14.0sp" android:textColorHint="#ffb0b0b0" android:id="@id/hr" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:hint="@string/ab4" android:maxLength="10" />
+    </LinearLayout>
+    <Button android:textSize="17.0sp" android:textColor="@color/gi" android:id="@id/hs" android:background="@drawable/gp" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_margin="15.0dip" android:text="@string/k6" style="?android:attr/borderlessButtonStyle" />
+</LinearLayout>

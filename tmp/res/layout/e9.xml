@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/xv" android:background="@drawable/hv" android:layout_width="320.0dip" android:layout_height="400.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/xw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="190.0dip" android:src="@drawable/a8r" />
+    <View android:layout_gravity="center_horizontal" android:id="@id/xx" android:background="@drawable/hw" android:visibility="gone" android:layout_width="285.0dip" android:layout_height="160.0dip" android:layout_marginTop="215.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/xy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:src="@drawable/a4n" />
+        <com.ss.android.ugc.live.core.ui.widget.VHeadView android:layout_gravity="center_horizontal" android:id="@id/ik" android:background="@drawable/bh" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="26.0dip" fresco:placeholderImage="@drawable/a55" fresco:retryImageScaleType="be" fresco:roundAsCircle="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/k8" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/xz" android:layout_width="89.0dip" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:maxLines="1" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/k8" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aax" />
+            <TextView android:textSize="36.0sp" android:textColor="@color/k8" android:layout_gravity="bottom" android:id="@id/y0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2000" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/k8" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aaw" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/pq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:src="@drawable/a8o" />
+        <LinearLayout android:orientation="vertical" android:id="@id/y1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="68.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/y2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ab0" android:drawableLeft="@drawable/a8p" android:drawablePadding="10.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gp" android:layout_gravity="center_horizontal" android:id="@id/y3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/ab1" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

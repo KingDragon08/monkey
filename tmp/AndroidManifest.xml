@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ss.android.ugc.live" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_SINTERNETWIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <permission android:name="com.ss.android.ugc.live.permission.MIPUSH_RECEIVE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.ss.android.ugc.live.permission.MIPUSH_RECEIVE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE"/>
+    <permission android:name="com.ss.android.ugc.live.push.permission.MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.ss.android.ugc.live.push.permission.MESSAGE"/>
+    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE"/>
+    <permission android:name="com.ss.android.ugc.live.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.ss.android.ugc.live.permission.C2D_MESSAGE"/>
+    <permission android:name="com.ss.android.ugc.live.permission.READ_ACCOUNT" android:protectionLevel="signature"/>
+    <permission android:name="com.ss.android.ugc.live.permission.WRITE_ACCOUNT" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.ss.android.ugc.live.permission.READ_ACCOUNT"/>
+    <uses-permission android:name="com.ss.android.ugc.live.permission.WRITE_ACCOUNT"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application android:allowBackup="true" android:alwaysRetainTaskState="true" android:anyDensity="true" android:hardwareAccelerated="true" android:icon="@mipmap/icon" android:label="@string/d2" android:largeHeap="true" android:launchMode="singleInstance" android:name="com.ss.android.ugc.live.app.LiveApplication" android:normalScreens="true" android:persistent="false" android:process="com.ss.android.ugc.live" android:screenOrientation="portrait" android:supportsRtl="true" android:theme="@style/dl">
+        <meta-data android:name="SS_VERSION_NAME" android:value="2.8.6"/>
+        <meta-data android:name="SS_VERSION_CODE" android:value="286"/>
+        <meta-data android:name="UPDATE_VERSION_CODE" android:value="2860"/>
+        <meta-data android:name="PARTNER_CODE" android:value="huoshan"/>
+        <activity android:launchMode="singleTask" android:name="com.ss.android.ugc.live.main.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.videoshare.ui.CutShareVideoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing|stateHidden">
+            <intent-filter>
+                <action android:name="com.ss.android.ugc.live.sdk.action.ACTION_SHARE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ss.android.ies.live.sdk.wrapper.share.ShareInviteActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.ss.android.ugc.live.live.detail.ui.LiveDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.ss.android.ugc.live.splash.LiveSplashActivity" android:screenOrientation="portrait" android:theme="@style/a6">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:name="com.ss.android.ugc.live.splash.LiveSplashAdActivity" android:screenOrientation="portrait" android:theme="@style/a6"/>
+        <activity android:name="com.ss.android.ugc.live.search.SearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.qrcode.MyQrcodeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.qrcode.MyCaptureActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.qrcode.NoCameraPermissionActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.ugc.live.setting.SettingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="livestream.com.setting.action"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ss.android.ugc.live.setting.PrivacyManagerActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.ss.android.ugc.live.setting.PushManageActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.setting.LiveNotifyActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.setting.AccountActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.ss.android.ugc.live.notification.ui.NotificationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.comment.AtFriendsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:launchMode="singleTask" android:name="com.ss.android.ugc.live.chat.session.SessionListActivity" android:screenOrientation="portrait" android:theme="@style/kk" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:launchMode="singleTask" android:name="com.ss.android.ugc.live.chat.session.StrangerSessionListActivity" android:screenOrientation="portrait" android:theme="@style/kk" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:launchMode="singleTask" android:name="com.ss.android.ugc.live.chat.message.ChatMessageActivity" android:screenOrientation="portrait" android:theme="@style/kk" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.chat.detail.ConversationDetailActivity" android:screenOrientation="portrait" android:theme="@style/kk" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.chat.block.ChatBlockListActivity" android:screenOrientation="portrait" android:theme="@style/kk" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ss.android.newmedia.feedback.FeedbackActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.ss.android.newmedia.feedback.SubmitFeedbackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.ss.android.sdk.activity.AuthorizeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.sdk.activity.AuthActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.ss.android.ugc.live.wxapi.WXEntryActivity"/>
+        <activity android:exported="true" android:name="com.ss.android.ugc.live.wxapi.WXPayEntryActivity"/>
+        <activity android:name="com.bytedance.ugc.livemobile.MobileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.profile.CommonFollowActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.mobile.EditProfileActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.profile.ui.MyProfileEditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.profile.ProfileEditVerifyActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.profile.ui.UserProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.follow.ui.FollowerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.follow.ui.FollowingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.follow.ui.LiveRecordActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.profile.PublishFeedActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.profile.LikeFeedActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.sdk.activity.BrowserActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.ss.android.ugc.live.app.LiveBrowserActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.bytedance.ugc.wallet.ui.WalletBrowserActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.profile.ui.WatchRecUserActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.detail.ui.DetailActivity" android:screenOrientation="portrait" android:theme="@style/hq" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.report.ReportActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.bytedance.ugc.wallet.ui.ChargeDealActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.bytedance.ugc.wallet.ui.ChargeRecordActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.wallet.ui.WalletAndDiamondActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.wallet.ui.WithdrawRecordActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.wallet.ui.WithdrawGuideActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.wallet.ui.AliPayWithDrawGuideActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.wallet.ui.BankWithdrawGuideActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <activity android:name="com.ss.android.ugc.live.wallet.ui.BankChangeCardActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.wallet.ui.WxFollowLiveBrowserActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.wallet.ui.WithdrawActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing|stateAlwaysVisible"/>
+        <activity android:name="com.ss.android.ugc.live.profile.RealNameVerifyActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing|stateAlwaysVisible"/>
+        <activity android:name="com.ss.android.ugc.live.wallet.ui.WebDialogActivity" android:screenOrientation="portrait" android:theme="@style/hq" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.contacts.ui.FindFriendActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.contacts.ui.ContactsFriendActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.notification.ui.WhoLikeYouActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.alipay.sdk.app.H5PayActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.alipay.sdk.app.H5AuthActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="false" android:name="com.alipay.sdk.auth.AuthActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.ss.android.ugc.live.app.AdsAppActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.ss.android.sdk.snssdk1112"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="snssdk1112"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.ss.android.medialib.illustrator.stickers.TextEditorActivity" android:screenOrientation="portrait" android:theme="@style/m5" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:name="com.ss.android.ugc.live.detail.ui.MeiPaiShareActivity">
+            <intent-filter>
+                <action android:name="com.meitu.mp.sdk.action.ACTION_SDK_RESP_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/aub" android:name="com.ss.android.ugc.live.app.CustomErrorActivity" android:process=":error_activity"/>
+        <activity android:label="plugin list" android:name="com.ss.android.ugc.live.plugin.PluginListActivity"/>
+        <service android:exported="true" android:name="com.ss.ttm.player.TTPlayerService" android:process=":ttplayer">
+            <intent-filter>
+                <action android:name="com.ss.ttm.service"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.ss.android.websocket.internal.WebSocketService" android:process=":push"/>
+ 
+<service android:name="com.ss.android.websocket.ws.WebClientMessenger"/>
+        <service android:enabled="true" android:name="com.ss.android.ugc.live.app.DeviceReportService"/>
+        <service android:name="com.ss.android.newmedia.message.MessageHandler">
+            <intent-filter>
+                <action android:name="com.ss.android.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.xiaomi.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.umeng.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.hw.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.mz.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.aliyun.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.newmedia.message.cache.action"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.newmedia.message.notify.delete.action"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.ss.android.common.multiprocess.SHARE_PROVIDER_AUTHORITY1112" android:exported="true" android:name="com.ss.android.common.util.MultiProcessSharedProvider"/>
+        <service android:name="com.ss.android.push.daemon.PushService" android:process=":pushservice"/>
+        <receiver android:name="com.ss.android.push.daemon.PushReceiver" android:process=":pushservice"/>
+        <receiver android:name="com.ss.android.message.MessageReceiver" android:priority="2147483647" android:process=":push">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.ss.android.message.NotifyService" android:process=":push">
+            <intent-filter>
+                <action android:name="com.ss.android.message.action.PUSH_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.ss.android.message.PushJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":push"/>
+        <service android:exported="true" android:name="com.ss.android.message.log.LogService" android:process=":push"/>
+        <service android:enabled="true" android:exported="true" android:name="cn.jpush.android.service.DaemonService" android:process=":push">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService"/>
+                <category android:name="com.ss.android.ugc.live"/>
+            </intent-filter>
+        </service>
+        <activity android:excludeFromRecents="true" android:exported="false" android:finishOnTaskLaunch="false" android:launchMode="singleInstance" android:name="com.ss.android.message.sswo.SswoActivity" android:process=":push" android:theme="@style/fk"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.ss.android.message.sswo.SswoReceiver" android:process=":push">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.baidu.android.pushservice.CommandService" android:process=":push"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.baidu.android.pushservice.RegistrationReceiver" android:process=":push">
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD"/>
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="downloads.com.ss.android.ugc.live" android:exported="true" android:name="com.igexin.download.DownloadProvider" android:process=":push"/>
+        <service android:exported="true" android:name="com.igexin.sdk.PushService" android:process=":push">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.service.message"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="true" android:name="com.igexin.sdk.PushReceiver" android:process=":push">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.refreshls"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.ss.android.pushmanager.setting.PushMultiProcessSharedProvider1112" android:exported="true" android:name="com.ss.android.pushmanager.setting.PushMultiProcessSharedProvider"/>
+        <service android:enabled="true" android:name="com.xiaomi.push.service.XMPushService" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="false" android:name="com.xiaomi.push.service.XMJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="true" android:name="com.xiaomi.mipush.sdk.PushMessageHandler"/>
+        <service android:enabled="true" android:name="com.xiaomi.mipush.sdk.MessageHandleService"/>
+        <receiver android:exported="true" android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.xiaomi.push.service.receivers.PingReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.xiaomi.push.service.receivers.MIPushMessageHandler">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.taobao.accs.ChannelService" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.SERVICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.ELECTION"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.taobao.accs.data.MsgDistributeService">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.taobao.accs.EventReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.taobao.accs.ServiceReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.COMMAND"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.START_FROM_AGOO"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="org.android.agoo.accs.AgooService">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.umeng.message.UmengIntentService" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.taobao.agoo.AgooCommondReceiver">
+            <intent-filter>
+                <action android:name="com.ss.android.ugc.live.intent.action.COMMAND"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.umeng.message.UmengMessageCallbackHandlerService">
+            <intent-filter>
+                <action android:name="com.umeng.messge.registercallback.action"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.enablecallback.action"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.disablecallback.action"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.message.handler.action"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.umeng.message.UmengMessageIntentReceiverService" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="org.android.agoo.client.MessageReceiverService"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.ss.android.ugc.live.umeng.message" android:exported="false" android:name="com.umeng.message.provider.MessageProvider">
+            <grant-uri-permission android:pathPattern=".*"/>
+        </provider>
+        <service android:name="com.umeng.UmengMessageHandler" android:process=":pushservice"/>
+        <receiver android:exported="true" android:name="com.aliyun.AliyunMessageReceiver">
+            <intent-filter>
+                <action android:name="com.ss.android.ugc.live.action.NOTIFICATION_OPENED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.ugc.live.action.NOTIFICATION_REMOVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.COMMAND"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.taobao.intent.action.COMMAND"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.alibaba.sdk.android.push.RECEIVE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.meizu.message.MzMessageReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE"/>
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.c2dm.intent.REGISTRATION"/>
+                <action android:name="com.meizu.c2dm.intent.RECEIVE"/>
+                <category android:name="com.ss.android.ugc.live"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.push.service.receivers.HWPushMessageHandler">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION"/>
+                <action android:name="com.huawei.android.push.intent.RECEIVE"/>
+                <action android:name="com.huawei.android.push.intent.CLICK"/>
+                <action android:name="com.huawei.intent.action.PUSH_STATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.android.pushagent.PushEventReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REFRESH_PUSH_CHANNEL"/>
+                <action android:name="com.huawei.intent.action.PUSH"/>
+                <action android:name="com.huawei.intent.action.PUSH_ON"/>
+                <action android:name="com.huawei.android.push.PLUGIN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.android.pushagent.PushBootReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTER"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <meta-data android:name="CS_cloud_version" android:value="2815"/>
+        </receiver>
+        <service android:name="com.huawei.android.pushagent.PushService" android:process=":pushservice"/>
+        <activity android:configChanges="locale|layoutDirection|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.huawei.android.pushagent.permission.PermissionsMgrActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar"/>
+        <meta-data android:name="APPKEY" android:value="10505945"/>
+        <service android:name="com.ss.android.download.DownloadService"/>
+        <service android:name="com.ss.android.download.DownloadHandlerService"/>
+        <receiver android:name="com.ss.android.download.DownloadReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.ss.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+        <activity android:launchMode="singleTask" android:name="com.ss.android.download.SizeLimitActivity" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:launchMode="singleTask" android:name="com.ss.android.download.DownloadDeleteActivity" android:theme="@android:style/Theme.Dialog"/>
+        <provider android:authorities="com.bytedance.ies.common.push.account.AccountProvider1112" android:exported="false" android:name="com.bytedance.ies.common.push.account.AccountProvider" android:process=":push" android:syncable="true"/>
+        <service android:exported="true" android:name="com.bytedance.ies.common.push.account.AccountSyncService" android:process=":push">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/b"/>
+        </service>
+        <service android:name="com.bytedance.ies.common.push.account.AuthenticatorService" android:process=":push">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/a"/>
+        </service>
+        <receiver android:name="com.ss.android.push.DefaultReceiver"/>
+        <service android:name="com.ss.android.push.DefaultService"/>
+        <meta-data android:name="UMENG_APPKEY" android:value="56ea65c067e58eea7e000c63"/>
+        <meta-data android:name="UMENG_MESSAGE_SECRET" android:value="bc524010945b384dca8b8905166e82df"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="e1f3b2a33a8ee252ad22043f63ff21cb"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="eee9b648b8be87400f0023a7e396553845c8271e"/>
+        <activity android:name="com.ss.android.ugc.live.shortvideo.ui.MediaChooserActivity" android:screenOrientation="portrait"/>
+        <activity android:keepScreenOn="true" android:name="com.ss.android.ugc.live.shortvideo.ui.VideoRecordActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.shortvideo.ui.CutVideoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.live.shortvideo.ui.VideoProcessActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.shortvideo.ui.PublishVideoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.shortvideo.ui.VideoDraftActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.shortvideo.ui.ChooseCoverActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.shortvideo.ui.CutMusicActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.ss.android.ugc.live.shortvideo.ui.ChooseOnlineMusicActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:excludeFromRecents="true" android:name="com.ss.android.ugc.live.login.LiveLoginActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="com.ss.android.ugc.live.LOGIN_PLATFORM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:name="com.ss.android.ugc.live.ttplatformapi.TtAuthorizeActivity" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/hh"/>
+        <provider android:authorities="com.ss.android.ugc.live.ttplatformapi.AccountProvider" android:exported="true" android:multiprocess="true" android:name="com.ss.android.ttplatformsdk.provider.TTPlatformAccountProvider" android:readPermission="com.ss.android.ugc.live.permission.READ_ACCOUNT" android:writePermission="com.ss.android.ugc.live.permission.WRITE_ACCOUNT"/>
+        <activity android:name="com.ss.android.ugc.live.shortvideo.ui.StartLiveAndRecordActivity"/>
+        <activity android:name="com.ss.android.ugc.live.video.InvokeRecordActivity" android:theme="@style/hq"/>
+        <service android:enabled="true" android:exported="true" android:name="com.ss.android.ugc.live.shortvideo.SynthService"/>
+        <service android:name="com.bytedance.ies.telecom.RequestMobileService"/>
+        <receiver android:name="com.ss.android.common.applog.HotsoonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_INSTALL"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.ss.android.newmedia.message.localpush.LocalPushCacheService" android:process=":push"/>
+        <receiver android:exported="false" android:name="com.ss.android.newmedia.message.localpush.LocalPushCacheReceiver"/>
+        <receiver android:name="com.ss.android.newmedia.message.localpush.MessageScheduleReceiver"/>
+        <activity android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity" android:process=":error_activity" android:theme="@style/ad"/>
+        <activity android:clearTaskOnLaunch="true" android:name="com.journeyapps.barcodescanner.CaptureActivity" android:screenOrientation="sensorLandscape" android:stateNotNeeded="true" android:theme="@style/a9" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.bytedance.frameworks.plugin.core.PluginLoadIndicator" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.ss.android.ugc.live.pm.PPMP" android:initOrder="10" android:name="com.bytedance.frameworks.plugin.pm.PluginPackageManagerProvider"/>
+        <provider android:authorities="com.ss.android.ugc.live.am.PAMP" android:initOrder="100" android:name="com.bytedance.frameworks.plugin.am.PluginActivityManagerProvider"/>
+        <service android:name="com.bytedance.frameworks.plugin.am.KeepAlive"/>
+        <service android:name="com.bytedance.frameworks.plugin.am.KeepAlive$InnerService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:name="com.bytedance.frameworks.plugin.stub.p0.StubStandardActivity1" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:name="com.bytedance.frameworks.plugin.stub.p0.StubStandardActivity2" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:name="com.bytedance.frameworks.plugin.stub.p0.StubStandardActivity3" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:name="com.bytedance.frameworks.plugin.stub.p0.StubStandardActivity4" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:name="com.bytedance.frameworks.plugin.stub.p0.StubStandardActivity5" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:name="com.bytedance.frameworks.plugin.stub.p0.StubStandardActivity6" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:name="com.bytedance.frameworks.plugin.stub.p0.StubStandardActivity7" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:name="com.bytedance.frameworks.plugin.stub.p0.StubStandardActivity8" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:name="com.bytedance.frameworks.plugin.stub.p0.StubStandardActivity9" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:name="com.bytedance.frameworks.plugin.stub.p0.StubStandardActivity10" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleTop" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleTopActivity1" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleTop" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleTopActivity2" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleTop" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleTopActivity3" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleTop" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleTopActivity4" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleTop" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleTopActivity5" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleTop" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleTopActivity6" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleTask" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleTaskActivity1" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleTask" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleTaskActivity2" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleTask" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleTaskActivity3" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleTask" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleTaskActivity4" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleTask" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleTaskActivity5" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleTask" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleTaskActivity6" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleInstance" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleInstanceActivity1" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleInstance" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleInstanceActivity2" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleInstance" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleInstanceActivity3" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleInstance" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleInstanceActivity4" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleInstance" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleInstanceActivity5" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:launchMode="singleInstance" android:name="com.bytedance.frameworks.plugin.stub.p0.StubSingleInstanceActivity6" android:theme="@style/hf">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="false" android:name="com.bytedance.frameworks.plugin.stub.p0.StubReceiver">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:label="@string/alp" android:name="com.bytedance.frameworks.plugin.stub.p0.StubService">
+            <intent-filter>
+                <action android:name="com.intent.action.ACTION_STUB_PLUGIN"/>
+                <category android:name="com.intent.category.PLUGIN_DEFAULT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.ss.android.ugc.live.stub.p0.STUB_AUTHORITY" android:exported="false" android:name="com.bytedance.frameworks.plugin.stub.p0.StubContentProvider"/>
+        <activity android:name="com.ss.android.ugc.live.plugin.plugin.PluginListActivity"/>
+        <activity android:name="com.ss.android.ies.live.sdk.admin.ui.AdminListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ies.live.sdk.kickout.ui.BannedListActivity" android:screenOrientation="portrait"/>
+        <service android:name="com.ss.android.ies.live.sdk.gift.GiftHotUpdateService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.ss.android.ies.live.sdk.LiveBroadcastActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:keepScreenOn="true" android:name="com.ss.android.ies.live.sdk.StartLiveActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.ugc.live.cocos2dx.Cocos2dxActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.ss.android.ies.userverify.ui.VerifyActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.sdk.activity.LoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.sdk.activity.AccountActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.sdk.activity.UpdateActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.sdk.activity.BootstrapActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="snssdk0"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ss.android.newmedia.feedback.FeedbackConversationActivity" android:screenOrientation="portrait"/>
+        <service android:name="com.taobao.accs.ChannelService$KernelService" android:process=":pushservice"/>
+        <service android:exported="true" android:name="com.alibaba.sdk.android.push.AliyunPushIntentService" android:process=":pushservice"/>
+        <service android:exported="false" android:name="com.alibaba.sdk.android.push.CloudPushIntentService" android:process=":pushservice"/>
+        <service android:exported="true" android:name="com.alibaba.sdk.android.push.PushIntentService">
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.alibaba.sdk.android.push.MsgService">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.alibaba.sdk.android.push.NOTIFY_ACTION"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.alibaba.sdk.android.push.channel.TaobaoRecvService" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="org.android.agoo.client.MessageReceiverService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.alibaba.sdk.android.push.SystemEventReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.meizu.cloud.pushsdk.NotificationService"/>
+        <receiver android:name="com.meizu.cloud.pushsdk.SystemReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.cloud.pushservice.action.PUSH_SERVICE_START"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.ss.android.message.NotifyIntentService" android:process=":push"/>
+        <service android:name="com.ss.android.newmedia.redbadge.RedbadgeHandler">
+            <intent-filter>
+                <action android:name="com.ss.android.redbadge.message"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.ss.android.http.OpenUrlService">
+            <intent-filter>
+                <action android:name="com.ss.android.action.openurl"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.ss.android.push.window.oppo.ScreenReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.ss.android.uniqueid.getphone.RequestMobileService"/>
+        <receiver android:name="com.ss.android.derivative.AppListener">
+            <intent-filter android:priority="100">
+                <action android:name="android.intent.action.PACKAGE_INSTALL"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ss.android.derivative.NotificationActionBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.ss.android.ugc.live.NotificationActionBroadcastReceiver"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ss.android.derivative.DownloadSuccessReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

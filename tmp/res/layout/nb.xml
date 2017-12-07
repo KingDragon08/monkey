@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ix" android:background="@color/o3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dc" layout="@layout/feedback_title_bar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dc">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/p2" android:background="@drawable/dj" android:paddingLeft="10.0dip" android:paddingTop="7.0dip" android:paddingRight="7.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip">
+                <EditText android:gravity="center|left|top" android:id="@id/mi" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:hint="@string/uh" android:layout_weight="1.0" style="@style/feedback_input_text" />
+                <ImageView android:id="@id/apg" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/mt" android:scaleType="fitXY" />
+            </LinearLayout>
+            <EditText android:id="@id/aph" android:background="@drawable/dh" android:paddingLeft="10.0dip" android:paddingTop="7.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip" android:hint="@string/ug" android:singleLine="true" style="@style/feedback_input_text" />
+            <TextView android:id="@id/api" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/pw" style="@style/feedback_contact_tip" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/apj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dc" />
+    <View android:id="@id/q" style="@style/night_mode_overlay" />
+</RelativeLayout>

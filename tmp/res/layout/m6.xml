@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ad.splash.core.video.SSRenderSurfaceView android:id="@id/amq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.ss.android.ad.splash.core.video.SSRenderTextureView android:id="@id/amr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/ams" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginRight="9.0dip" android:src="@drawable/zc" android:layout_toLeftOf="@id/amt" />
+    <FrameLayout android:id="@id/amt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:textSize="12.0sp" android:textColor="@color/or" android:gravity="center" android:layout_gravity="center" android:id="@id/amu" android:background="@drawable/qd" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="@string/ag_" />
+        <ImageView android:layout_gravity="center" android:id="@id/amv" android:visibility="invisible" android:layout_width="@dimen/gc" android:layout_height="@dimen/gc" android:src="@drawable/z8" android:scaleType="fitXY" />
+    </FrameLayout>
+    <ImageView android:id="@id/amw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/z9" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ProgressBar android:id="@id/amx" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:indeterminateDrawable="@drawable/qe" android:indeterminateDuration="1200" android:layout_centerInParent="true" />
+</RelativeLayout>

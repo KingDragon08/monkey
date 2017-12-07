@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/xd" android:background="@drawable/a1b" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/xe" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dialog_profile_base" />
+        <LinearLayout android:orientation="vertical" android:id="@id/xf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/xe">
+            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/xg" android:background="@drawable/ia" android:layout_width="220.0dip" android:layout_height="40.0dip" android:layout_marginBottom="8.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="@color/fj" android:id="@id/xh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/r3" android:layout_centerInParent="true" />
+                <View android:id="@id/xi" android:background="@color/fm" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_toLeftOf="@id/xj" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/xj" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/a5d" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/xk" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginLeft="19.5dip" android:layout_marginRight="19.5dip">
+                <TextView android:textSize="15.0sp" android:textColor="@color/g5" android:gravity="center_horizontal" android:id="@id/xl" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sa" android:layout_weight="1.0" />
+                <View android:id="@id/e2" android:background="#ffe0e0e0" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="15.0dip" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/g5" android:gravity="center_horizontal" android:id="@id/xm" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="\@TA" android:layout_weight="1.0" />
+                <View android:id="@id/e7" android:background="#ffe0e0e0" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="15.0dip" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/g5" android:gravity="center_horizontal" android:id="@id/xn" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/a6u" android:layout_weight="1.0" />
+                <View android:id="@id/e9" android:background="#ffe0e0e0" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="15.0dip" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/g5" android:gravity="center_horizontal" android:id="@id/xo" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/v6" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/gi" android:gravity="center" android:id="@id/xp" android:background="@drawable/cr" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="28.0dip" android:text="@string/mx" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gp" android:id="@id/xb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:text="@string/abe" android:layout_below="@id/xf" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</merge>

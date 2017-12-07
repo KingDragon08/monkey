@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/tx" android:background="@drawable/co" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/gs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/l2" android:layout_centerInParent="true" />
+        <FrameLayout android:id="@id/m_" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/a4k" />
+        </FrameLayout>
+    </RelativeLayout>
+    <View android:id="@id/hw" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/tx" />
+    <android.support.v7.widget.RecyclerView android:id="@id/zj" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="360.0dip" android:layout_below="@id/hw" />
+    <RelativeLayout android:id="@id/zk" android:background="#ffffffff" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_below="@id/zj">
+        <RelativeLayout android:id="@id/zl" android:layout_width="54.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:id="@id/zm" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff1e1e1e" android:id="@id/zn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/zo" android:layout_width="36.0dip" android:layout_height="32.0dip" android:layout_toRightOf="@id/zl" android:layout_centerVertical="true">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/ik" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_alignParentLeft="true" fresco:placeholderImage="@drawable/a55" fresco:retryImageScaleType="be" fresco:roundAsCircle="true" />
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/zp" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff1e1e1e" android:ellipsize="end" android:id="@id/il" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:maxLines="1" android:layout_toRightOf="@id/zo" android:layout_centerVertical="true" />
+        <Button android:textSize="12.0sp" android:textColor="@color/gs" android:id="@id/zq" android:background="@drawable/j6" android:layout_width="64.0dip" android:layout_height="28.0dip" android:text="@string/ad8" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/zr" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/zq" android:layout_centerVertical="true">
+            <TextView android:textSize="10.0sp" android:textColor="#ff666666" android:gravity="right" android:layout_gravity="right" android:id="@id/zs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/zt" android:background="@drawable/cx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_below="@id/zj">
+        <TextView android:textSize="16.0sp" android:textColor="@color/or" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a2w" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.bytedance.ies.uikit.recyclerview.LoadingStatusView android:id="@id/de" android:layout_width="fill_parent" android:layout_height="360.0dip" android:layout_below="@id/hw" />
+</RelativeLayout>

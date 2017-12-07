@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/a9y" android:layout_width="fill_parent" android:layout_height="300.0dip" app:placeholderImageScaleType="be" />
+    <View android:background="@drawable/kr" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignBottom="@id/a9y" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/ik" android:layout_width="@dimen/d9" android:layout_height="@dimen/d9" android:layout_marginLeft="8.0dip" android:layout_marginBottom="8.0dip" android:layout_alignBottom="@id/a9y" app:placeholderImage="@drawable/a55" app:placeholderImageScaleType="b_" app:roundAsCircle="true" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/gx" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/c_" android:layout_width="wrap_content" android:layout_height="@dimen/d8" android:layout_marginLeft="2.0dip" android:maxEms="6" android:singleLine="true" android:layout_toRightOf="@id/ik" android:layout_alignBottom="@id/ik" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gx" android:ellipsize="none" android:id="@id/aap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="29.0dip" android:maxLines="2" android:layout_alignLeft="@id/ik" android:layout_alignBottom="@id/a9y" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/gx" android:gravity="center_vertical" android:id="@id/arb" android:layout_width="wrap_content" android:layout_height="@dimen/d8" android:layout_marginRight="8.0dip" android:drawableLeft="@drawable/hk" android:layout_alignRight="@id/a9y" android:layout_alignBottom="@id/ik" />
+</RelativeLayout>

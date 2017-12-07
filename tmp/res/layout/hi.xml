@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/or" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/mi" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/aai" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/aaj" android:visibility="gone" app:placeholderImage="@drawable/a55" app:placeholderImageScaleType="b_" app:roundAsCircle="true" style="@style/feed_follow_more_live_avatar" />
+            <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/aak" android:visibility="gone" android:layout_marginLeft="20.0dip" app:placeholderImage="@drawable/a55" app:placeholderImageScaleType="b_" app:roundAsCircle="true" style="@style/feed_follow_more_live_avatar" />
+            <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/aal" android:visibility="gone" android:layout_marginLeft="40.0dip" app:placeholderImage="@drawable/a55" app:placeholderImageScaleType="b_" app:roundAsCircle="true" app:roundingBorderColor="@color/or" app:roundingBorderPadding="1.0dip" style="@style/feed_follow_more_live_avatar" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/kd" android:id="@id/nx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/a4x" android:layout_toRightOf="@id/aai" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/a8i" android:layout_toRightOf="@id/nx" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/le" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="5.0dip" android:layout_below="@id/mi" />
+</RelativeLayout>

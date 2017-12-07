@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ix" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dc" layout="@layout/title_bar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/any" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/ss_write_comment_layout">
+        <TextView android:id="@id/anz" style="@style/ss_write_comment" />
+    </LinearLayout>
+    <ListView android:id="@id/ao0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/any" android:layout_below="@id/dc" style="@style/ss_comment_list" />
+    <TextView android:gravity="center" android:id="@id/a49" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/ss_empty_comment_text" />
+    <View android:layout_above="@id/any" style="@style/ss_toolbar_shadow" />
+    <View android:id="@id/q" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</RelativeLayout>

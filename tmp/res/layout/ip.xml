@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/aco" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/ao_" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <RelativeLayout android:layout_width="64.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/acj" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="18.0dip" android:layout_centerInParent="true" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/abj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="44.0dip" android:layout_height="40.0dip">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/ik" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentLeft="true" fresco:placeholderImage="@drawable/a55" fresco:retryImageScaleType="be" fresco:roundAsCircle="true" />
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/zp" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="#ff1e1e1e" android:id="@id/il" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff666666" android:id="@id/acp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/t_" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff666666" android:id="@id/acn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" />
+    </LinearLayout>
+    <View android:id="@id/acq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/f3" android:gravity="center_vertical" android:id="@id/a9v" android:background="@android:color/transparent" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" />
+    <View android:background="@color/d9" android:layout_width="fill_parent" style="@style/ProfileDividerStyle" />
+</LinearLayout>

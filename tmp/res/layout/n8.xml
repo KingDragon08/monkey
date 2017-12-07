@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="240.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/apc" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/apd" android:background="@drawable/jg" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ape" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/a2l" />
+            <RadioGroup android:orientation="horizontal" android:id="@id/a0t" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginRight="15.0dip">
+                <RadioButton android:id="@id/a0u" android:background="@drawable/ob" style="@style/bottom_dialog_sticker_radio_button_style" />
+                <RadioButton android:id="@id/a0v" android:background="@drawable/oc" style="@style/bottom_dialog_sticker_radio_button_style" />
+                <RadioButton android:id="@id/a0w" android:background="@drawable/od" style="@style/bottom_dialog_sticker_radio_button_style" />
+                <RadioButton android:id="@id/a0x" android:background="@drawable/oe" style="@style/bottom_dialog_sticker_radio_button_style" />
+                <RadioButton android:id="@id/a0y" android:background="@drawable/of" style="@style/bottom_dialog_sticker_radio_button_style" />
+                <RadioButton android:id="@id/a0z" android:background="@drawable/og" style="@style/bottom_dialog_sticker_radio_button_style" />
+            </RadioGroup>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/b_" android:layout_width="fill_parent" android:layout_height="192.0dip" android:layout_below="@id/apc">
+        <com.bytedance.ies.uikit.viewpager.SSViewPager android:id="@id/vu" android:layout_width="fill_parent" android:layout_height="192.0dip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

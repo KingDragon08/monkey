@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ix" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dc" layout="@layout/profile_live_title_bar" />
+    <com.bytedance.ies.uikit.layout.SwipeOverlayFrameLayout android:id="@id/a9" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:layout_width="fill_parent" android:layout_height="10.0dip" />
+                <LinearLayout android:orientation="horizontal" android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/fj" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="@string/lw" />
+                    <EditText android:textSize="15.0sp" android:textColor="@color/fj" android:textColorHint="@color/g0" android:id="@id/vl" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:hint="@string/a4s" android:maxLength="@integer/n" android:inputType="number" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/agz" android:paddingLeft="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                    <TextView android:textSize="12.0sp" android:id="@id/ah0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uk" android:drawableLeft="@drawable/ey" android:drawablePadding="5.0dip" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/g0" android:id="@id/ah1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/ul" />
+                </LinearLayout>
+                <Button android:textSize="17.0sp" android:textColor="@color/ps" android:id="@id/agu" android:background="@drawable/iw" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_margin="15.0dip" android:text="@string/a63" style="?android:attr/borderlessButtonStyle" />
+            </LinearLayout>
+        </ScrollView>
+    </com.bytedance.ies.uikit.layout.SwipeOverlayFrameLayout>
+</LinearLayout>

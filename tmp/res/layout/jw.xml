@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.rahatarmanahmed.cpv.CircularProgressView android:layout_gravity="center" android:layout_width="45.0dip" android:layout_height="45.0dip" app:cpv_color="#ff1e1e1e" app:cpv_thickness="3.0dip" app:cpv_indeterminate="true" app:cpv_animAutostart="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

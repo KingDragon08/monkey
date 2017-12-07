@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/a4q" android:background="@color/ho" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ev" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/bn" />
+    <ImageView android:id="@id/ew" android:visibility="invisible" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/abl" android:layout_alignParentRight="true" android:alpha="0.64" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/or" android:gravity="center" android:id="@id/a4r" android:background="@drawable/ru" android:layout_width="164.0dip" android:layout_height="52.0dip" android:layout_marginBottom="40.0dip" android:text="@string/im" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/a4s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/y6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/g3" />
+        <ImageView android:id="@id/y7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:src="@drawable/g4" />
+        <ImageView android:id="@id/y8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:src="@drawable/fp" />
+        <ImageView android:id="@id/ya" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:src="@drawable/g2" />
+        <ImageView android:id="@id/y9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:src="@drawable/fq" />
+    </LinearLayout>
+    <EditText android:textSize="24.0sp" android:textColor="@color/gi" android:id="@id/a4t" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="32.0dip" android:layout_above="@id/a4s" />
+    <TextView android:textSize="24.0sp" android:textColor="@color/gi" android:id="@id/a4u" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="32.0dip" android:text="@string/q4" android:layout_above="@id/a4s" android:alpha="0.64" />
+    <View android:id="@id/a4v" android:background="@color/or" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="16.0sp" android:layout_marginRight="16.0sp" android:layout_marginBottom="30.0dip" android:layout_above="@id/a4s" />
+</RelativeLayout>

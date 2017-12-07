@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="84.0dip" android:layout_height="130.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ss.android.ies.live.sdk.chatroom.widget.AvatarIconView android:id="@id/ab1" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="18.0dip" app:avatar_size="70.0dip" app:icon_size="16.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/fj" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/eb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/fr" android:gravity="center_horizontal" android:id="@id/tp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" />
+</LinearLayout>

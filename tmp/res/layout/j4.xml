@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ae7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitStart" android:layout_centerHorizontal="true" />
+    <com.ss.android.ugc.live.flame.ui.StrokeTextView android:textSize="24.0sp" android:textColor="@color/gs" android:gravity="center" android:id="@id/ae5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="332.0dip" android:drawableLeft="@drawable/afm" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:pivotX="50.0%" android:pivotY="100.0%" />
+</merge>

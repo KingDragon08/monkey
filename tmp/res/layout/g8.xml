@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/live_title_bar" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/gi" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/a_p" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/fj" android:ellipsize="end" android:id="@id/a7_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/ats" android:singleLine="true" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/g0" android:ellipsize="end" android:id="@id/a7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" />
+        <TextView android:textSize="24.0dip" android:textColor="@color/ge" android:id="@id/a78" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+        <Button android:id="@id/a7b" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="15.0dip" android:text="@string/ath" style="@style/wallet_button" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/g0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/atx" />
+    </LinearLayout>
+</LinearLayout>

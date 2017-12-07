@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/title_bar_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/fv" style="@style/back_view" />
+    <TextView android:ellipsize="end" android:id="@id/c_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerInParent="true" android:inputType="text" style="@style/title_text_style" />
+    <TextView android:id="@id/q5" android:visibility="gone" android:layout_alignParentRight="true" style="@style/title_bar_button" />
+    <ProgressBar android:id="@id/q6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:indeterminateOnly="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleSmall" />
+</RelativeLayout>

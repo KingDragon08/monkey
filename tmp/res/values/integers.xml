@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="a">220</integer>
+    <integer name="b">150</integer>
+    <integer name="c">3000</integer>
+    <integer name="d">127</integer>
+    <integer name="e">300</integer>
+    <integer name="f">4000</integer>
+    <integer name="g">3</integer>
+    <integer name="h">5000</integer>
+    <integer name="i">500</integer>
+    <integer name="j">100</integer>
+    <integer name="k">0</integer>
+    <integer name="l">-90</integer>
+    <integer name="m">6</integer>
+    <integer name="n">11</integer>
+    <integer name="o">999</integer>
+</resources>

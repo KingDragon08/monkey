@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ct" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dc" layout="@layout/profile_live_title_bar" />
+    <View android:background="@color/ix" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/fn" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="24.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/f_" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a9s" android:lineSpacingExtra="2.0sp" />
+        <EditText android:textSize="14.0sp" android:textColorHighlight="@color/cw" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/a2c" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip" android:layout_marginRight="32.0dip" android:hint="@string/a60" android:maxLength="11" android:lineSpacingExtra="2.0sp" android:inputType="number" />
+    </LinearLayout>
+    <TextView android:enabled="false" android:textSize="16.0sp" android:textColor="@color/cw" android:gravity="center" android:id="@id/eh" android:background="@drawable/gp" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:text="@string/a63" android:lineSpacingExtra="0.0sp" />
+    <com.ss.android.ugc.live.widget.CenterTextView android:textSize="12.0sp" android:textColor="@color/bs" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/gn" android:lineSpacingExtra="4.0sp" />
+</LinearLayout>

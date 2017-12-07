@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/profile_live_title_bar" />
+    <ScrollView android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_height="10.0dip" style="@style/VerifyAreaDividerStyle" />
+            <EditText android:id="@id/a5i" android:hint="@string/aag" android:lines="1" android:inputType="textPersonName" style="@style/verify_edit" />
+            <View android:layout_height="10.0dip" style="@style/VerifyAreaDividerStyle" />
+            <EditText android:id="@id/a5j" android:hint="@string/u7" android:lines="1" android:maxLength="18" android:digits="0123456789Xx" style="@style/verify_edit" />
+            <View android:layout_height="10.0dip" style="@style/VerifyAreaDividerStyle" />
+            <EditText android:id="@id/a5k" android:hint="@string/a91" android:lines="1" android:maxLength="11" android:digits="\ 0123456789" android:inputType="phone" style="@style/verify_edit" />
+            <View style="@style/ProfileDividerStyle" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/fj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="9.0dip" android:text="@string/gg" android:includeFontPadding="false" />
+            <View style="@style/ProfileDividerStyle" />
+            <com.ss.android.ies.userverify.ui.PhotoUploadView android:orientation="horizontal" android:id="@id/a5l" android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="94.0dip" app:photo_placeholder="@drawable/a6j" app:photo_hint="@string/gh" />
+            <View style="@style/ProfileDividerStyle" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/fj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="9.0dip" android:text="@string/u8" android:includeFontPadding="false" />
+            <View style="@style/ProfileDividerStyle" />
+            <com.ss.android.ies.userverify.ui.PhotoUploadView android:orientation="horizontal" android:id="@id/a5m" android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="94.0dip" app:photo_placeholder="@drawable/a6i" app:photo_hint="@string/u9" />
+            <View style="@style/ProfileDividerStyle" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/fj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="9.0dip" android:text="@string/ad3" android:includeFontPadding="false" />
+            <View style="@style/ProfileDividerStyle" />
+            <TextView android:gravity="center_vertical" android:id="@id/a5n" android:lines="1" android:drawableRight="@drawable/a6c" style="@style/verify_edit" />
+            <View style="@style/ProfileDividerStyle" />
+            <EditText android:id="@id/a5o" android:hint="@string/en" android:inputType="number" style="@style/verify_edit" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/ge" android:layout_gravity="center_horizontal" android:id="@id/a25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/ci" android:includeFontPadding="false" android:drawableLeft="@drawable/a4e" android:drawablePadding="10.0dip" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/fj" android:gravity="center" android:id="@id/a5p" android:background="@drawable/c3" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="36.0dip" android:layout_marginRight="15.0dip" android:text="@string/jz" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pk" android:background="@drawable/a1v" android:clipChildren="false" android:layout_width="292.0dip" android:layout_height="397.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginRight="23.0dip" android:src="@drawable/ag1" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/pm" android:background="@drawable/a1u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="171.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textColor="#fff2645c" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/pn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" />
+        <TextView android:textColor="#ffff003c" android:layout_gravity="center_horizontal" android:id="@id/po" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/ag2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textColor="#fffffae4" android:gravity="center" android:id="@id/pp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="85.0dip" android:maxWidth="240.0dip" android:maxLines="3" />
+        <TextView android:textColor="#ffec0914" android:gravity="center" android:id="@id/pq" android:background="@drawable/a1t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    </LinearLayout>
+</RelativeLayout>

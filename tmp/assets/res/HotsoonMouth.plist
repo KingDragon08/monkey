@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Hotsoon_lava1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-21.5,38}</string>
+                <key>spriteSize</key>
+                <string>{13,11}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{198,663},{13,11}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>13 11 0 11 0 0 13 0</string>
+                <key>verticesUV</key>
+                <string>211 674 198 674 198 663 211 663</string>
+            </dict>
+            <key>Hotsoon_lava10.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-15,16.5}</string>
+                <key>spriteSize</key>
+                <string>{26,54}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{118,560},{26,54}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>26 54 0 10 0 0 26 0</string>
+                <key>verticesUV</key>
+                <string>144 614 118 570 118 560 144 560</string>
+            </dict>
+            <key>Hotsoon_lava11.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-9,19.5}</string>
+                <key>spriteSize</key>
+                <string>{38,48}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{63,905},{38,48}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>38 48 0 30 0 0 12 0</string>
+                <key>verticesUV</key>
+                <string>101 953 63 935 63 905 75 905</string>
+            </dict>
+            <key>Hotsoon_lava12.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-10.5,22.5}</string>
+                <key>spriteSize</key>
+                <string>{35,42}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{198,621},{35,42}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 1 2 4 0 1 4</string>
+                <key>vertices</key>
+                <string>35 42 20 42 0 22 0 0 12 0</string>
+                <key>verticesUV</key>
+                <string>233 663 218 663 198 643 198 621 210 621</string>
+            </dict>
+            <key>Hotsoon_lava13.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3,11}</string>
+                <key>spriteSize</key>
+                <string>{50,65}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{88,548},{50,65}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 1 2 4 0 1 4</string>
+                <key>vertices</key>
+                <string>50 65 17 43 0 7 0 0 12 0</string>
+                <key>verticesUV</key>
+                <string>138 613 105 591 88 555 88 548 100 548</string>
+            </dict>
+            <key>Hotsoon_lava14.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-9,19}</string>
+                <key>spriteSize</key>
+                <string>{38,49}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{138,707},{38,49}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 1 2 4 0 1 4</string>
+                <key>vertices</key>
+                <string>38 49 23 48 0 25 0 0 14 0</string>
+                <key>verticesUV</key>
+                <string>176 756 161 755 138 732 138 707 152 707</string>
+            </dict>
+            <key>Hotsoon_lava15.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-8,17.5}</string>
+                <key>spriteSize</key>
+                <string>{40,52}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{155,932},{40,52}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 1 2 4 0 1 4</string>
+                <key>vertices</key>
+                <string>40 51 22 52 0 7 0 0 14 0</string>
+                <key>verticesUV</key>
+                <string>195 983 177 984 155 939 155 932 169 932</string>
+            </dict>
+            <key>Hotsoon_lava16.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2.5,9.5}</string>
+                <key>spriteSize</key>
+                <string>{51,68}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{170,921},{51,68}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 1 2 4 0 1 4</string>
+                <key>vertices</key>
+                <string>51 68 23 52 0 8 0 0 12 0</string>
+                <key>verticesUV</key>
+                <string>221 989 193 973 170 929 170 921 182 921</string>
+            </dict>
+            <key>Hotsoon_lava17.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-4,10.5}</string>
+                <key>spriteSize</key>
+                <string>{48,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{68,1037},{48,66}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 1 2 4 0 1 4</string>
+                <key>vertices</key>
+                <string>48 66 24 56 0 8 0 0 15 0</string>
+                <key>verticesUV</key>
+                <string>116 1103 92 1093 68 1045 68 1037 83 1037</string>
+            </dict>
+            <key>Hotsoon_lava18.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-6.5,9}</string>
+                <key>spriteSize</key>
+                <string>{43,69}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{263,619},{43,69}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 0 1 2 0 2 4</string>
+                <key>vertices</key>
+                <string>43 56 30 69 0 8 0 0 15 0</string>
+                <key>verticesUV</key>
+                <string>306 675 293 688 263 627 263 619 278 619</string>
+            </dict>
+            <key>Hotsoon_lava19.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-4.5,12}</string>
+                <key>spriteSize</key>
+                <string>{47,63}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{1,1045},{47,63}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 5 0 2 3 0 1 2 0 3 5</string>
+                <key>vertices</key>
+                <string>19 7 47 63 28 63 0 8 0 0 12 0</string>
+                <key>verticesUV</key>
+                <string>20 1052 48 1108 29 1108 1 1053 1 1045 13 1045</string>
+            </dict>
+            <key>Hotsoon_lava2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-21.5,38}</string>
+                <key>spriteSize</key>
+                <string>{13,11}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{198,663},{13,11}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>13 11 0 11 0 0 13 0</string>
+                <key>verticesUV</key>
+                <string>211 674 198 674 198 663 211 663</string>
+            </dict>
+            <key>Hotsoon_lava20.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3.5,10}</string>
+                <key>spriteSize</key>
+                <string>{49,67}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{43,1033},{49,67}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 1 2 4 0 1 4</string>
+                <key>vertices</key>
+                <string>49 67 29 67 0 9 0 0 16 0</string>
+                <key>verticesUV</key>
+                <string>92 1100 72 1100 43 1042 43 1033 59 1033</string>
+            </dict>
+            <key>Hotsoon_lava21.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3.5,4.5}</string>
+                <key>spriteSize</key>
+                <string>{49,78}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{254,693},{49,78}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 0 1 2 0 2 4</string>
+                <key>vertices</key>
+                <string>49 64 35 78 0 9 0 0 16 0</string>
+                <key>verticesUV</key>
+                <string>303 757 289 771 254 702 254 693 270 693</string>
+            </dict>
+            <key>Hotsoon_lava22.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1.5,7}</string>
+                <key>spriteSize</key>
+                <string>{53,73}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{247,634},{53,73}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 1 2 4 0 1 4</string>
+                <key>vertices</key>
+                <string>53 73 33 73 0 9 0 0 17 0</string>
+                <key>verticesUV</key>
+                <string>300 707 280 707 247 643 247 634 264 634</string>
+            </dict>
+            <key>Hotsoon_lava23.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,3.5}</string>
+                <key>spriteSize</key>
+                <string>{56,80}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{1,898},{56,80}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 5 0 2 3 0 1 2 0 3 5</string>
+                <key>vertices</key>
+                <string>13 1 56 75 35 80 0 9 0 0 12 0</string>
+                <key>verticesUV</key>
+                <string>14 899 57 973 36 978 1 907 1 898 13 898</string>
+            </dict>
+            <key>Hotsoon_lava24.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2.5,3}</string>
+                <key>spriteSize</key>
+                <string>{51,81}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{1,997},{51,81}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 5 0 2 3 0 1 2 0 3 5</string>
+                <key>vertices</key>
+                <string>51 68 51 79 35 81 0 9 0 0 17 0</string>
+                <key>verticesUV</key>
+                <string>52 1065 52 1076 36 1078 1 1006 1 997 18 997</string>
+            </dict>
+            <key>Hotsoon_lava25.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1.5,2.5}</string>
+                <key>spriteSize</key>
+                <string>{53,82}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{1,949},{53,82}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 5 0 2 3 0 1 2 0 3 5</string>
+                <key>vertices</key>
+                <string>53 71 53 82 37 82 0 10 0 0 18 0</string>
+                <key>verticesUV</key>
+                <string>54 1020 54 1031 38 1031 1 959 1 949 19 949</string>
+            </dict>
+            <key>Hotsoon_lava26.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-0.5,0}</string>
+                <key>spriteSize</key>
+                <string>{55,87}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{244,467},{55,87}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 4 0 1 4 1 3 3 1 2 0 4 6</string>
+                <key>vertices</key>
+                <string>13 1 55 73 55 85 39 87 0 10 0 0 12 0</string>
+                <key>verticesUV</key>
+                <string>257 468 299 540 299 552 283 554 244 477 244 467 256 467</string>
+            </dict>
+            <key>Hotsoon_lava27.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{56,87}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{96,690},{56,87}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 3 4 6 0 1 2 0 2 3 0 3 6</string>
+                <key>vertices</key>
+                <string>56 76 56 87 42 87 37 82 0 10 0 0 18 0</string>
+                <key>verticesUV</key>
+                <string>152 766 152 777 138 777 133 772 96 700 96 690 114 690</string>
+            </dict>
+            <key>Hotsoon_lava3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-20.5,36.5}</string>
+                <key>spriteSize</key>
+                <string>{15,14}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{190,500},{15,14}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>15 14 0 14 0 0 15 0</string>
+                <key>verticesUV</key>
+                <string>205 514 190 514 190 500 205 500</string>
+            </dict>
+            <key>Hotsoon_lava4.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-20,35}</string>
+                <key>spriteSize</key>
+                <string>{16,17}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{62,864},{16,17}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>16 17 0 17 0 0 16 0</string>
+                <key>verticesUV</key>
+                <string>78 881 62 881 62 864 78 864</string>
+            </dict>
+            <key>Hotsoon_lava5.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-19,33.5}</string>
+                <key>spriteSize</key>
+                <string>{18,20}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{179,844},{18,20}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>18 20 0 20 0 0 18 0</string>
+                <key>verticesUV</key>
+                <string>197 864 179 864 179 844 197 844</string>
+            </dict>
+            <key>Hotsoon_lava6.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-18.5,31.5}</string>
+                <key>spriteSize</key>
+                <string>{19,24}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{169,415},{19,24}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>19 24 0 24 0 0 19 0</string>
+                <key>verticesUV</key>
+                <string>188 439 169 439 169 415 188 415</string>
+            </dict>
+            <key>Hotsoon_lava7.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-17.5,30}</string>
+                <key>spriteSize</key>
+                <string>{21,27}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{221,726},{21,27}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>21 27 0 27 0 0 21 0</string>
+                <key>verticesUV</key>
+                <string>242 753 221 753 221 726 242 726</string>
+            </dict>
+            <key>Hotsoon_lava8.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-16.5,28.5}</string>
+                <key>spriteSize</key>
+                <string>{23,30}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{263,74},{23,30}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>23 30 0 30 0 0 23 0</string>
+                <key>verticesUV</key>
+                <string>286 104 263 104 263 74 286 74</string>
+            </dict>
+            <key>Hotsoon_lava9.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-16,27}</string>
+                <key>spriteSize</key>
+                <string>{24,33}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,87}</string>
+                <key>textureRect</key>
+                <string>{{83,653},{24,33}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>24 33 0 33 0 0 24 0</string>
+                <key>verticesUV</key>
+                <string>107 686 83 686 83 653 107 653</string>
+            </dict>
+            <key>Hotsoon_mouth1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,9.5}</string>
+                <key>spriteSize</key>
+                <string>{94,100}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{179,851},{94,100}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 5 1 3 5 1 2 3 0 5 6 0 1 5</string>
+                <key>vertices</key>
+                <string>100 56 43 64 28 100 6 25 29 12 50 25 100 0</string>
+                <key>verticesUV</key>
+                <string>273 907 216 915 201 951 179 876 202 863 223 876 273 851</string>
+            </dict>
+            <key>Hotsoon_mouth10.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,7.5}</string>
+                <key>spriteSize</key>
+                <string>{94,104}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{101,601},{94,104}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 6 7 5 2 4 0 1 7 2 3 4 5 6 2 1 2 7 0 7 8</string>
+                <key>vertices</key>
+                <string>100 3 100 65 55 65 64 104 28 102 6 25 29 12 69 19 97 0</string>
+                <key>verticesUV</key>
+                <string>195 604 195 666 150 666 159 705 123 703 101 626 124 613 164 620 192 601</string>
+            </dict>
+            <key>Hotsoon_mouth11.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{2.5,7}</string>
+                <key>spriteSize</key>
+                <string>{95,103}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{156,659},{95,103}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 2 5 7 2 3 4 2 4 5 0 1 7 1 2 7 0 7 8</string>
+                <key>vertices</key>
+                <string>100 4 100 64 51 67 69 104 29 104 5 24 29 11 47 24 97 1</string>
+                <key>verticesUV</key>
+                <string>251 662 251 722 202 725 220 762 180 762 156 682 180 669 198 682 248 659</string>
+            </dict>
+            <key>Hotsoon_mouth12.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,4.5}</string>
+                <key>spriteSize</key>
+                <string>{94,110}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{98,340},{94,110}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 1 4 6 0 6 7 1 2 3 1 3 4 0 1 6</string>
+                <key>vertices</key>
+                <string>100 63 56 80 70 101 31 110 6 25 29 12 50 25 100 0</string>
+                <key>verticesUV</key>
+                <string>192 403 148 420 162 441 123 450 98 365 121 352 142 365 192 340</string>
+            </dict>
+            <key>Hotsoon_mouth13.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{89,112}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{190,399},{89,112}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 6 7 4 5 6 0 7 8 4 1 3 1 2 3 4 7 1 0 1 7</string>
+                <key>vertices</key>
+                <string>99 69 62 66 62 100 32 116 10 47 10 14 32 14 50 26 99 4</string>
+                <key>verticesUV</key>
+                <string>279 464 242 461 242 495 212 511 190 442 190 409 212 409 230 421 279 399</string>
+            </dict>
+            <key>Hotsoon_mouth14.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,-1}</string>
+                <key>spriteSize</key>
+                <string>{92,113}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{1,688},{92,113}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 1 4 6 0 6 7 1 2 3 1 3 4 0 1 6</string>
+                <key>vertices</key>
+                <string>99 69 63 66 63 101 29 117 7 25 31 13 50 26 99 4</string>
+                <key>verticesUV</key>
+                <string>93 753 57 750 57 785 23 801 1 709 25 697 44 710 93 688</string>
+            </dict>
+            <key>Hotsoon_mouth15.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,3.5}</string>
+                <key>spriteSize</key>
+                <string>{92,104}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{92,764},{92,104}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 1 4 6 0 6 7 1 2 3 1 3 4 0 1 6</string>
+                <key>vertices</key>
+                <string>99 69 64 67 64 106 25 108 7 25 31 13 50 26 99 4</string>
+                <key>verticesUV</key>
+                <string>184 829 149 827 149 866 110 868 92 785 116 773 135 786 184 764</string>
+            </dict>
+            <key>Hotsoon_mouth16.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3.5,3}</string>
+                <key>spriteSize</key>
+                <string>{91,105}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{187,756},{91,105}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 1 4 6 1 6 7 1 2 3 1 3 4 0 1 7</string>
+                <key>vertices</key>
+                <string>99 70 65 67 65 109 23 107 8 26 30 12 50 26 99 4</string>
+                <key>verticesUV</key>
+                <string>278 822 244 819 244 861 202 859 187 778 209 764 229 778 278 756</string>
+            </dict>
+            <key>Hotsoon_mouth17.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3.5,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{91,112}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{96,441},{91,112}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 1 5 7 1 7 8 4 2 3 4 1 2 1 4 5 0 1 8</string>
+                <key>vertices</key>
+                <string>99 69 66 67 66 103 34 116 21 101 8 26 30 12 50 26 99 4</string>
+                <key>verticesUV</key>
+                <string>187 506 154 504 154 540 122 553 109 538 96 463 118 449 138 463 187 441</string>
+            </dict>
+            <key>Hotsoon_mouth18.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3.5,-1}</string>
+                <key>spriteSize</key>
+                <string>{91,113}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{1,796},{91,113}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 1 5 7 0 7 8 1 2 3 1 3 4 1 4 5 0 1 7</string>
+                <key>vertices</key>
+                <string>99 69 54 67 73 102 33 117 20 102 8 26 30 12 50 26 99 4</string>
+                <key>verticesUV</key>
+                <string>92 861 47 859 66 894 26 909 13 894 1 818 23 804 43 818 92 796</string>
+            </dict>
+            <key>Hotsoon_mouth19.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4,0.5}</string>
+                <key>spriteSize</key>
+                <string>{90,118}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{196,2},{90,118}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 3 4 5 3 5 6 3 6 7 0 3 7 0 2 3 0 1 2 0 8 9</string>
+                <key>vertices</key>
+                <string>51 26 99 4 99 69 57 70 73 103 31 118 16 102 23 59 9 35 11 0</string>
+                <key>verticesUV</key>
+                <string>238 28 286 6 286 71 244 72 260 105 218 120 203 104 210 61 196 37 198 2</string>
+            </dict>
+            <key>Hotsoon_mouth2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,9.5}</string>
+                <key>spriteSize</key>
+                <string>{94,98}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{210,555},{94,98}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 2 4 6 2 3 4 0 1 6 1 2 6 0 6 7</string>
+                <key>vertices</key>
+                <string>100 4 100 56 49 63 27 99 6 25 29 11 49 25 97 1</string>
+                <key>verticesUV</key>
+                <string>304 558 304 610 253 617 231 653 210 579 233 565 253 579 301 555</string>
+            </dict>
+            <key>Hotsoon_mouth20.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{89,112}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{195,295},{89,112}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 1 5 7 0 7 8 1 2 3 1 3 4 1 4 5 0 1 7</string>
+                <key>vertices</key>
+                <string>99 69 58 67 76 105 28 116 10 98 10 14 32 14 50 26 99 4</string>
+                <key>verticesUV</key>
+                <string>284 360 243 358 261 396 213 407 195 389 195 305 217 305 235 317 284 295</string>
+            </dict>
+            <key>Hotsoon_mouth21.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3.5,1}</string>
+                <key>spriteSize</key>
+                <string>{91,109}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{193,189},{91,109}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 1 4 6 0 6 7 1 2 3 1 3 4 0 1 6</string>
+                <key>vertices</key>
+                <string>99 69 60 68 85 113 16 112 8 25 30 12 50 26 99 4</string>
+                <key>verticesUV</key>
+                <string>284 254 245 253 270 298 201 297 193 210 215 197 235 211 284 189</string>
+            </dict>
+            <key>Hotsoon_mouth22.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{97,112}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{1,584},{97,112}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 4 5 7 0 7 8 1 4 7 4 1 2 4 2 3 0 1 7</string>
+                <key>vertices</key>
+                <string>99 69 62 67 83 110 2 116 22 79 6 25 30 12 50 26 99 4</string>
+                <key>verticesUV</key>
+                <string>98 649 61 647 82 690 1 696 21 659 5 605 29 592 49 606 98 584</string>
+            </dict>
+            <key>Hotsoon_mouth23.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1.5,2}</string>
+                <key>spriteSize</key>
+                <string>{95,115}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{1,474},{95,115}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 3 4 5 3 5 6 0 3 6 0 2 3 0 1 2 0 7 8</string>
+                <key>vertices</key>
+                <string>49 26 99 4 99 69 67 71 89 114 4 115 19 51 9 35 11 0</string>
+                <key>verticesUV</key>
+                <string>46 500 96 478 96 543 64 545 86 588 1 589 16 525 6 509 8 474</string>
+            </dict>
+            <key>Hotsoon_mouth24.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1.5,2}</string>
+                <key>spriteSize</key>
+                <string>{95,115}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{98,234},{95,115}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 3 5 6 3 6 7 3 4 5 0 3 7 0 2 3 0 1 2 0 8 9</string>
+                <key>vertices</key>
+                <string>51 26 99 4 99 69 59 71 88 103 60 115 4 115 19 51 9 35 11 0</string>
+                <key>verticesUV</key>
+                <string>145 260 193 238 193 303 153 305 182 337 154 349 98 349 113 285 103 269 105 234</string>
+            </dict>
+            <key>Hotsoon_mouth25.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1.5,0}</string>
+                <key>spriteSize</key>
+                <string>{95,119}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{1,124},{95,119}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 6 3 4 5 3 5 6 0 6 7 0 2 3 0 1 2 0 7 8</string>
+                <key>vertices</key>
+                <string>49 26 99 4 99 69 61 68 98 111 4 119 20 54 9 35 11 0</string>
+                <key>verticesUV</key>
+                <string>46 150 96 128 96 193 58 192 95 235 1 243 17 178 6 159 8 124</string>
+            </dict>
+            <key>Hotsoon_mouth26.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{2,0.5}</string>
+                <key>spriteSize</key>
+                <string>{94,118}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{1,354},{94,118}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 3 5 6 3 6 7 3 4 5 0 3 7 0 2 3 0 1 2 0 8 9</string>
+                <key>vertices</key>
+                <string>51 26 99 4 99 69 61 72 89 100 78 114 5 118 15 47 9 35 11 0</string>
+                <key>verticesUV</key>
+                <string>47 380 95 358 95 423 57 426 85 454 74 468 1 472 11 401 5 389 7 354</string>
+            </dict>
+            <key>Hotsoon_mouth27.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,-2}</string>
+                <key>spriteSize</key>
+                <string>{98,115}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{96,115},{98,115}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>7 8 9 6 7 9 0 9 10 1 6 9 4 5 6 1 2 3 6 1 3 6 3 4 0 1 9</string>
+                <key>vertices</key>
+                <string>99 69 64 69 97 102 80 119 1 119 1 107 23 82 6 26 30 12 50 26 99 4</string>
+                <key>verticesUV</key>
+                <string>194 180 159 180 192 213 175 230 96 230 96 218 118 193 101 137 125 123 145 137 194 115</string>
+            </dict>
+            <key>Hotsoon_mouth28.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,0}</string>
+                <key>spriteSize</key>
+                <string>{97,119}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{96,2},{97,119}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 8 3 5 7 5 6 7 3 7 8 3 4 5 0 8 9 0 2 3 0 1 2 0 9 10</string>
+                <key>vertices</key>
+                <string>51 26 99 4 99 69 65 69 95 104 64 119 6 119 2 106 23 59 9 35 11 0</string>
+                <key>verticesUV</key>
+                <string>145 28 193 6 193 71 159 71 189 106 158 121 100 121 96 108 117 61 103 37 105 2</string>
+            </dict>
+            <key>Hotsoon_mouth29.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-0.5,-2}</string>
+                <key>spriteSize</key>
+                <string>{99,115}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{1,235},{99,115}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>7 8 9 6 7 9 0 9 10 1 6 9 4 5 6 1 2 3 6 1 3 6 3 4 0 1 9</string>
+                <key>vertices</key>
+                <string>99 69 58 68 95 98 95 119 0 119 0 107 23 83 7 26 30 12 50 26 99 4</string>
+                <key>verticesUV</key>
+                <string>100 300 59 299 96 329 96 350 1 350 1 338 24 314 8 257 31 243 51 257 100 235</string>
+            </dict>
+            <key>Hotsoon_mouth3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,10}</string>
+                <key>spriteSize</key>
+                <string>{94,99}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{208,106},{94,99}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 5 6 4 2 3 4 5 2 0 1 6 1 2 6 0 6 7</string>
+                <key>vertices</key>
+                <string>100 3 100 56 49 63 27 99 6 25 29 12 69 19 97 0</string>
+                <key>verticesUV</key>
+                <string>302 109 302 162 251 169 229 205 208 131 231 118 271 125 299 106</string>
+            </dict>
+            <key>Hotsoon_mouth30.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{98,119}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{2,2},{98,119}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 6 3 5 6 7 3 3 7 8 3 4 5 0 3 8 0 2 3 0 1 2 0 9 10</string>
+                <key>vertices</key>
+                <string>49 26 99 4 99 69 66 73 94 101 82 118 4 119 1 109 23 61 9 35 11 0</string>
+                <key>verticesUV</key>
+                <string>50 28 100 6 100 71 67 75 95 103 83 120 5 121 2 111 24 63 10 37 12 2</string>
+            </dict>
+            <key>Hotsoon_mouth4.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,11}</string>
+                <key>spriteSize</key>
+                <string>{94,95}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{213,904},{94,95}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 3 4 5 1 3 5 5 0 1 1 2 3 5 6 0</string>
+                <key>vertices</key>
+                <string>100 56 57 62 27 96 6 25 31 11 42 24 96 1 100 1</string>
+                <key>verticesUV</key>
+                <string>307 959 264 965 234 999 213 928 238 914 249 927 303 904 307 904</string>
+            </dict>
+            <key>Hotsoon_mouth5.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{2.5,9}</string>
+                <key>spriteSize</key>
+                <string>{93,93}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{59,939},{93,93}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 5 1 3 5 1 2 3 0 5 6 0 1 5</string>
+                <key>vertices</key>
+                <string>99 56 49 63 28 97 6 26 30 12 50 26 99 4</string>
+                <key>verticesUV</key>
+                <string>152 991 102 998 81 1032 59 961 83 947 103 961 152 939</string>
+            </dict>
+            <key>Hotsoon_mouth6.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,14}</string>
+                <key>spriteSize</key>
+                <string>{94,91}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{93,994},{94,91}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 4 5 6 1 4 6 6 0 1 1 2 3 1 3 4 6 7 0</string>
+                <key>vertices</key>
+                <string>100 56 52 63 44 86 26 91 6 24 30 11 47 23 96 0 100 0</string>
+                <key>verticesUV</key>
+                <string>187 1050 139 1057 131 1080 113 1085 93 1018 117 1005 134 1017 183 994 187 994</string>
+            </dict>
+            <key>Hotsoon_mouth7.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,9.5}</string>
+                <key>spriteSize</key>
+                <string>{94,100}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{82,859},{94,100}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 0 5 7 2 3 4 1 2 4 0 4 5 0 1 4</string>
+                <key>vertices</key>
+                <string>100 53 28 100 6 24 29 10 49 24 92 1 95 0 100 0</string>
+                <key>verticesUV</key>
+                <string>176 912 104 959 82 883 105 869 125 883 168 860 171 859 176 859</string>
+            </dict>
+            <key>Hotsoon_mouth8.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,14}</string>
+                <key>spriteSize</key>
+                <string>{94,91}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{190,980},{94,91}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 4 5 6 1 4 6 6 0 1 1 2 3 1 3 4 6 7 0</string>
+                <key>vertices</key>
+                <string>100 60 55 63 53 91 26 91 6 24 30 11 48 23 96 0 100 0</string>
+                <key>verticesUV</key>
+                <string>284 1040 239 1043 237 1071 210 1071 190 1004 214 991 232 1003 280 980 284 980</string>
+            </dict>
+            <key>Hotsoon_mouth9.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,4}</string>
+                <key>spriteSize</key>
+                <string>{94,109}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,119}</string>
+                <key>textureRect</key>
+                <string>{{157,499},{94,109}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 4 5 6 3 4 6 6 0 1 1 2 3 1 3 6 6 7 0</string>
+                <key>vertices</key>
+                <string>100 58 56 73 56 110 26 90 6 25 31 11 42 24 96 1 100 1</string>
+                <key>verticesUV</key>
+                <string>251 556 207 571 207 608 177 588 157 523 182 509 193 522 247 499 251 499</string>
+            </dict>
+            <key>Hotsoon_small_mouth1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-4,24}</string>
+                <key>spriteSize</key>
+                <string>{18,18}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{101,606},{18,18}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 2</string>
+                <key>vertices</key>
+                <string>3 18 3 0 21 0</string>
+                <key>verticesUV</key>
+                <string>101 624 101 606 119 606</string>
+            </dict>
+            <key>Hotsoon_small_mouth10.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-4,9.5}</string>
+                <key>spriteSize</key>
+                <string>{18,47}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{222,1073},{18,47}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>21 47 3 47 3 0 21 0</string>
+                <key>verticesUV</key>
+                <string>240 1120 222 1120 222 1073 240 1073</string>
+            </dict>
+            <key>Hotsoon_small_mouth11.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3.5,7}</string>
+                <key>spriteSize</key>
+                <string>{19,52}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{141,1061},{19,52}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>22 52 3 52 3 0 22 0</string>
+                <key>verticesUV</key>
+                <string>160 1113 141 1113 141 1061 160 1061</string>
+            </dict>
+            <key>Hotsoon_small_mouth12.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3.5,6.5}</string>
+                <key>spriteSize</key>
+                <string>{19,53}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{162,1056},{19,53}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>22 53 3 53 3 0 22 0</string>
+                <key>verticesUV</key>
+                <string>181 1109 162 1109 162 1056 181 1056</string>
+            </dict>
+            <key>Hotsoon_small_mouth13.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3.5,6}</string>
+                <key>spriteSize</key>
+                <string>{19,54}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{289,1},{19,54}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>22 54 3 54 3 0 22 0</string>
+                <key>verticesUV</key>
+                <string>308 55 289 55 289 1 308 1</string>
+            </dict>
+            <key>Hotsoon_small_mouth14.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3,0.5}</string>
+                <key>spriteSize</key>
+                <string>{20,65}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{286,304},{20,65}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 0 2 4 0 1 2</string>
+                <key>vertices</key>
+                <string>23 53 11 65 3 33 3 0 23 0</string>
+                <key>verticesUV</key>
+                <string>306 357 294 369 286 337 286 304 306 304</string>
+            </dict>
+            <key>Hotsoon_small_mouth15.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3,4.5}</string>
+                <key>spriteSize</key>
+                <string>{20,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{281,774},{20,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>23 57 3 57 3 0 23 0</string>
+                <key>verticesUV</key>
+                <string>301 831 281 831 281 774 301 774</string>
+            </dict>
+            <key>Hotsoon_small_mouth16.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3,4}</string>
+                <key>spriteSize</key>
+                <string>{20,58}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{183,1053},{20,58}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>23 58 3 58 3 0 23 0</string>
+                <key>verticesUV</key>
+                <string>203 1111 183 1111 183 1053 203 1053</string>
+            </dict>
+            <key>Hotsoon_small_mouth17.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2.5,3}</string>
+                <key>spriteSize</key>
+                <string>{21,60}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{287,230},{21,60}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>24 60 3 60 3 0 24 0</string>
+                <key>verticesUV</key>
+                <string>308 290 287 290 287 230 308 230</string>
+            </dict>
+            <key>Hotsoon_small_mouth18.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2.5,2.5}</string>
+                <key>spriteSize</key>
+                <string>{21,61}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{287,167},{21,61}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>24 61 3 61 3 0 24 0</string>
+                <key>verticesUV</key>
+                <string>308 228 287 228 287 167 308 167</string>
+            </dict>
+            <key>Hotsoon_small_mouth19.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2.5,0.5}</string>
+                <key>spriteSize</key>
+                <string>{21,65}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{287,964},{21,65}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 0 2 4 0 1 2</string>
+                <key>vertices</key>
+                <string>24 61 12 65 3 56 3 0 24 0</string>
+                <key>verticesUV</key>
+                <string>308 1025 296 1029 287 1020 287 964 308 964</string>
+            </dict>
+            <key>Hotsoon_small_mouth2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-5.5,27.5}</string>
+                <key>spriteSize</key>
+                <string>{15,11}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{225,761},{15,11}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>18 11 3 11 3 0 18 0</string>
+                <key>verticesUV</key>
+                <string>240 772 225 772 225 761 240 761</string>
+            </dict>
+            <key>Hotsoon_small_mouth20.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-0.5,1.5}</string>
+                <key>spriteSize</key>
+                <string>{25,63}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{281,372},{25,63}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>28 63 3 63 3 0 18 0</string>
+                <key>verticesUV</key>
+                <string>306 435 281 435 281 372 296 372</string>
+            </dict>
+            <key>Hotsoon_small_mouth21.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{28,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{280,437},{28,66}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>30 63 2 66 3 0 18 0</string>
+                <key>verticesUV</key>
+                <string>308 500 280 503 281 437 296 437</string>
+            </dict>
+            <key>Hotsoon_small_mouth22.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,0.5}</string>
+                <key>spriteSize</key>
+                <string>{28,65}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{278,1043},{28,65}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 0 1 2 0 2 4</string>
+                <key>vertices</key>
+                <string>31 59 19 65 3 65 3 0 18 0</string>
+                <key>verticesUV</key>
+                <string>306 1102 294 1108 278 1108 278 1043 293 1043</string>
+            </dict>
+            <key>Hotsoon_small_mouth23.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,0}</string>
+                <key>spriteSize</key>
+                <string>{31,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{146,548},{31,66}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 3 4 1 2 3 0 1 4</string>
+                <key>vertices</key>
+                <string>32 61 16 66 1 66 1 0 18 0</string>
+                <key>verticesUV</key>
+                <string>177 609 161 614 146 614 146 548 163 548</string>
+            </dict>
+            <key>Hotsoon_small_mouth24.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{32,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{242,1045},{32,66}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 4 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>32 56 32 66 0 66 0 0 18 0</string>
+                <key>verticesUV</key>
+                <string>274 1101 274 1111 242 1111 242 1045 260 1045</string>
+            </dict>
+            <key>Hotsoon_small_mouth25.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{32,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{276,834},{32,66}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 4 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>32 56 32 66 0 66 0 0 18 0</string>
+                <key>verticesUV</key>
+                <string>308 890 308 900 276 900 276 834 294 834</string>
+            </dict>
+            <key>Hotsoon_small_mouth3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-5.5,26.5}</string>
+                <key>spriteSize</key>
+                <string>{15,13}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{153,234},{15,13}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>18 13 3 13 3 0 18 0</string>
+                <key>verticesUV</key>
+                <string>168 247 153 247 153 234 168 234</string>
+            </dict>
+            <key>Hotsoon_small_mouth4.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-5,24.5}</string>
+                <key>spriteSize</key>
+                <string>{16,17}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{135,233},{16,17}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>19 17 3 17 3 0 19 0</string>
+                <key>verticesUV</key>
+                <string>151 250 135 250 135 233 151 233</string>
+            </dict>
+            <key>Hotsoon_small_mouth5.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-5,22}</string>
+                <key>spriteSize</key>
+                <string>{16,22}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{152,835},{16,22}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>19 22 3 22 3 0 19 0</string>
+                <key>verticesUV</key>
+                <string>168 857 152 857 152 835 168 835</string>
+            </dict>
+            <key>Hotsoon_small_mouth6.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-4.5,19.5}</string>
+                <key>spriteSize</key>
+                <string>{17,27}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{254,541},{17,27}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>20 27 3 27 3 0 20 0</string>
+                <key>verticesUV</key>
+                <string>271 568 254 568 254 541 271 541</string>
+            </dict>
+            <key>Hotsoon_small_mouth7.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-5,17}</string>
+                <key>spriteSize</key>
+                <string>{18,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{260,363},{18,32}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>20 32 7 32 2 0 20 0</string>
+                <key>verticesUV</key>
+                <string>278 395 265 395 260 363 278 363</string>
+            </dict>
+            <key>Hotsoon_small_mouth8.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-4,14.5}</string>
+                <key>spriteSize</key>
+                <string>{18,37}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{244,725},{18,37}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>21 37 3 37 3 0 21 0</string>
+                <key>verticesUV</key>
+                <string>262 762 244 762 244 725 262 725</string>
+            </dict>
+            <key>Hotsoon_small_mouth9.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-4,12}</string>
+                <key>spriteSize</key>
+                <string>{18,42}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,66}</string>
+                <key>textureRect</key>
+                <string>{{60,755},{18,42}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>21 42 3 42 3 0 21 0</string>
+                <key>verticesUV</key>
+                <string>78 797 60 797 60 755 78 755</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>HotsoonMouth.png</string>
+            <key>size</key>
+            <string>{309,1121}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:c3d2966c41ccbef1a6bba4361abc6e11:e4b71caf19ecdf2237119b90f98dba50:f1c393b2d065cf1361eb484467838af4$</string>
+            <key>textureFileName</key>
+            <string>HotsoonMouth.png</string>
+        </dict>
+    </dict>
+</plist>

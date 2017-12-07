@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/b_" android:layout_width="fill_parent" android:layout_height="@dimen/by" android:layout_above="@id/nz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="horizontal" android:id="@id/a0t" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
+        <RadioButton android:id="@id/a0u" android:background="@drawable/pr" android:text="@string/w_" style="@style/bottom_dialog_radio_button_style" />
+        <RadioButton android:id="@id/a0v" android:background="@drawable/pr" android:text="@string/wa" style="@style/bottom_dialog_radio_button_style" />
+        <RadioButton android:id="@id/a0w" android:background="@drawable/pr" android:text="@string/wb" style="@style/bottom_dialog_radio_button_style" />
+        <RadioButton android:id="@id/a0x" android:background="@drawable/pr" android:text="@string/wc" style="@style/bottom_dialog_radio_button_style" />
+        <RadioButton android:id="@id/a0y" android:background="@drawable/pr" android:text="@string/wd" style="@style/bottom_dialog_radio_button_style" />
+        <RadioButton android:id="@id/a0z" android:background="@drawable/pr" android:text="@string/we" style="@style/bottom_dialog_radio_button_style" />
+    </RadioGroup>
+</RelativeLayout>

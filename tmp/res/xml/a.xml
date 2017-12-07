@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/d2" android:icon="@mipmap/icon" android:accountType="com.ss.android.ugc.live" android:smallIcon="@drawable/r4"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

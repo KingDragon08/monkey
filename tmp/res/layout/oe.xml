@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/as7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/as8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="6.0dip" android:progressDrawable="@drawable/or" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <View android:id="@id/as9" android:background="@color/or" android:layout_width="2.0dip" android:layout_height="6.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/or" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/vi" android:background="@drawable/a1k" android:layout_width="126.0dip" android:layout_height="46.0dip" android:layout_marginBottom="75.0dip" android:text="@string/a0v" />
+    <FrameLayout android:layout_gravity="bottom" android:background="@color/i8" android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/fa" android:gravity="center" android:layout_gravity="center" android:id="@id/as_" android:background="@drawable/q6" android:layout_width="48.0dip" android:layout_height="48.0dip" android:maxLines="1" android:lines="1" />
+        <View android:layout_gravity="center" android:id="@id/asa" android:background="@drawable/q5" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <LinearLayout android:layout_gravity="center|left" android:orientation="horizontal" android:id="@id/asb" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginLeft="45.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/or" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/a0i" />
+            <ImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/a78" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center|right" android:orientation="horizontal" android:id="@id/asc" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginRight="45.0dip">
+            <ImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/a72" android:scaleType="fitXY" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/or" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/g7" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

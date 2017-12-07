@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/aip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/xk" />
+    <LinearLayout android:background="@drawable/a1m" android:paddingTop="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/w4" style="@style/radio_group_title" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/aiq" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="6.0">
+            <RadioButton android:id="@id/air" android:checked="true" android:text="@string/a6z" style="@style/medialib_radio_button_style" />
+            <RadioButton android:id="@id/ais" android:text="@string/aey" style="@style/medialib_radio_button_style" />
+            <RadioButton android:id="@id/ait" android:text="@string/aa6" style="@style/medialib_radio_button_style" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout android:background="@drawable/a1m" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/km" style="@style/radio_group_title" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/aiu" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="6.0">
+            <RadioButton android:id="@id/aiv" android:checked="true" android:text="@string/a6_" style="@style/medialib_radio_button_style" />
+            <RadioButton android:id="@id/aiw" android:text="@string/aa" style="@style/medialib_radio_button_style" />
+            <RadioButton android:id="@id/aix" android:text="@string/a_" style="@style/medialib_radio_button_style" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

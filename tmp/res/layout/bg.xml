@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mi" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0sp" android:gravity="center" android:id="@id/mj" android:background="@android:color/darker_gray" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Record" />
+    <TextView android:textSize="30.0sp" android:gravity="center" android:id="@id/mk" android:background="@android:color/holo_blue_light" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Call" />
+    <TextView android:textSize="30.0sp" android:gravity="center" android:id="@id/ml" android:background="@android:color/darker_gray" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Other" />
+</LinearLayout>

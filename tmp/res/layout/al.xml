@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/b7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/f_" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/fa" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/a3e" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/l8" android:gravity="center" android:id="@id/fb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lf" android:shadowColor="@color/oh" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.1" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/or" android:gravity="center" android:id="@id/h0" android:background="@drawable/k8" android:layout_width="64.0dip" android:layout_height="28.0dip" android:layout_marginRight="8.0dip" android:text="@string/p0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/fd" android:background="#28ffffff" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/f_" />
+    <LinearLayout android:orientation="vertical" android:id="@id/h1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="64.0dip" android:layout_below="@id/fd">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/h2" android:layout_width="240.0dip" android:layout_height="240.0dip">
+            <ImageView android:background="@color/or" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/h3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" fresco:placeholderImage="@color/le" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/or" android:gravity="center_horizontal" android:id="@id/h4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="趴体 Cha Cha" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/or" android:gravity="center_horizontal" android:id="@id/h5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Dom.T" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/h6" android:layout_width="fill_parent" android:layout_height="176.0dip" android:layout_marginTop="65.0dip" android:layout_alignParentBottom="true">
+        <View android:id="@id/h7" android:background="#28ffffff" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="29.799988dip">
+            <TextView android:textSize="12.0sp" android:textColor="@color/or" android:id="@id/h8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:text="00:13" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/or" android:id="@id/h9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28.0dip" android:text="01:13" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <com.ss.android.ugc.live.shortvideo.widget.CutMusicSeekBar android:id="@id/h_" android:layout_width="wrap_content" android:layout_height="11.0dip" android:layout_marginTop="4.0dip" />
+        <ImageView android:id="@id/ha" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="7.0dip" android:src="@drawable/ag8" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffb0b0b0" android:gravity="center_horizontal" android:id="@id/hb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/t9" />
+    </LinearLayout>
+</RelativeLayout>

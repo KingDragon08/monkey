@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ask" android:background="@drawable/a1x" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.live.notification.ui.NoticeCountPopView android:id="@id/asl" android:paddingLeft="12.0dip" android:paddingRight="7.5dip" android:layout_width="wrap_content" android:layout_height="32.0dip" />
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/a1l" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

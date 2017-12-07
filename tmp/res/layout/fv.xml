@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/a4_" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ss.android.ugc.live.core.ui.widget.scrollablelayout.ScrollableLayout android:orientation="vertical" android:id="@id/a4a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/gj">
+        <include android:id="@id/a4b" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/profile_my_header_new" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/a4b">
+            <com.bytedance.ies.uikit.viewpager.SSViewPager android:id="@id/ft" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <RelativeLayout android:id="@id/a4c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/a4d" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/or" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/arf" android:shadowColor="#51000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.1" android:layout_centerInParent="true" />
+                <View android:id="@id/a4e" android:background="@color/b7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.ss.android.ugc.live.core.ui.widget.scrollablelayout.ScrollableLayout>
+    <RelativeLayout android:id="@id/gj" android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="@dimen/h9">
+        <ImageView android:id="@id/a4f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/gn" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/a4g" android:paddingRight="10.0dip" android:layout_width="@dimen/hc" android:layout_height="@dimen/hc" android:src="@drawable/rr" android:layout_toLeftOf="@id/a4f" android:layout_centerVertical="true" />
+        <View android:id="@id/a4h" android:background="@drawable/ex" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_alignTop="@id/a4f" android:layout_alignRight="@id/a4f" />
+        <ImageView android:id="@id/a4i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:src="@drawable/gm" android:layout_centerVertical="true" />
+        <TextView android:textSize="9.0sp" android:textColor="@color/gi" android:gravity="center" android:id="@id/a4j" android:background="@drawable/mv" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginLeft="-6.0dip" android:layout_marginBottom="11.0dip" android:minWidth="13.0dip" android:layout_toRightOf="@id/a4i" android:layout_alignBottom="@id/a4i" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/kb" android:ellipsize="end" android:id="@id/il" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="10" android:singleLine="true" android:drawablePadding="12.0dip" android:layout_centerInParent="true" />
+        <View android:id="@id/fd" android:layout_alignParentBottom="true" style="@style/ProfileDividerStyle" />
+    </RelativeLayout>
+    <ImageView android:id="@id/a3r" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/afr" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.ss.android.ugc.live.profile.NumberDotView android:id="@id/a4k" android:visibility="invisible" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="6.0dip" />
+</RelativeLayout>

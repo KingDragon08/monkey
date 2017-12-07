@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="84.0dip" android:layout_height="186.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="84.0dip" android:layout_height="130.0dip" layout="@layout/item_interact_list" />
+    <FrameLayout android:id="@id/ab2" android:background="@drawable/f6" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="30.0dip" android:layout_marginTop="6.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ab3" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/a6q" android:scaleType="centerInside" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/fj" android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/z7" />
+    </FrameLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/or" android:gravity="center" android:id="@id/ab4" android:background="@drawable/f7" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="30.0dip" android:layout_marginTop="6.0dip" android:text="@string/z8" android:maxLines="1" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/kf" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ue" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/fj" android:gravity="center" android:id="@id/uf" android:layout_width="wrap_content" android:layout_height="32.0dip" android:minWidth="64.0dip" android:text="@string/qs" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/ug" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Small" />
+    </FrameLayout>
+    <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/hp" android:layout_width="@dimen/da" android:layout_height="@dimen/da" android:layout_marginLeft="15.0dip" android:layout_marginRight="10.0dip" android:layout_centerVertical="true" app:placeholderImage="@drawable/a55" app:placeholderImageScaleType="be" app:roundAsCircle="true" />
+    <View android:layout_alignLeft="@id/hp" android:layout_alignParentBottom="true" style="@style/ProfileDividerStyle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/abn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/hp" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/fh" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/a4x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="15" android:singleLine="true" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/abo" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ae4" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/fg" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/abp" android:visibility="gone" android:layout_width="180.0dip" android:layout_height="20.0dip" android:layout_marginLeft="4.0dip" android:maxEms="15" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

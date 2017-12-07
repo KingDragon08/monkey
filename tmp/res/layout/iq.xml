@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/or" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="80.0dip">
+        <ImageView android:id="@id/je" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff404040" android:id="@id/acr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:text="2017年03月18日" android:layout_toRightOf="@id/je" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/or" android:gravity="center" android:id="@id/acs" android:background="@drawable/k8" android:layout_width="64.0dip" android:layout_height="32.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="7.0dip" android:text="@string/a_q" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:gravity="center" android:id="@id/act" android:layout_width="64.0dip" android:layout_height="32.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="7.0dip" android:text="删除" android:layout_toLeftOf="@id/acs" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

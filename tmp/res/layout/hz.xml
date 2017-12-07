@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/l8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:huoshan="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/ab5" android:layout_width="fill_parent" android:layout_height="110.0dip" android:layout_marginLeft="10.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ab6" android:layout_width="wrap_content" android:layout_height="110.0dip" android:layout_marginLeft="80.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/ab7" android:visibility="invisible" android:layout_width="10.0dip" android:layout_height="90.0dip" android:src="@drawable/aej" />
+            <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/ab8" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="#ff404040" android:ellipsize="end" android:id="@id/ih" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffb0b0b0" android:id="@id/ab9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/ih" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="16.0dip" android:layout_below="@id/ab9">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/dn" android:layout_gravity="center_vertical" android:id="@id/ab_" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.ss.android.ugc.live.shortvideo.widget.MyMusicView android:id="@id/aba" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" huoshan:music_line_color="#ffff2200" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/abb" android:layout_width="wrap_content" android:layout_height="110.0dip">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/abc" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_centerVertical="true" huoshan:placeholderImage="@color/le" />
+            <ImageView android:id="@id/abd" android:layout_width="33.0dip" android:layout_height="33.0dip" android:src="@drawable/ac7" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <ProgressBar android:id="@id/abe" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyle" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/abf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#fffdffff" android:gravity="center" android:background="@drawable/j4" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="@string/a7r" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/abg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="35.0dip" android:layout_alignParentRight="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/g" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

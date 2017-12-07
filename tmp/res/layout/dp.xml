@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/ui" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gi" android:id="@id/uj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/wx" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/uj">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/uk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/ul" android:layout_width="@dimen/da" android:layout_height="@dimen/da" fresco:placeholderImage="@drawable/a55" fresco:roundAsCircle="true" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/gi" android:id="@id/um" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/un" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip">
+                <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/uo" android:layout_width="@dimen/da" android:layout_height="@dimen/da" fresco:placeholderImage="@drawable/a55" fresco:roundAsCircle="true" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/gi" android:id="@id/uq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ur" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip">
+                <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/us" android:layout_width="@dimen/da" android:layout_height="@dimen/da" fresco:placeholderImage="@drawable/a55" fresco:roundAsCircle="true" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/gi" android:id="@id/ut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/uu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="15.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/uv" android:layout_width="135.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="@color/gi" android:gravity="center_horizontal" android:id="@id/uw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/gi" android:gravity="center_horizontal" android:id="@id/ux" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/x5" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/uy" android:layout_width="135.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="@color/gi" android:gravity="center_horizontal" android:id="@id/uz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/gi" android:gravity="center_horizontal" android:id="@id/v0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/x3" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

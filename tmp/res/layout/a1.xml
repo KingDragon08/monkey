@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dc" layout="@layout/title_bar" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/dd" android:layout_below="@id/dc">
+        <com.bytedance.ies.uikit.recyclerview.LoadingStatusView android:id="@id/de" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/gr" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/fg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip" android:text="@string/fe" />
+            <RelativeLayout android:id="@id/df" android:background="@color/fn" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/g1">
+                <TextView android:text="@string/at0" android:drawableLeft="@drawable/a_u" style="@style/account_manager_item" />
+                <TextView android:id="@id/dg" style="@style/account_manager_btn" />
+            </RelativeLayout>
+            <View android:background="@color/gr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" />
+            <RelativeLayout android:id="@id/dh" android:background="@color/fn" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/g1">
+                <TextView android:text="@string/aa3" android:drawableLeft="@drawable/a_t" style="@style/account_manager_item" />
+                <TextView android:id="@id/di" style="@style/account_manager_btn" />
+            </RelativeLayout>
+            <View android:background="@color/gr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" />
+            <RelativeLayout android:id="@id/dj" android:background="@color/fn" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/g1">
+                <TextView android:text="@string/ast" android:drawableLeft="@drawable/a_v" style="@style/account_manager_item" />
+                <TextView android:id="@id/dk" style="@style/account_manager_btn" />
+            </RelativeLayout>
+            <View android:background="@color/gr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" />
+            <RelativeLayout android:id="@id/dl" android:background="@color/fn" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/g1">
+                <TextView android:id="@id/dm" android:text="@string/a8y" android:drawableLeft="@drawable/a_r" style="@style/account_manager_item" />
+                <View android:id="@id/dn" android:background="@drawable/ex" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/dm" android:layout_centerVertical="true" />
+                <TextView android:id="@id/do" style="@style/account_manager_btn" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/kb" android:gravity="center_vertical" android:id="@id/dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/gk" android:layout_toLeftOf="@id/do" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/fg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip" android:text="@string/do" />
+            <RelativeLayout android:id="@id/dq" android:background="@color/l8" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/g1">
+                <TextView android:text="@string/ck" android:drawableLeft="@drawable/ae5" style="@style/account_manager_item" />
+                <TextView android:id="@id/dr" style="@style/account_manager_btn" />
+            </RelativeLayout>
+            <View android:background="@color/le" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" />
+            <RelativeLayout android:id="@id/ds" android:background="@color/l8" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <TextView android:text="@string/at3" android:drawableLeft="@drawable/ae7" style="@style/account_manager_item" />
+                <TextView android:id="@id/dt" style="@style/account_manager_btn" />
+            </RelativeLayout>
+            <View android:background="@color/le" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" />
+            <RelativeLayout android:id="@id/du" android:background="@color/l8" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <TextView android:text="@string/em" android:drawableLeft="@drawable/a0t" style="@style/account_manager_item" />
+                <TextView android:id="@id/dv" style="@style/account_manager_btn" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/gp" android:id="@id/dd" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/ani" android:drawableLeft="@drawable/a8a" android:drawablePadding="3.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

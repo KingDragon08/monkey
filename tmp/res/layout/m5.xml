@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/m6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/amh" android:background="@color/b6" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/zd" android:scaleType="centerInside" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/ami" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_above="@id/amh" />
+    <FrameLayout android:id="@id/amj" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/amk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:scaleType="centerCrop" android:layout_alignBottom="@id/ami" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aml" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignBottom="@id/ami">
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="5.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/amm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:textSize="15.0sp" android:textColor="@color/or" android:gravity="center" android:layout_gravity="center|top" android:id="@id/amn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gd" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/or" android:layout_gravity="center|top" android:id="@id/amo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ge" android:text="@string/ag_" />
+        <ImageView android:layout_gravity="center" android:id="@id/amp" android:visibility="gone" android:layout_width="@dimen/gc" android:layout_height="@dimen/gc" android:scaleType="fitXY" />
+    </FrameLayout>
+</RelativeLayout>

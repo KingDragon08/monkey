@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/e_" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/dc" layout="@layout/feedback_title_bar" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/a14" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:gravity="center" android:id="@id/a15" android:background="@drawable/dl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/q0" android:layout_weight="1.0" style="@style/feedback_tab_title" />
+            <TextView android:gravity="center" android:id="@id/a16" android:background="@drawable/dl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/q1" android:layout_weight="1.0" style="@style/feedback_tab_title" />
+        </LinearLayout>
+        <com.bytedance.ies.uikit.layout.SwipeOverlayFrameLayout android:id="@id/a9" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/en" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/a17" />
+                <com.ss.android.newmedia.ui.webview.SSWebView android:id="@id/a18" android:background="@color/e_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/a17" />
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/tool_bar_comment" />
+            </RelativeLayout>
+        </com.bytedance.ies.uikit.layout.SwipeOverlayFrameLayout>
+    </LinearLayout>
+    <View android:id="@id/q" style="@style/night_mode_overlay" />
+</LinearLayout>

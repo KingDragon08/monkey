@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/alq" android:background="@drawable/i8" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/c9" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="10.0dip" fresco:placeholderImage="@drawable/a4i" fresco:actualImageScaleType="bb" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gi" android:ellipsize="marquee" android:id="@id/mi" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:minWidth="100.0dip" android:maxLines="1" android:shadowColor="@color/b9" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_weight="1.0" android:lineSpacingExtra="0.0sp" />
+    <ImageView android:id="@id/a3j" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/a3n" />
+</LinearLayout>

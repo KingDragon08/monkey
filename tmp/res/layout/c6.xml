@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ix" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bytedance.ies.uikit.layout.SwipeOverlayFrameLayout android:id="@id/a9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <FrameLayout android:id="@id/k_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dc" />
+    </com.bytedance.ies.uikit.layout.SwipeOverlayFrameLayout>
+    <include android:id="@id/dc" layout="@layout/browser_title_bar" />
+    <View android:visibility="gone" android:layout_below="@id/dc" style="@style/title_bar_shadow" />
+    <View android:id="@id/q" style="@style/night_mode_overlay" />
+</RelativeLayout>

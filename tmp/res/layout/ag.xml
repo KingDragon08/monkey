@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:id="@id/gg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/b3" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/f3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qz" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.ss.android.ugc.live.feed.banner.widget.BannerSwipeRefreshLayout android:id="@id/gh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/gi" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.ss.android.ugc.live.feed.banner.widget.BannerSwipeRefreshLayout>
+        <com.bytedance.ies.uikit.recyclerview.LoadingStatusView android:id="@id/de" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

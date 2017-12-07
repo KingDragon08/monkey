@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/v1" android:background="@drawable/bh" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="80.0dip" fresco:placeholderImage="@drawable/a55" fresco:retryImageScaleType="be" fresco:roundAsCircle="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/gi" android:ellipsize="end" android:id="@id/v2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="33.5dip" android:maxLines="1" />
+    <View android:id="@id/v3" android:background="@color/or" android:layout_width="250.0dip" android:layout_height="1.0dip" />
+    <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/gi" android:id="@id/v4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/x1" />
+    <View android:id="@id/v5" android:background="@color/or" android:layout_width="250.0dip" android:layout_height="1.0dip" />
+</LinearLayout>

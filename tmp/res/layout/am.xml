@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hc" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.live.detail.widget.VerticalViewPager android:id="@id/ft" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

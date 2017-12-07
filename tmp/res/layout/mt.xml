@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ss_login_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:id="@id/aos" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="10.0dip" />
+    <FrameLayout android:id="@id/aot" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/aos">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="15.0dip">
+            <ImageView android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <ImageView android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" />
+        </LinearLayout>
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/aou" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aiy" style="@style/ss_tip_why_auth" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="#ff333333" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/aot" android:layout_centerHorizontal="true">
+        <TextView android:gravity="left" android:padding="5.0dip" android:text="@string/aiz" style="@style/ss_text_tip" />
+        <TextView android:gravity="left" android:padding="5.0dip" android:text="@string/aj0" style="@style/ss_text_tip" />
+        <TextView android:gravity="left" android:padding="5.0dip" android:text="@string/aj1" style="@style/ss_text_tip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/agz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12.0sp" android:textColor="@color/dm" android:id="@id/ah0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ud" android:drawableLeft="@drawable/p2" android:drawablePadding="5.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/q2" android:id="@id/ah1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ue" />
+    </LinearLayout>
+    <com.ss.android.common.ui.view.DotIndicator android:gravity="center" android:id="@id/th" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/agz" style="@style/why_indicator" />
+    <com.bytedance.ies.uikit.viewpager.SSViewPager android:id="@id/aov" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/th" android:layout_below="@id/aot" />
+</RelativeLayout>

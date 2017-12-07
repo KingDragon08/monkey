@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/qt" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/gj" android:layout_width="fill_parent" android:layout_height="@dimen/h9" android:layout_alignParentTop="true" layout="@layout/live_title_bar" />
+    <View android:id="@id/q9" android:background="@color/f7" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/gj" />
+    <android.support.v7.widget.RecyclerView android:id="@id/qu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/qv" android:layout_below="@id/q9" />
+    <com.bytedance.ies.uikit.recyclerview.LoadingStatusView android:id="@id/qw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/q9" />
+    <View android:background="@drawable/q2" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_above="@id/qv" />
+    <com.ss.android.ugc.live.chat.message.BottomInputView android:orientation="vertical" android:id="@id/qv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

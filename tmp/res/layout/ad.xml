@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/fs" android:background="@color/bw" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.bytedance.ies.uikit.viewpager.SSViewPager android:id="@id/ft" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:background="@color/fo" android:paddingLeft="11.0dip" android:paddingTop="8.0dip" android:paddingRight="11.0dip" android:paddingBottom="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="43.0dip">
+            <ImageView android:id="@id/ev" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/xm" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            <com.ss.android.ugc.live.widget.PagerSlidingTabStrip android:textSize="15.0sp" android:textColor="@color/g0" android:id="@id/fu" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="31.0dip" android:layout_centerHorizontal="true" custom:pstsIndicatorColor="@color/fl" custom:pstsUnderlineColor="@color/gr" custom:pstsDividerColor="@color/ol" custom:pstsIndicatorHeight="2.0dip" custom:pstsUnderlineHeight="0.5dip" custom:pstsTabPaddingLeftRight="0.0dip" custom:pstsTabSpaceing="35.0dip" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

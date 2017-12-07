@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/or" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:huoshan="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip">
+        <ImageView android:id="@id/aaf" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ad9" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/g8" android:id="@id/aag" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_toRightOf="@id/aaf" android:layout_centerVertical="true" />
+        <com.ss.android.ugc.live.feed.widget.MyMusicView android:id="@id/aah" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/aag" android:layout_centerVertical="true" huoshan:music_line_color="#ffff2200" />
+    </RelativeLayout>
+</LinearLayout>

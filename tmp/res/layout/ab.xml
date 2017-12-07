@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dc" layout="@layout/live_title_bar" />
+    <View android:background="@color/gr" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <com.bytedance.ies.uikit.recyclerview.LoadingStatusView android:id="@id/f6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <com.bytedance.ies.uikit.refresh.I18nSwipeRefreshLayout android:id="@id/f7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView android:id="@id/f8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.bytedance.ies.uikit.refresh.I18nSwipeRefreshLayout>
+    </RelativeLayout>
+</LinearLayout>

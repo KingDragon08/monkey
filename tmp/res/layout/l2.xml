@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <RelativeLayout android:layout_width="114.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/aij" android:layout_width="114.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_weight="0.0" />
+            <ImageView android:background="#1a000000" android:layout_width="114.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_weight="0.0" />
+            <ImageView android:id="@id/aie" android:layout_width="10.0dip" android:layout_height="12.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:paddingTop="11.0dip" android:paddingRight="12.0dip" android:paddingBottom="11.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/fb" android:layout_width="fill_parent" android:layout_height="19.0dip" android:text="IPhone8上市价格确定，果粉赞苹果良心：只售6500！这是标题的极限情况" android:maxLines="1" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_marginTop="9.0dip">
+                <ImageView android:id="@id/aig" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="11.0sp" android:textColor="#99000000" android:gravity="center" android:id="@id/aih" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:text="@string/uu" />
+                <ImageView android:id="@id/aii" android:background="@mipmap/b" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="20.0dip" />
+                <TextView android:textSize="11.0sp" android:textColor="#99000000" android:gravity="center" android:id="@id/act" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:text="@string/a6t" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

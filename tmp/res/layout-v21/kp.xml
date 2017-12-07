@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ai5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="@dimen/f_" android:layout_height="@dimen/f9" layout="@layout/notification_template_icon_group" />
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/f_">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ai0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/f9">
+            <FrameLayout android:id="@id/ai1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_weight="1.0" android:layout_marginEnd="8.0dip" />
+            <FrameLayout android:id="@id/ai2" android:paddingTop="@dimen/q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
+                <ViewStub android:layout_gravity="end|center|top" android:id="@id/abz" android:visibility="gone" android:layout="@layout/kv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ViewStub android:layout_gravity="end|center|top" android:id="@id/ai3" android:visibility="gone" android:layout="@layout/ku" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="@style/d0" android:layout_gravity="end|bottom|center" android:id="@id/ai4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:singleLine="true" />
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/ahz" android:background="#29000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ai6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="-8.0dip" />
+    </LinearLayout>
+</FrameLayout>

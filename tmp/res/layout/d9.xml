@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/or" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/s1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/s2" android:background="@color/or" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" />
+    <View android:id="@id/s3" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/hz" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/s4" android:background="@color/or" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+    <View android:id="@id/s5" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/hy" android:gravity="center_horizontal" android:id="@id/s6" android:background="@color/or" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/s7" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <FrameLayout android:id="@id/s8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/s9" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/sc" style="@style/live_dialog_divider_horizontal" />
+        <Button android:id="@id/sa" style="@style/live_dialog_button_vertical" />
+        <View android:id="@id/sd" style="@style/live_dialog_divider_horizontal" />
+        <Button android:id="@id/s_" style="@style/live_dialog_button_vertical" />
+        <View android:id="@id/se" style="@style/live_dialog_divider_horizontal" />
+        <Button android:id="@id/sf" style="@style/live_dialog_button_vertical" />
+    </LinearLayout>
+</LinearLayout>

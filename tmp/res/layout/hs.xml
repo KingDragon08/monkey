@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_centerInParent="true">
+        <FrameLayout android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/kw" android:layout_width="65.0dip" android:layout_height="65.0dip" fresco:actualImageScaleType="be" />
+            <ImageView android:layout_gravity="center|right|top" android:id="@id/aaw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a65" />
+            <TextView android:textSize="9.0sp" android:textColor="@color/or" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/aax" android:background="@drawable/k3" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginTop="6.5dip" android:layout_marginRight="4.0dip" android:minWidth="14.0dip" />
+        </FrameLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="75.0dip" android:layout_marginBottom="5.0dip" android:layout_centerHorizontal="true">
+            <TextView android:textSize="10.0dip" android:textColor="@color/gi" android:id="@id/tc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/eb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/aay" android:visibility="visible" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        <RelativeLayout android:id="@id/aaz" android:layout_width="75.0dip" android:layout_height="92.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

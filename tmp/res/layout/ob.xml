@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ies.live.sdk.widget.DispatchTouchControllableView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/ary" android:background="@drawable/f8" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="60.0dip">
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="20.0dip">
+            <com.ss.android.ies.live.sdk.chatroom.widget.AvatarIconView android:id="@id/arz" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" app:avatar_size="24.0dip" app:icon_size="10.0dip" />
+            <com.ss.android.ies.live.sdk.chatroom.widget.AvatarIconView android:id="@id/as0" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" app:avatar_size="24.0dip" app:icon_size="10.0dip" />
+            <com.ss.android.ies.live.sdk.chatroom.widget.AvatarIconView android:id="@id/as1" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" app:avatar_size="24.0dip" app:icon_size="10.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/gs" android:gravity="center" android:id="@id/aqt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/z_" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/as2" android:background="@drawable/f8" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="60.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/a6m" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gs" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="58.0dip" android:text="@string/xq" />
+    </FrameLayout>
+</com.ss.android.ies.live.sdk.widget.DispatchTouchControllableView>

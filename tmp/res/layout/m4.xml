@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/gy" android:id="@id/h8" android:layout_width="33.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="00:00" android:layout_centerVertical="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gy" android:id="@id/h9" android:layout_width="33.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="00:15" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.ss.android.ugc.live.shortvideo.widget.SPEffectSeekBar android:id="@id/ame" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="18.0dip" android:layout_toLeftOf="@id/h9" android:layout_toRightOf="@id/h8" android:layout_centerVertical="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/afp" android:layout_alignLeft="@id/ame" android:layout_centerVertical="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/afq" android:layout_alignRight="@id/ame" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/amf" android:layout_width="42.0dip" android:layout_height="50.0dip" android:layout_marginLeft="-26.0dip" android:layout_alignLeft="@id/ame" android:layout_centerVertical="true">
+        <ImageView android:id="@id/amg" android:layout_width="12.0dip" android:layout_height="24.0dip" android:src="@drawable/jt" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

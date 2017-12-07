@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ae0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="332.0dip" android:layout_alignParentBottom="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/ae1" android:background="@drawable/du" android:paddingRight="44.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="4.0dip">
+        <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/ae2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="4.0dip" fresco:retryImageScaleType="be" fresco:roundAsCircle="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gx" android:id="@id/ae3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="8.0dip" android:maxEms="8" android:singleLine="true" android:layout_toRightOf="@id/ae2" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/eq" android:id="@id/ae4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="@string/au6" android:layout_toRightOf="@id/ae2" android:layout_below="@id/ae3" />
+    </RelativeLayout>
+    <com.ss.android.ugc.live.flame.ui.StrokeTextView android:textSize="24.0sp" android:textColor="@color/gs" android:id="@id/ae5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="7.0dip" android:layout_toRightOf="@id/ae1" />
+    <ImageView android:id="@id/ae6" android:layout_width="46.0dip" android:layout_height="56.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/afl" android:layout_toLeftOf="@id/ae5" android:layout_centerVertical="true" />
+</RelativeLayout>

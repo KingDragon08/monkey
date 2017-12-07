@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.live.shortvideo.widget.FilterLayout android:layout_width="wrap_content" android:layout_height="88.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ady" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/ih" android:background="#ffffffff" android:layout_width="64.0dip" android:layout_height="24.0dip" android:text="R1" android:layout_below="@id/ady" />
+    <View android:id="@id/adz" android:background="@drawable/lw" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+</com.ss.android.ugc.live.shortvideo.widget.FilterLayout>

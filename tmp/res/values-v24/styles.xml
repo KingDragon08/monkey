@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="d1" parent="@style/d0" />
+    <style name="d2" parent="@style/ae" />
+    <style name="d4" parent="@style/d3" />
+    <style name="d5" parent="@style/af" />
+    <style name="df" parent="@android:style/TextAppearance.Material.Widget.Button.Borderless.Colored" />
+    <style name="dg" parent="@android:style/TextAppearance.Material.Widget.Button.Colored" />
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.journeyapps.barcodescanner.BarcodeView android:id="@id/ahp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.journeyapps.barcodescanner.ViewfinderView android:id="@id/ahq" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textColor="@color/p2" android:layout_gravity="bottom|center" android:id="@id/atw" android:background="@color/p3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/y" />
+</merge>

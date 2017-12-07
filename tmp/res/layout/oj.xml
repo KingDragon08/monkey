@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/asm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="330.0dip" />
+    <Button android:textSize="16.0sp" android:textColor="#ff1e1e1e" android:id="@id/asn" android:background="@drawable/bf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="28.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="28.0dip" android:layout_marginBottom="15.0dip" style="?android:attr/borderlessButtonStyle" />
+    <com.bytedance.ies.uikit.recyclerview.LoadingStatusView android:id="@id/de" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+</LinearLayout>

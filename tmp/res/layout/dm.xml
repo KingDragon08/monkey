@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/db" android:layout_width="270.0dip" android:layout_height="100.0dip">
+        <TextView android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="56.5dip" android:text="@string/t5" />
+        <View android:id="@id/u4" android:background="@color/gr" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textColor="@color/bo" android:gravity="center" android:id="@id/fw" android:layout_width="0.0dip" android:layout_height="43.5dip" android:text="@string/am_" android:layout_weight="1.0" />
+            <View android:id="@id/u5" android:background="@color/gr" android:layout_width="1.0dip" android:layout_height="43.5dip" />
+            <TextView android:textSize="17.0sp" android:textColor="@color/dy" android:gravity="center" android:id="@id/u6" android:layout_width="0.0dip" android:layout_height="43.5dip" android:text="@string/amc" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

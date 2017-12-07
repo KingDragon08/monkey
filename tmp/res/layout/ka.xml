@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ix" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dc" layout="@layout/profile_live_title_bar" />
+    <com.bytedance.ies.uikit.layout.SwipeOverlayFrameLayout android:id="@id/a9" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:layout_width="fill_parent" android:layout_height="10.0dip" style="@style/ProfileAreaDividerStyle" />
+                <RelativeLayout android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/fj" android:gravity="center|left" android:id="@id/ah2" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:minWidth="50.0dip" android:text="@string/a4v" />
+                    <EditText android:textSize="15.0sp" android:textColor="@color/fj" android:textColorHint="@color/g0" android:id="@id/vl" android:background="@null" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:hint="@string/a4s" android:maxLength="@integer/n" android:layout_toRightOf="@id/ah2" android:inputType="number" />
+                    <View android:layout_height="1.0px" android:layout_below="@id/ah2" style="@style/ProfileDividerStyle" />
+                    <TextView android:textSize="15.0sp" android:textColor="@color/fj" android:gravity="center|left" android:id="@id/ah3" android:layout_width="wrap_content" android:layout_height="44.0dip" android:minWidth="50.0dip" android:text="@string/a87" android:layout_below="@id/ah2" android:layout_alignLeft="@id/ah2" android:layout_alignRight="@id/ah2" />
+                    <EditText android:textSize="15.0sp" android:textColor="@color/fj" android:textColorHint="@color/g0" android:id="@id/agt" android:background="@null" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:hint="@string/a84" android:layout_toRightOf="@id/ah3" android:layout_below="@id/vl" android:inputType="textPassword" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                    <CheckBox android:id="@id/rx" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:button="@drawable/o_" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/f_" android:id="@id/ry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/dq" />
+                </LinearLayout>
+                <Button android:textSize="17.0sp" android:textColor="@color/ps" android:id="@id/ah4" android:background="@drawable/iw" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_margin="15.0dip" android:text="@string/fu" style="?android:attr/borderlessButtonStyle" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/k9" android:layout_gravity="right" android:id="@id/ah5" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/r8" />
+            </LinearLayout>
+        </ScrollView>
+    </com.bytedance.ies.uikit.layout.SwipeOverlayFrameLayout>
+</LinearLayout>

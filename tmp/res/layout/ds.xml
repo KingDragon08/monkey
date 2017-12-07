@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="11.0dip">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gi" android:id="@id/v6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x4" android:maxLines="1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.5dip" android:layout_marginBottom="10.0dip">l
+<FrameLayout android:id="@id/v7" android:background="@drawable/cq" android:layout_width="0.0dip" android:layout_height="128.54999dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:id="@id/v8" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ac9" />
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/v9" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholderImageScaleType="be" app:roundedCornerRadius="3.0dip" />
+                <ImageView android:layout_gravity="center" android:id="@id/v_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7n" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/va" android:background="@drawable/cq" android:layout_width="0.0dip" android:layout_height="128.54999dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:id="@id/vb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ah1" />
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/vc" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholderImageScaleType="be" app:roundedCornerRadius="3.0dip" />
+                <ImageView android:layout_gravity="center" android:id="@id/vd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7n" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/ve" android:background="@drawable/cq" android:layout_width="0.0dip" android:layout_height="128.54999dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:id="@id/vf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ah1" />
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/vg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholderImageScaleType="be" app:roundedCornerRadius="3.0dip" />
+                <ImageView android:layout_gravity="center" android:id="@id/vh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7n" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="#ffffb901" android:gravity="center" android:id="@id/vi" android:background="@drawable/aey" android:layout_width="250.0dip" android:layout_height="47.5dip" android:layout_marginLeft="23.0dip" android:layout_marginTop="163.0dip" android:text="@string/aaq" />
+    <ImageView android:id="@id/vj" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="157.0dip" android:src="@drawable/aeb" />
+</RelativeLayout>

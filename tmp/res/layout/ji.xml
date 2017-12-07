@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/af9" android:background="@drawable/c2" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/af_" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentTop="true">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/f2" android:id="@id/afa" android:layout_width="150.0dip" android:layout_height="@dimen/h_" android:layout_marginTop="12.0dip" android:layout_centerVertical="true" android:lineSpacingExtra="8.0sp" />
+        <ImageView android:id="@id/afb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/bs" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/afc" android:background="@color/d9" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/af_" />
+    <include android:id="@id/afd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/comment_bottom_ly" />
+    <android.support.v7.widget.RecyclerView android:id="@id/afe" android:background="@color/bx" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/afd" android:layout_below="@id/afc" />
+    <View android:background="@drawable/q2" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_above="@id/afd" />
+</RelativeLayout>

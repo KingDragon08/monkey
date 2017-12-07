@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="246.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/cs" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/gs" android:gravity="center_vertical" android:id="@id/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:text="@string/ye" />
+        <ToggleButton android:layout_gravity="center|right" android:id="@id/to" android:background="@drawable/px" android:layout_width="40.0dip" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" android:checked="true" android:textOn="" android:textOff="" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/fq" android:gravity="bottom" android:layout_gravity="center|right|top" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginRight="62.0dip" android:text="@string/za" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/fr" android:layout_gravity="bottom|center|right" android:id="@id/tp" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginRight="62.0dip" android:text="@string/z6" />
+    </FrameLayout>
+    <View android:background="@color/g6" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gp" android:gravity="center" android:id="@id/tq" android:background="@color/g1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="186.0dip" android:text="@string/y_" />
+    <android.support.v7.widget.RecyclerView android:id="@id/gi" android:background="@color/gz" android:layout_width="fill_parent" android:layout_height="186.0dip" />
+</LinearLayout>

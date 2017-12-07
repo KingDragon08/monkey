@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>kiss_1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{286,216}</string>
+                <key>spriteSourceSize</key>
+                <string>{286,216}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{286,216}}</string>
+                <key>textureRotated</key>
+                <true/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3 42 43 44 38 40 41 28 46 26 38 39 40 36 37 38 36 38 46 4 42 44 34 35 36 34 36 28 34 28 32 32 33 34 30 31 32 28 36 46 29 30 32 28 29 32 38 41 45 26 27 28 41 42 45 38 45 46 23 25 46 20 21 22 47 18 20 18 19 20 22 46 47 16 17 18 18 47 8 14 15 16 18 12 16 16 12 14 14 12 13 18 8 10 12 10 11 18 10 12 10 8 9 6 7 8 4 5 6 48 4 6 48 6 8 42 4 48 47 48 8 47 20 22 23 46 22 25 23 24 46 25 26 42 48 45 50 51 52 49 50 52 54 55 56 53 54 56</string>
+                <key>vertices</key>
+                <string>25 216 15 216 15 207 25 207 190 29 206 31 209 38 225 29 226 44 254 47 263 63 272 63 275 87 286 95 286 113 281 129 273 133 273 144 241 149 241 161 225 164 225 177 200 177 193 193 79 193 79 183 74 177 47 177 44 161 15 161 0 144 0 111 14 110 15 95 23 87 38 63 47 61 47 47 70 45 71 39 83 31 128 31 151 29 159 23 177 23 143 99 136 111 159 105 157 99 17 185 10 185 10 178 17 178 89 4 79 4 79 0 89 0</string>
+                <key>verticesUV</key>
+                <string>1 26 1 16 10 16 10 26 188 191 186 207 179 210 188 226 173 227 170 255 154 264 154 273 130 276 122 287 104 287 88 282 84 274 73 274 68 242 56 242 53 226 40 226 40 201 24 194 24 80 34 80 40 75 40 48 56 45 56 16 73 1 106 1 107 15 122 16 130 24 154 39 156 48 170 48 172 71 178 72 186 84 186 129 188 152 194 160 194 178 118 144 106 137 112 160 118 158 32 18 32 11 39 11 39 18 213 90 213 80 217 80 217 90</string>
+            </dict>
+            <key>kiss_2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{114,78}</string>
+                <key>spriteSourceSize</key>
+                <string>{114,78}</string>
+                <key>textureRect</key>
+                <string>{{1,289},{114,78}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 12 13 9 12 3 9 10 11 7 8 9 9 11 12 6 7 9 5 6 9 4 5 9 3 4 9 1 3 12 1 2 3 0 1 13</string>
+                <key>vertices</key>
+                <string>114 11 114 44 102 69 77 78 5 78 2 71 0 66 0 37 3 32 16 28 15 12 32 4 46 0 103 0</string>
+                <key>verticesUV</key>
+                <string>115 300 115 333 103 358 78 367 6 367 3 360 1 355 1 326 4 321 17 317 16 301 33 293 47 289 104 289</string>
+            </dict>
+            <key>kiss_3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{112,88}</string>
+                <key>spriteSourceSize</key>
+                <string>{112,88}</string>
+                <key>textureRect</key>
+                <string>{{117,289},{112,88}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 13 14 0 12 13 11 9 10 11 12 9 9 12 0 9 0 8 6 7 8 4 5 6 2 3 4 0 2 4 0 1 2 0 4 6 0 6 8</string>
+                <key>vertices</key>
+                <string>83 15 91 14 112 41 112 65 105 65 94 88 56 88 14 82 16 62 9 47 0 47 0 31 12 19 17 0 81 0</string>
+                <key>verticesUV</key>
+                <string>200 304 208 303 229 330 229 354 222 354 211 377 173 377 131 371 133 351 126 336 117 336 117 320 129 308 134 289 198 289</string>
+            </dict>
+            <key>kiss_4.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{98,96}</string>
+                <key>spriteSourceSize</key>
+                <string>{98,96}</string>
+                <key>textureRect</key>
+                <string>{{131,379},{98,96}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>13 14 15 10 12 13 0 1 13 10 11 12 10 1 3 9 10 7 4 5 6 4 6 7 9 7 8 10 4 7 1 2 3 10 3 4 1 10 13 0 13 15</string>
+                <key>vertices</key>
+                <string>41 7 43 15 81 15 81 33 87 44 98 45 98 68 90 76 90 96 15 96 12 82 0 81 0 15 14 12 15 0 33 0</string>
+                <key>verticesUV</key>
+                <string>172 386 174 394 212 394 212 412 218 423 229 424 229 447 221 455 221 475 146 475 143 461 131 460 131 394 145 391 146 379 164 379</string>
+            </dict>
+            <key>kiss_5.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{110,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{110,94}</string>
+                <key>textureRect</key>
+                <string>{{1,369},{110,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>16 17 18 14 0 12 14 15 16 14 16 0 12 13 14 10 11 12 9 10 12 0 9 12 7 8 9 9 0 4 4 6 7 4 5 6 1 2 3 0 1 4 0 16 18 9 4 7</string>
+                <key>vertices</key>
+                <string>42 6 62 0 75 0 82 15 90 21 101 21 110 34 110 48 108 73 61 91 52 94 40 94 29 86 18 87 0 37 0 25 8 15 3 0 24 0</string>
+                <key>verticesUV</key>
+                <string>43 375 63 369 76 369 83 384 91 390 102 390 111 403 111 417 109 442 62 460 53 463 41 463 30 455 19 456 1 406 1 394 9 384 4 369 25 369</string>
+            </dict>
+            <key>kiss_6.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{70,62}</string>
+                <key>spriteSourceSize</key>
+                <string>{70,62}</string>
+                <key>textureRect</key>
+                <string>{{131,477},{70,62}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>8 9 10 6 8 10 6 7 8 5 6 10 4 5 10 2 3 4 1 2 4 1 4 10 0 1 10</string>
+                <key>vertices</key>
+                <string>61 3 70 14 70 48 61 61 38 62 31 62 12 56 0 47 0 23 23 0 28 0</string>
+                <key>verticesUV</key>
+                <string>192 480 201 491 201 525 192 538 169 539 162 539 143 533 131 524 131 500 154 477 159 477</string>
+            </dict>
+            <key>kiss_7.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{90,70}</string>
+                <key>spriteSourceSize</key>
+                <string>{90,70}</string>
+                <key>textureRect</key>
+                <string>{{39,465},{90,70}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 10 11 8 9 10 7 8 10 0 7 10 6 0 3 6 3 5 5 3 4 0 2 3 0 1 2 0 6 7</string>
+                <key>vertices</key>
+                <string>57 6 62 1 66 1 90 41 90 60 80 70 24 70 10 46 0 36 0 4 35 0 50 0</string>
+                <key>verticesUV</key>
+                <string>96 471 101 466 105 466 129 506 129 525 119 535 63 535 49 511 39 501 39 469 74 465 89 465</string>
+            </dict>
+            <key>kiss_8.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{72,36}</string>
+                <key>spriteSourceSize</key>
+                <string>{72,36}</string>
+                <key>textureRect</key>
+                <string>{{1,465},{72,36}}</string>
+                <key>textureRotated</key>
+                <true/>
+                <key>triangles</key>
+                <string>4 7 8 5 6 7 4 5 7 3 4 8 0 3 8 1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>72 14 60 35 59 36 26 36 21 34 6 23 0 14 0 0 72 0</string>
+                <key>verticesUV</key>
+                <string>23 537 2 525 1 524 1 491 3 486 14 471 23 465 37 465 37 537</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>kiss.png</string>
+            <key>size</key>
+            <string>{230,540}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:87b830492ce08c5f275366067d7c5100:7a6f854bf1b5a84ac81d091cea4ea73b:affe326999bd5582b9573d0ebbfe9ff0$</string>
+            <key>textureFileName</key>
+            <string>kiss.png</string>
+        </dict>
+    </dict>
+</plist>

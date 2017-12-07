@@ -1,0 +1,2399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Hotsoon_beerLeg1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1453,149},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 0 7 8 4 6 7 4 5 6 1 2 3 1 3 4 0 1 4 0 4 7</string>
+                <key>vertices</key>
+                <string>147 31 147 122 133 158 120 158 91 147 0 147 0 80 48 11 74 0 116 0</string>
+                <key>verticesUV</key>
+                <string>1600 180 1600 271 1586 307 1573 307 1544 296 1453 296 1453 229 1501 160 1527 149 1569 149</string>
+            </dict>
+            <key>Hotsoon_beerLeg10.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1501,464},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 7 0 5 5 6 7 7 8 0 1 2 4 2 3 4 5 0 1 5 1 4</string>
+                <key>vertices</key>
+                <string>145 70 147 98 144 148 125 158 120 158 46 147 0 148 5 70 56 0 131 0</string>
+                <key>verticesUV</key>
+                <string>1646 534 1648 562 1645 612 1626 622 1621 622 1547 611 1501 612 1506 534 1557 464 1632 464</string>
+            </dict>
+            <key>Hotsoon_beerLeg11.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,0}</string>
+                <key>spriteSize</key>
+                <string>{146,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1719,713},{146,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 0 6 7 5 6 0 3 4 5 5 0 3 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>147 87 144 158 118 158 94 152 2 151 1 79 48 10 68 0 130 0</string>
+                <key>verticesUV</key>
+                <string>1865 800 1862 871 1836 871 1812 865 1720 864 1719 792 1766 723 1786 713 1848 713</string>
+            </dict>
+            <key>Hotsoon_beerLeg12.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,0}</string>
+                <key>spriteSize</key>
+                <string>{146,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{863,735},{146,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 6 7 0 4 5 6 4 1 3 1 2 3 6 0 1 6 1 4</string>
+                <key>vertices</key>
+                <string>140 46 147 101 141 158 118 158 101 154 1 156 4 78 53 0 118 0</string>
+                <key>verticesUV</key>
+                <string>1002 781 1009 836 1003 893 980 893 963 889 863 891 866 813 915 735 980 735</string>
+            </dict>
+            <key>Hotsoon_beerLeg2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1650,441},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 7 0 6 6 0 4 4 5 6 7 8 0 4 0 1 1 2 3 4 1 3</string>
+                <key>vertices</key>
+                <string>147 73 147 135 128 158 120 158 84 150 0 150 0 80 56 1 89 0 133 0</string>
+                <key>verticesUV</key>
+                <string>1797 514 1797 576 1778 599 1770 599 1734 591 1650 591 1650 521 1706 442 1739 441 1783 441</string>
+            </dict>
+            <key>Hotsoon_beerLeg3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{150,323},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 3 5 6 3 4 5 0 2 3 0 1 2 0 3 6</string>
+                <key>vertices</key>
+                <string>147 31 147 158 120 158 87 145 0 147 0 76 55 0 116 0</string>
+                <key>verticesUV</key>
+                <string>297 354 297 481 270 481 237 468 150 470 150 399 205 323 266 323</string>
+            </dict>
+            <key>Hotsoon_beerLeg4.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{555,158},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 5 6 7 3 5 7 3 4 5 2 0 1 2 3 0 0 3 7</string>
+                <key>vertices</key>
+                <string>147 75 147 158 120 158 88 143 0 143 0 84 50 1 89 0 135 0</string>
+                <key>verticesUV</key>
+                <string>702 233 702 316 675 316 643 301 555 301 555 242 605 159 644 158 690 158</string>
+            </dict>
+            <key>Hotsoon_beerLeg5.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0.5}</string>
+                <key>spriteSize</key>
+                <string>{147,157}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{746,458},{147,157}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 5 6 0 3 4 5 2 0 1 2 3 0 5 0 3</string>
+                <key>vertices</key>
+                <string>147 77 147 157 119 157 92 144 0 139 0 82 53 0 137 0</string>
+                <key>verticesUV</key>
+                <string>893 535 893 615 865 615 838 602 746 597 746 540 799 458 883 458</string>
+            </dict>
+            <key>Hotsoon_beerLeg6.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0.5}</string>
+                <key>spriteSize</key>
+                <string>{147,157}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1875,274},{147,157}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 8 9 6 7 8 0 6 9 5 3 4 5 6 3 0 2 3 0 1 2 0 3 6</string>
+                <key>vertices</key>
+                <string>147 31 147 157 121 157 51 140 0 136 0 122 20 96 3 79 50 0 116 0</string>
+                <key>verticesUV</key>
+                <string>2022 305 2022 431 1996 431 1926 414 1875 410 1875 396 1895 370 1878 353 1925 274 1991 274</string>
+            </dict>
+            <key>Hotsoon_beerLeg7.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1549,311},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 9 7 8 9 7 1 5 5 6 7 5 2 4 2 3 4 5 1 2 7 9 1 0 9 10</string>
+                <key>vertices</key>
+                <string>135 19 147 65 147 125 134 158 121 158 36 141 0 139 0 82 50 2 88 0 115 0</string>
+                <key>verticesUV</key>
+                <string>1684 330 1696 376 1696 436 1683 469 1670 469 1585 452 1549 450 1549 393 1599 313 1637 311 1664 311</string>
+            </dict>
+            <key>Hotsoon_beerLeg8.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1899,124},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 8 6 7 1 7 8 1 4 5 6 1 2 3 1 3 4 6 1 4 0 8 9</string>
+                <key>vertices</key>
+                <string>135 20 147 71 147 158 119 158 89 146 1 142 0 82 50 3 87 0 115 0</string>
+                <key>verticesUV</key>
+                <string>2034 144 2046 195 2046 282 2018 282 1988 270 1900 266 1899 206 1949 127 1986 124 2014 124</string>
+            </dict>
+            <key>Hotsoon_beerLeg9.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,0}</string>
+                <key>spriteSize</key>
+                <string>{146,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{597,469},{146,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 6 7 0 4 5 6 6 0 4 1 2 3 4 0 1 4 1 3</string>
+                <key>vertices</key>
+                <string>144 67 147 96 144 158 120 158 63 145 1 144 1 81 52 0 132 0</string>
+                <key>verticesUV</key>
+                <string>740 536 743 565 740 627 716 627 659 614 597 613 597 550 648 469 728 469</string>
+            </dict>
+            <key>Hotsoon_beerPeople1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1,467},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 8 6 7 8 1 6 8 3 1 2 3 4 5 3 5 1 1 5 6 0 8 9</string>
+                <key>vertices</key>
+                <string>112 10 147 84 147 141 14 158 10 154 0 97 0 73 32 6 67 0 87 0</string>
+                <key>verticesUV</key>
+                <string>113 477 148 551 148 608 15 625 11 621 1 564 1 540 33 473 68 467 88 467</string>
+            </dict>
+            <key>Hotsoon_beerPeople10.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1749,148},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 6 3 5 6 7 3 3 4 5 0 1 2 0 2 3 0 3 7</string>
+                <key>vertices</key>
+                <string>147 31 147 158 121 158 87 143 0 143 0 81 49 4 87 0 116 0</string>
+                <key>verticesUV</key>
+                <string>1896 179 1896 306 1870 306 1836 291 1749 291 1749 229 1798 152 1836 148 1865 148</string>
+            </dict>
+            <key>Hotsoon_beerPeople11.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0.5}</string>
+                <key>spriteSize</key>
+                <string>{147,157}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{741,617},{147,157}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 3 5 6 3 4 5 2 0 1 2 3 0 0 3 6</string>
+                <key>vertices</key>
+                <string>147 50 147 157 119 157 92 144 0 139 0 81 54 0 125 0</string>
+                <key>verticesUV</key>
+                <string>888 667 888 774 860 774 833 761 741 756 741 698 795 617 866 617</string>
+            </dict>
+            <key>Hotsoon_beerPeople12.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0.5}</string>
+                <key>spriteSize</key>
+                <string>{147,157}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1888,435},{147,157}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 5 6 7 3 5 7 3 4 5 0 2 3 0 1 2 0 3 7</string>
+                <key>vertices</key>
+                <string>147 31 147 157 121 157 51 140 0 136 0 82 50 1 89 0 116 0</string>
+                <key>verticesUV</key>
+                <string>2035 466 2035 592 2009 592 1939 575 1888 571 1888 517 1938 436 1977 435 2004 435</string>
+            </dict>
+            <key>Hotsoon_beerPeople13.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1,621},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 9 7 8 9 7 1 5 5 6 7 5 2 4 2 3 4 5 1 2 7 9 1 0 9 10</string>
+                <key>vertices</key>
+                <string>135 19 147 65 147 125 134 158 121 158 36 141 0 139 0 82 50 2 88 0 115 0</string>
+                <key>verticesUV</key>
+                <string>136 640 148 686 148 746 135 779 122 779 37 762 1 760 1 703 51 623 89 621 116 621</string>
+            </dict>
+            <key>Hotsoon_beerPeople14.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1698,293},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 8 6 7 1 7 8 1 4 5 6 1 2 3 1 3 4 6 1 4 0 8 9</string>
+                <key>vertices</key>
+                <string>135 20 147 71 147 158 119 158 89 146 1 142 0 82 50 3 87 0 115 0</string>
+                <key>verticesUV</key>
+                <string>1833 313 1845 364 1845 451 1817 451 1787 439 1699 435 1698 375 1748 296 1785 293 1813 293</string>
+            </dict>
+            <key>Hotsoon_beerPeople15.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{300,322},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 6 7 0 4 5 6 6 0 4 1 2 3 4 0 1 4 1 3</string>
+                <key>vertices</key>
+                <string>144 67 147 96 144 158 120 158 63 145 1 144 0 80 54 0 132 0</string>
+                <key>verticesUV</key>
+                <string>444 389 447 418 444 480 420 480 363 467 301 466 300 402 354 322 432 322</string>
+            </dict>
+            <key>Hotsoon_beerPeople16.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1606,594},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 9 10 0 7 8 7 0 5 5 6 7 0 8 9 1 2 4 2 3 4 5 0 1 5 1 4</string>
+                <key>vertices</key>
+                <string>145 70 147 98 144 148 125 158 120 158 46 147 0 148 4 77 49 6 72 0 131 0</string>
+                <key>verticesUV</key>
+                <string>1751 664 1753 692 1750 742 1731 752 1726 752 1652 741 1606 742 1610 671 1655 600 1678 594 1737 594</string>
+            </dict>
+            <key>Hotsoon_beerPeople17.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,0}</string>
+                <key>spriteSize</key>
+                <string>{145,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1256,750},{145,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 5 6 0 6 7 0 3 4 5 5 0 3 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>147 87 144 158 118 158 94 152 2 151 2 79 47 10 69 0 130 0</string>
+                <key>verticesUV</key>
+                <string>1401 837 1398 908 1372 908 1348 902 1256 901 1256 829 1301 760 1323 750 1384 750</string>
+            </dict>
+            <key>Hotsoon_beerPeople18.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,0}</string>
+                <key>spriteSize</key>
+                <string>{145,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{715,763},{145,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 6 7 0 4 5 6 4 1 3 1 2 3 6 0 1 6 1 4</string>
+                <key>vertices</key>
+                <string>140 46 147 101 141 158 118 158 101 154 2 156 3 79 53 0 118 0</string>
+                <key>verticesUV</key>
+                <string>853 809 860 864 854 921 831 921 814 917 715 919 716 842 766 763 831 763</string>
+            </dict>
+            <key>Hotsoon_beerPeople19.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,0}</string>
+                <key>spriteSize</key>
+                <string>{145,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1,783},{145,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 5 6 0 3 4 5 5 0 3 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>147 91 142 158 118 158 102 154 2 154 3 78 53 0 131 0</string>
+                <key>verticesUV</key>
+                <string>146 874 141 941 117 941 101 937 1 937 2 861 52 783 130 783</string>
+            </dict>
+            <key>Hotsoon_beerPeople2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1055,455},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 10 11 6 9 10 6 8 9 6 7 8 0 6 11 5 3 4 5 6 3 2 3 6 0 1 2 0 2 6</string>
+                <key>vertices</key>
+                <string>147 76 147 142 88 144 15 158 9 158 8 146 20 114 0 100 0 82 20 18 46 0 101 0</string>
+                <key>verticesUV</key>
+                <string>1202 531 1202 597 1143 599 1070 613 1064 613 1063 601 1075 569 1055 555 1055 537 1075 473 1101 455 1156 455</string>
+            </dict>
+            <key>Hotsoon_beerPeople20.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,0}</string>
+                <key>spriteSize</key>
+                <string>{145,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{423,766},{145,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 5 0 4 5 6 0 2 3 4 0 1 2 4 0 2</string>
+                <key>vertices</key>
+                <string>147 86 143 158 118 158 2 149 2 79 49 6 71 0 130 0</string>
+                <key>verticesUV</key>
+                <string>568 852 564 924 539 924 423 915 423 845 470 772 492 766 551 766</string>
+            </dict>
+            <key>Hotsoon_beerPeople21.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{954,306},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 7 8 0 5 6 7 7 0 5 1 2 4 2 3 4 5 0 1 5 1 4</string>
+                <key>vertices</key>
+                <string>145 69 147 98 144 148 125 158 118 158 58 148 0 148 4 75 55 0 131 0</string>
+                <key>verticesUV</key>
+                <string>1099 375 1101 404 1098 454 1079 464 1072 464 1012 454 954 454 958 381 1009 306 1085 306</string>
+            </dict>
+            <key>Hotsoon_beerPeople22.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{807,306},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 7 8 0 6 4 5 6 7 4 7 0 4 1 2 3 4 0 1 4 1 3</string>
+                <key>vertices</key>
+                <string>144 67 147 96 144 158 119 158 57 145 3 145 0 138 4 76 52 0 132 0</string>
+                <key>verticesUV</key>
+                <string>951 373 954 402 951 464 926 464 864 451 810 451 807 444 811 382 859 306 939 306</string>
+            </dict>
+            <key>Hotsoon_beerPeople23.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,0}</string>
+                <key>spriteSize</key>
+                <string>{146,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{593,630},{146,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 5 6 0 3 4 5 5 0 3 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>147 64 147 158 120 158 71 145 1 143 1 76 52 0 128 0</string>
+                <key>verticesUV</key>
+                <string>739 694 739 788 712 788 663 775 593 773 593 706 644 630 720 630</string>
+            </dict>
+            <key>Hotsoon_beerPeople24.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1204,452},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 10 1 9 10 5 8 9 6 7 8 5 6 8 5 2 4 2 3 4 5 1 2 1 5 9 0 10 11</string>
+                <key>vertices</key>
+                <string>135 20 147 72 147 129 133 158 120 158 71 144 2 141 0 136 0 129 4 70 53 0 115 0</string>
+                <key>verticesUV</key>
+                <string>1339 472 1351 524 1351 581 1337 610 1324 610 1275 596 1206 593 1204 588 1204 581 1208 522 1257 452 1319 452</string>
+            </dict>
+            <key>Hotsoon_beerPeople25.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{150,482},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 8 7 1 5 5 6 7 5 2 4 2 3 4 5 1 2 7 8 1 0 8 9</string>
+                <key>vertices</key>
+                <string>135 19 147 65 147 125 134 158 120 158 35 141 0 139 0 75 51 0 115 0</string>
+                <key>verticesUV</key>
+                <string>285 501 297 547 297 607 284 640 270 640 185 623 150 621 150 557 201 482 265 482</string>
+            </dict>
+            <key>Hotsoon_beerPeople26.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1251,301},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 9 7 1 5 7 8 1 5 6 7 1 4 5 2 3 4 1 2 4 8 9 1 0 9 10</string>
+                <key>vertices</key>
+                <string>134 18 147 68 147 138 127 158 120 158 32 141 0 140 0 75 53 4 86 0 115 0</string>
+                <key>verticesUV</key>
+                <string>1385 319 1398 369 1398 439 1378 459 1371 459 1283 442 1251 441 1251 376 1304 305 1337 301 1366 301</string>
+            </dict>
+            <key>Hotsoon_beerPeople27.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1400,309},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 6 3 5 6 7 0 3 4 5 2 0 1 2 3 0 6 0 3</string>
+                <key>vertices</key>
+                <string>147 60 147 158 121 158 90 145 0 141 0 68 58 1 88 0 128 0</string>
+                <key>verticesUV</key>
+                <string>1547 369 1547 467 1521 467 1490 454 1400 450 1400 377 1458 310 1488 309 1528 309</string>
+            </dict>
+            <key>Hotsoon_beerPeople28.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1102,306},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 11 8 10 11 8 9 10 8 1 5 5 7 8 5 6 7 5 2 4 2 3 4 5 1 2 8 11 1 0 11 12</string>
+                <key>vertices</key>
+                <string>132 16 147 58 147 125 134 158 121 158 73 144 0 142 0 132 7 88 1 65 59 1 88 0 116 0</string>
+                <key>verticesUV</key>
+                <string>1234 322 1249 364 1249 431 1236 464 1223 464 1175 450 1102 448 1102 438 1109 394 1103 371 1161 307 1190 306 1218 306</string>
+            </dict>
+            <key>Hotsoon_beerPeople29.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1353,456},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 4 6 7 4 5 6 3 1 2 3 4 1 0 1 4 0 4 7</string>
+                <key>vertices</key>
+                <string>147 54 147 138 127 158 121 158 85 144 0 144 0 77 55 0 125 0</string>
+                <key>verticesUV</key>
+                <string>1500 510 1500 594 1480 614 1474 614 1438 600 1353 600 1353 533 1408 456 1478 456</string>
+            </dict>
+            <key>Hotsoon_beerPeople3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{145,152}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1401,806},{145,152}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 1 3 8 6 7 8 9 6 3 5 6 6 9 1 3 4 5 1 2 3 1 9 10 0 1 10</string>
+                <key>vertices</key>
+                <string>115 4 146 98 146 154 64 149 5 155 3 144 19 112 1 94 1 82 27 26 56 3</string>
+                <key>verticesUV</key>
+                <string>1515 807 1546 901 1546 957 1464 952 1405 958 1403 947 1419 915 1401 897 1401 885 1427 829 1456 806</string>
+            </dict>
+            <key>Hotsoon_beerPeople30.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1600,159},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 11 8 1 5 8 9 10 8 10 11 7 5 6 7 8 5 5 2 4 2 3 4 5 1 2 8 11 1 0 11 12</string>
+                <key>vertices</key>
+                <string>132 16 147 58 147 127 132 158 121 158 84 146 0 146 0 133 12 102 3 67 58 1 88 0 116 0</string>
+                <key>verticesUV</key>
+                <string>1732 175 1747 217 1747 286 1732 317 1721 317 1684 305 1600 305 1600 292 1612 261 1603 226 1658 160 1688 159 1716 159</string>
+            </dict>
+            <key>Hotsoon_beerPeople31.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1304,151},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 0 7 8 3 7 0 3 5 6 3 4 5 3 6 7 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>147 55 147 158 120 158 60 147 0 146 0 133 6 69 48 14 66 0 127 0</string>
+                <key>verticesUV</key>
+                <string>1451 206 1451 309 1424 309 1364 298 1304 297 1304 284 1310 220 1352 165 1370 151 1431 151</string>
+            </dict>
+            <key>Hotsoon_beerPeople32.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1046,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 9 10 6 9 0 6 7 8 6 8 9 5 3 4 5 6 3 6 0 3 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>147 55 147 158 121 158 88 146 0 145 0 133 13 99 3 67 58 1 88 0 127 0</string>
+                <key>verticesUV</key>
+                <string>1193 56 1193 159 1167 159 1134 147 1046 146 1046 134 1059 100 1049 68 1104 2 1134 1 1173 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople33.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{897,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 9 10 7 8 9 7 9 0 6 4 5 6 7 4 3 1 2 3 4 1 0 1 4 7 0 4</string>
+                <key>vertices</key>
+                <string>147 54 147 138 127 158 121 158 85 144 0 144 0 133 12 100 3 67 57 0 125 0</string>
+                <key>verticesUV</key>
+                <string>1044 55 1044 139 1024 159 1018 159 982 145 897 145 897 134 909 101 900 68 954 1 1022 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople34.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1195,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 9 10 7 8 9 7 0 4 4 6 7 4 5 6 7 9 0 1 2 3 4 0 1 4 1 3</string>
+                <key>vertices</key>
+                <string>147 54 147 128 133 158 121 158 56 144 0 143 0 86 16 50 58 1 88 0 125 0</string>
+                <key>verticesUV</key>
+                <string>1342 55 1342 129 1328 159 1316 159 1251 145 1195 144 1195 87 1211 51 1253 2 1283 1 1320 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople35.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1493,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 8 7 4 6 7 1 4 4 5 6 1 3 4 1 2 3 7 8 1 0 8 9</string>
+                <key>vertices</key>
+                <string>132 16 147 58 147 158 118 158 73 144 0 143 0 66 59 1 88 0 116 0</string>
+                <key>verticesUV</key>
+                <string>1625 17 1640 59 1640 159 1611 159 1566 145 1493 144 1493 67 1552 2 1581 1 1609 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople36.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{748,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 6 3 5 6 7 3 3 4 5 0 1 2 0 2 3 0 3 7</string>
+                <key>vertices</key>
+                <string>147 31 147 158 121 158 89 144 0 143 0 66 59 1 88 0 116 0</string>
+                <key>verticesUV</key>
+                <string>895 32 895 159 869 159 837 145 748 144 748 67 807 2 836 1 864 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople37.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{449,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 7 3 6 7 8 0 3 5 6 3 4 5 2 0 1 2 3 0 7 0 3</string>
+                <key>vertices</key>
+                <string>147 56 147 158 121 158 90 145 0 141 0 132 5 68 46 12 74 0 127 0</string>
+                <key>verticesUV</key>
+                <string>596 57 596 159 570 159 539 146 449 142 449 133 454 69 495 13 523 1 576 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople38.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{151,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 10 8 9 10 5 2 4 7 5 6 7 8 5 5 8 1 2 3 4 5 1 2 1 8 10 0 10 11</string>
+                <key>vertices</key>
+                <string>134 18 147 68 147 128 132 158 120 158 30 141 0 140 0 130 13 96 0 73 51 0 115 0</string>
+                <key>verticesUV</key>
+                <string>285 19 298 69 298 129 283 159 271 159 181 142 151 141 151 131 164 97 151 74 202 1 266 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople39.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 0 7 8 4 6 7 4 5 6 0 4 7 1 2 3 4 0 1 4 1 3</string>
+                <key>vertices</key>
+                <string>147 64 147 128 132 158 120 158 71 144 0 143 0 78 30 24 69 0 128 0</string>
+                <key>verticesUV</key>
+                <string>148 65 148 129 133 159 121 159 72 145 1 144 1 79 31 25 70 1 129 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople4.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-0.5,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{146,155}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{566,789},{146,155}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 5 6 0 3 4 5 1 2 3 0 1 3 5 0 3</string>
+                <key>vertices</key>
+                <string>146 69 146 144 129 157 104 145 0 146 4 66 52 2 122 2</string>
+                <key>verticesUV</key>
+                <string>712 856 712 931 695 944 670 932 566 933 570 853 618 789 688 789</string>
+            </dict>
+            <key>Hotsoon_beerPeople40.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{300,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 6 0 3 6 7 8 5 3 4 5 6 3 6 8 0 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>147 77 147 158 120 158 68 145 2 143 0 137 6 63 57 1 87 0 132 0</string>
+                <key>verticesUV</key>
+                <string>447 78 447 159 420 159 368 146 302 144 300 138 306 64 357 2 387 1 432 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople41.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{599,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 6 7 0 5 6 0 4 2 3 4 5 2 0 1 2 5 0 2</string>
+                <key>vertices</key>
+                <string>147 67 147 158 120 158 3 145 0 138 6 64 45 14 73 0 128 0</string>
+                <key>verticesUV</key>
+                <string>746 68 746 159 719 159 602 146 599 139 605 65 644 15 672 1 727 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople42.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,0}</string>
+                <key>spriteSize</key>
+                <string>{146,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{895,473},{146,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 6 7 0 4 5 6 6 0 4 1 2 3 4 0 1 4 1 3</string>
+                <key>vertices</key>
+                <string>145 68 147 97 143 158 119 158 86 145 1 145 1 70 55 0 131 0</string>
+                <key>verticesUV</key>
+                <string>1039 541 1041 570 1037 631 1013 631 980 618 895 618 895 543 949 473 1025 473</string>
+            </dict>
+            <key>Hotsoon_beerPeople43.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1344,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 9 10 7 9 0 7 8 9 6 4 5 6 7 4 3 1 2 3 4 1 0 1 4 7 0 4</string>
+                <key>vertices</key>
+                <string>147 78 147 126 133 158 119 158 88 148 4 147 0 141 5 63 51 2 77 0 130 0</string>
+                <key>verticesUV</key>
+                <string>1491 79 1491 127 1477 159 1463 159 1432 149 1348 148 1344 142 1349 64 1395 3 1421 1 1474 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople44.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,0}</string>
+                <key>spriteSize</key>
+                <string>{146,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1103,744},{146,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 6 7 0 4 5 6 6 0 4 1 2 3 4 0 1 4 1 3</string>
+                <key>vertices</key>
+                <string>145 68 147 98 144 158 119 158 92 149 2 149 1 68 56 0 130 0</string>
+                <key>verticesUV</key>
+                <string>1247 812 1249 842 1246 902 1221 902 1194 893 1104 893 1103 812 1158 744 1232 744</string>
+            </dict>
+            <key>Hotsoon_beerPeople45.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1643,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 7 8 1 4 6 4 5 6 2 3 4 1 2 4 1 6 7 0 1 8</string>
+                <key>vertices</key>
+                <string>131 5 147 87 144 146 126 158 118 158 0 152 3 66 56 0 108 0</string>
+                <key>verticesUV</key>
+                <string>1774 6 1790 88 1787 147 1769 159 1761 159 1643 153 1646 67 1699 1 1751 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople46.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,0}</string>
+                <key>spriteSize</key>
+                <string>{145,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{272,792},{145,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 9 10 1 8 9 6 7 8 3 4 5 3 5 6 2 3 6 8 1 2 8 2 6 0 1 10</string>
+                <key>vertices</key>
+                <string>119 3 139 38 147 103 142 144 128 158 118 158 94 152 3 152 2 66 53 0 108 0</string>
+                <key>verticesUV</key>
+                <string>389 795 409 830 417 895 412 936 398 950 388 950 364 944 273 944 272 858 323 792 378 792</string>
+            </dict>
+            <key>Hotsoon_beerPeople47.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1006,149},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 8 9 7 8 1 5 6 7 2 3 4 1 2 4 1 4 5 7 1 5 0 1 9</string>
+                <key>vertices</key>
+                <string>131 5 147 87 143 148 125 158 118 158 91 151 0 151 4 64 56 0 108 0</string>
+                <key>verticesUV</key>
+                <string>1137 154 1153 236 1149 297 1131 307 1124 307 1097 300 1006 300 1010 213 1062 149 1114 149</string>
+            </dict>
+            <key>Hotsoon_beerPeople48.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{859,150},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 6 0 4 4 5 6 6 7 0 1 2 3 4 0 1 4 1 3</string>
+                <key>vertices</key>
+                <string>145 69 147 98 144 158 119 158 43 150 0 151 5 64 57 0 130 0</string>
+                <key>verticesUV</key>
+                <string>1004 219 1006 248 1003 308 978 308 902 300 859 301 864 214 916 150 989 150</string>
+            </dict>
+            <key>Hotsoon_beerPeople49.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1152,154},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 7 8 0 5 6 7 7 0 5 1 2 4 2 3 4 5 0 1 5 1 4</string>
+                <key>vertices</key>
+                <string>145 70 147 98 145 140 130 158 119 158 83 150 0 150 4 65 57 0 131 0</string>
+                <key>verticesUV</key>
+                <string>1297 224 1299 252 1297 294 1282 312 1271 312 1235 304 1152 304 1156 219 1209 154 1283 154</string>
+            </dict>
+            <key>Hotsoon_beerPeople5.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{146,643},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 6 7 0 7 8 0 4 5 6 3 4 6 0 1 3 1 2 3 6 0 3</string>
+                <key>vertices</key>
+                <string>147 69 147 151 120 158 113 144 0 136 0 125 9 103 5 68 50 0 132 0</string>
+                <key>verticesUV</key>
+                <string>293 712 293 794 266 801 259 787 146 779 146 768 155 746 151 711 196 643 278 643</string>
+            </dict>
+            <key>Hotsoon_beerPeople50.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-0.5,0}</string>
+                <key>spriteSize</key>
+                <string>{146,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1546,745},{146,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 8 9 7 8 1 6 4 5 6 7 4 1 3 4 1 2 3 7 1 4 0 1 9</string>
+                <key>vertices</key>
+                <string>120 3 146 48 146 158 118 158 84 146 3 147 0 139 5 64 57 0 109 0</string>
+                <key>verticesUV</key>
+                <string>1666 748 1692 793 1692 903 1664 903 1630 891 1549 892 1546 884 1551 809 1603 745 1655 745</string>
+            </dict>
+            <key>Hotsoon_beerPeople51.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{705,147},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 9 10 7 8 9 0 7 9 5 6 7 4 5 7 0 4 7 1 2 3 4 0 1 4 1 3</string>
+                <key>vertices</key>
+                <string>145 68 147 96 143 158 119 158 83 150 1 145 0 117 20 93 0 73 56 0 131 0</string>
+                <key>verticesUV</key>
+                <string>850 215 852 243 848 305 824 305 788 297 706 292 705 264 725 240 705 220 761 147 836 147</string>
+            </dict>
+            <key>Hotsoon_beerPeople52.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{152,164},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 6 7 0 5 3 4 5 6 3 6 0 3 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>147 77 147 158 120 158 91 148 1 144 0 87 10 62 58 0 132 0</string>
+                <key>verticesUV</key>
+                <string>299 241 299 322 272 322 243 312 153 308 152 251 162 226 210 164 284 164</string>
+            </dict>
+            <key>Hotsoon_beerPeople53.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{2,160},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 9 7 8 9 7 9 1 6 4 5 6 7 4 1 3 4 1 2 3 7 1 4 0 9 10</string>
+                <key>vertices</key>
+                <string>135 20 147 72 147 158 120 158 72 145 2 143 0 135 12 93 4 75 55 0 115 0</string>
+                <key>verticesUV</key>
+                <string>137 180 149 232 149 318 122 318 74 305 4 303 2 295 14 253 6 235 57 160 117 160</string>
+            </dict>
+            <key>Hotsoon_beerPeople54.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1793,1},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 9 7 8 9 5 7 9 5 6 7 5 2 4 2 3 4 5 1 2 1 5 9 0 9 10</string>
+                <key>vertices</key>
+                <string>136 21 147 72 147 128 132 158 120 158 71 144 0 143 0 80 52 1 88 0 115 0</string>
+                <key>verticesUV</key>
+                <string>1929 22 1940 73 1940 129 1925 159 1913 159 1864 145 1793 144 1793 81 1845 2 1881 1 1908 1</string>
+            </dict>
+            <key>Hotsoon_beerPeople55.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1,320},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 7 4 6 7 8 4 4 5 6 3 1 2 3 4 1 0 1 4 0 4 8</string>
+                <key>vertices</key>
+                <string>147 55 147 127 132 158 120 158 87 144 0 144 0 69 57 1 87 0 123 0</string>
+                <key>verticesUV</key>
+                <string>148 375 148 447 133 478 121 478 88 464 1 464 1 389 58 321 88 320 124 320</string>
+            </dict>
+            <key>Hotsoon_beerPeople56.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{301,161},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 0 1 7 8 9 4 7 9 4 6 7 4 5 6 1 3 4 1 2 3 4 9 0 0 9 10</string>
+                <key>vertices</key>
+                <string>147 31 147 128 132 158 121 158 46 146 1 147 0 141 0 79 54 1 89 0 116 0</string>
+                <key>verticesUV</key>
+                <string>448 192 448 289 433 319 422 319 347 307 302 308 301 302 301 240 355 162 390 161 417 161</string>
+            </dict>
+            <key>Hotsoon_beerPeople57.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{299,483},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 5 6 7 5 0 3 3 4 5 5 7 0 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>147 55 147 158 120 158 60 147 0 146 0 79 54 1 89 0 127 0</string>
+                <key>verticesUV</key>
+                <string>446 538 446 641 419 641 359 630 299 629 299 562 353 484 388 483 426 483</string>
+            </dict>
+            <key>Hotsoon_beerPeople58.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{295,644},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 6 7 8 0 6 8 5 3 4 5 6 3 0 3 6 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>147 55 147 158 121 158 88 146 0 145 0 133 17 86 3 75 56 0 127 0</string>
+                <key>verticesUV</key>
+                <string>442 699 442 802 416 802 383 790 295 789 295 777 312 730 298 719 351 644 422 644</string>
+            </dict>
+            <key>Hotsoon_beerPeople59.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{448,452},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 9 10 7 8 9 7 0 4 4 6 7 4 5 6 3 1 2 3 4 1 0 1 4 7 9 0</string>
+                <key>vertices</key>
+                <string>147 54 147 138 127 158 121 158 85 144 0 144 0 133 7 66 57 1 88 0 125 0</string>
+                <key>verticesUV</key>
+                <string>595 506 595 590 575 610 569 610 533 596 448 596 448 585 455 518 505 453 536 452 573 452</string>
+            </dict>
+            <key>Hotsoon_beerPeople6.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{444,610},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 7 8 4 6 7 4 5 6 2 3 4 1 2 4 1 4 7 0 1 8</string>
+                <key>vertices</key>
+                <string>134 4 147 65 147 136 129 158 46 141 0 140 0 67 52 3 98 0</string>
+                <key>verticesUV</key>
+                <string>578 614 591 675 591 746 573 768 490 751 444 750 444 677 496 613 542 610</string>
+            </dict>
+            <key>Hotsoon_beerPeople60.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{995,618},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 4 6 7 4 5 6 0 4 7 1 2 3 4 0 1 4 1 3</string>
+                <key>vertices</key>
+                <string>147 54 147 128 133 158 121 158 56 144 0 143 0 82 54 0 125 0</string>
+                <key>verticesUV</key>
+                <string>1142 672 1142 746 1128 776 1116 776 1051 762 995 761 995 700 1049 618 1120 618</string>
+            </dict>
+            <key>Hotsoon_beerPeople61.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1756,560},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 7 4 6 7 4 5 6 1 3 4 1 2 3 1 4 7 0 7 8</string>
+                <key>vertices</key>
+                <string>132 16 147 58 147 158 118 158 73 144 0 143 0 82 54 0 116 0</string>
+                <key>verticesUV</key>
+                <string>1888 576 1903 618 1903 718 1874 718 1829 704 1756 703 1756 642 1810 560 1872 560</string>
+            </dict>
+            <key>Hotsoon_beerPeople62.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1145,598},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 6 7 8 3 6 8 3 5 6 3 4 5 0 1 2 0 2 3 0 3 8</string>
+                <key>vertices</key>
+                <string>147 31 147 158 121 158 89 144 0 143 0 132 7 60 58 1 88 0 116 0</string>
+                <key>verticesUV</key>
+                <string>1292 629 1292 756 1266 756 1234 742 1145 741 1145 730 1152 658 1203 599 1233 598 1261 598</string>
+            </dict>
+            <key>Hotsoon_beerPeople63.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1294,602},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 5 6 7 3 5 7 3 4 5 2 0 1 2 3 0 0 3 7</string>
+                <key>vertices</key>
+                <string>147 56 147 158 121 158 90 145 0 141 0 84 50 1 89 0 127 0</string>
+                <key>verticesUV</key>
+                <string>1441 658 1441 760 1415 760 1384 747 1294 743 1294 686 1344 603 1383 602 1421 602</string>
+            </dict>
+            <key>Hotsoon_beerPeople7.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0.5}</string>
+                <key>spriteSize</key>
+                <string>{147,157}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1900,664},{147,157}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 4 6 7 4 5 6 3 1 2 3 4 1 0 1 4 0 4 7</string>
+                <key>vertices</key>
+                <string>147 51 147 125 132 157 119 157 87 145 0 144 0 71 54 0 125 0</string>
+                <key>verticesUV</key>
+                <string>2047 715 2047 789 2032 821 2019 821 1987 809 1900 808 1900 735 1954 664 2025 664</string>
+            </dict>
+            <key>Hotsoon_beerPeople8.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{1443,615},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 8 7 4 6 7 8 4 4 5 6 1 3 4 1 2 3 1 4 8 0 8 9</string>
+                <key>vertices</key>
+                <string>147 31 147 119 132 158 120 158 84 150 0 150 0 64 59 1 88 0 116 0</string>
+                <key>verticesUV</key>
+                <string>1590 646 1590 734 1575 773 1563 773 1527 765 1443 765 1443 679 1502 616 1531 615 1559 615</string>
+            </dict>
+            <key>Hotsoon_beerPeople9.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{147,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,158}</string>
+                <key>textureRect</key>
+                <string>{{525,303},{147,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 8 9 1 7 8 6 4 5 6 7 4 1 3 4 1 2 3 1 4 7 0 1 9</string>
+                <key>vertices</key>
+                <string>134 8 147 70 147 158 120 158 60 147 0 146 0 83 9 63 57 0 108 0</string>
+                <key>verticesUV</key>
+                <string>659 311 672 373 672 461 645 461 585 450 525 449 525 386 534 366 582 303 633 303</string>
+            </dict>
+            <key>Hotsoon_beer_0.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{1847,414},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>1896 471 1847 471 1847 414 1896 414</string>
+            </dict>
+            <key>Hotsoon_beer_1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{501,153},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>550 210 501 210 501 153 550 153</string>
+            </dict>
+            <key>Hotsoon_beer_10.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{504,271},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>553 328 504 328 504 271 553 271</string>
+            </dict>
+            <key>Hotsoon_beer_11.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{501,212},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>550 269 501 269 501 212 550 212</string>
+            </dict>
+            <key>Hotsoon_beer_12.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{450,147},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>499 204 450 204 450 147 499 147</string>
+            </dict>
+            <key>Hotsoon_beer_13.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,7.5}</string>
+                <key>spriteSize</key>
+                <string>{49,61}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{890,672},{49,61}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 22 88 22</string>
+                <key>verticesUV</key>
+                <string>939 733 890 733 890 672 939 672</string>
+            </dict>
+            <key>Hotsoon_beer_14.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,7.5}</string>
+                <key>spriteSize</key>
+                <string>{49,61}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{890,672},{49,61}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 22 88 22</string>
+                <key>verticesUV</key>
+                <string>939 733 890 733 890 672 939 672</string>
+            </dict>
+            <key>Hotsoon_beer_15.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4,8}</string>
+                <key>spriteSize</key>
+                <string>{50,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{1011,763},{50,66}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>88 32 88 83 38 85 38 19</string>
+                <key>verticesUV</key>
+                <string>1061 776 1061 827 1011 829 1011 763</string>
+            </dict>
+            <key>Hotsoon_beer_16.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,6.5}</string>
+                <key>spriteSize</key>
+                <string>{49,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{941,674},{49,59}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 24 88 24</string>
+                <key>verticesUV</key>
+                <string>990 733 941 733 941 674 990 674</string>
+            </dict>
+            <key>Hotsoon_beer_17.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,6}</string>
+                <key>spriteSize</key>
+                <string>{49,58}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{1799,500},{49,58}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 25 88 25</string>
+                <key>verticesUV</key>
+                <string>1848 558 1799 558 1799 500 1848 500</string>
+            </dict>
+            <key>Hotsoon_beer_18.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{296,946},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>345 1003 296 1003 296 946 345 946</string>
+            </dict>
+            <key>Hotsoon_beer_19.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{1956,605},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>2005 662 1956 662 1956 605 2005 605</string>
+            </dict>
+            <key>Hotsoon_beer_2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{450,270},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>499 327 450 327 450 270 499 270</string>
+            </dict>
+            <key>Hotsoon_beer_20.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{1884,1013},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>1933 1070 1884 1070 1884 1013 1933 1013</string>
+            </dict>
+            <key>Hotsoon_beer_21.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{1993,60},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>2042 117 1993 117 1993 60 2042 60</string>
+            </dict>
+            <key>Hotsoon_beer_3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{1939,1},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>1988 58 1939 58 1939 1 1988 1</string>
+            </dict>
+            <key>Hotsoon_beer_4.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{474,388},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>523 445 474 445 474 388 523 388</string>
+            </dict>
+            <key>Hotsoon_beer_5.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{450,206},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>499 263 450 263 450 206 499 206</string>
+            </dict>
+            <key>Hotsoon_beer_6.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{446,329},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>495 386 446 386 446 329 495 329</string>
+            </dict>
+            <key>Hotsoon_beer_7.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{1942,65},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>1991 122 1942 122 1942 65 1991 65</string>
+            </dict>
+            <key>Hotsoon_beer_8.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{1905,581},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>1954 638 1905 638 1905 581 1954 581</string>
+            </dict>
+            <key>Hotsoon_beer_9.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,5.5}</string>
+                <key>spriteSize</key>
+                <string>{49,57}</string>
+                <key>spriteSourceSize</key>
+                <string>{118,120}</string>
+                <key>textureRect</key>
+                <string>{{1990,1},{49,57}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>88 83 39 83 39 26 88 26</string>
+                <key>verticesUV</key>
+                <string>2039 58 1990 58 1990 1 2039 1</string>
+            </dict>
+            <key>Hotsoon_blowPeople17.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{124,157}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{191,932},{124,157}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 4 1 3 4 5 1 1 2 3 0 1 5 0 5 6</string>
+                <key>vertices</key>
+                <string>104 47 104 92 126 134 120 140 22 159 2 69 24 6 73 2</string>
+                <key>verticesUV</key>
+                <string>293 977 293 1022 315 1064 309 1070 211 1089 191 999 213 936 262 932</string>
+            </dict>
+            <key>Hotsoon_blowPeople18.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1.5,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{121,160}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{504,932},{121,160}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 2 5 7 5 6 7 3 4 5 2 3 5 0 2 7 0 1 2 0 7 8</string>
+                <key>vertices</key>
+                <string>72 5 107 40 101 75 126 136 120 142 78 144 20 161 5 65 23 13 45 1</string>
+                <key>verticesUV</key>
+                <string>571 936 606 971 600 1006 625 1067 619 1073 577 1075 519 1092 504 996 522 944 544 932</string>
+            </dict>
+            <key>Hotsoon_blowPeople19.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1,0}</string>
+                <key>spriteSize</key>
+                <string>{124,159}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{1107,896},{124,159}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>8 9 10 2 5 8 7 8 5 7 5 6 2 4 5 2 3 4 1 2 8 1 8 10 0 1 10</string>
+                <key>vertices</key>
+                <string>77 6 102 44 103 93 125 136 119 142 77 144 24 160 20 158 1 56 24 5 63 1</string>
+                <key>verticesUV</key>
+                <string>1183 901 1208 939 1209 988 1231 1031 1225 1037 1183 1039 1130 1055 1126 1053 1107 951 1130 900 1169 896</string>
+            </dict>
+            <key>Hotsoon_blowPeople20.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,0}</string>
+                <key>spriteSize</key>
+                <string>{127,161}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{144,786},{127,161}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>7 8 9 2 4 7 5 6 7 4 5 7 2 3 4 1 2 7 1 7 9 0 1 9</string>
+                <key>vertices</key>
+                <string>72 2 102 27 102 92 128 144 80 144 24 161 20 160 1 55 24 1 63 0</string>
+                <key>verticesUV</key>
+                <string>215 788 245 813 245 878 271 930 223 930 167 947 163 946 144 841 167 787 206 786</string>
+            </dict>
+            <key>Hotsoon_blowPeople21.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,0}</string>
+                <key>spriteSize</key>
+                <string>{122,161}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{1224,904},{122,161}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 9 10 7 8 9 2 4 7 5 6 7 4 5 7 2 3 4 9 0 2 0 1 2 9 2 7</string>
+                <key>vertices</key>
+                <string>76 4 105 43 100 65 126 143 79 145 26 161 19 161 4 57 26 2 48 0 68 0</string>
+                <key>verticesUV</key>
+                <string>1296 908 1325 947 1320 969 1346 1047 1299 1049 1246 1065 1239 1065 1224 961 1246 906 1268 904 1288 904</string>
+            </dict>
+            <key>Hotsoon_blowPeople22.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{2.5,0}</string>
+                <key>spriteSize</key>
+                <string>{117,161}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{1,940},{117,161}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 2 3 4 5 2 1 2 5 0 1 5 0 5 6</string>
+                <key>vertices</key>
+                <string>75 2 105 32 105 97 125 152 15 161 8 61 31 0</string>
+                <key>verticesUV</key>
+                <string>68 942 98 972 98 1037 118 1092 8 1101 1 1001 24 940</string>
+            </dict>
+            <key>Hotsoon_blowPeople23.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{112,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{1778,951},{112,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 0 1 5 3 4 5 1 2 3 1 3 5 0 5 6</string>
+                <key>vertices</key>
+                <string>108 50 108 106 121 159 66 152 9 160 12 39 42 3 86 2</string>
+                <key>verticesUV</key>
+                <string>1877 999 1877 1055 1890 1108 1835 1101 1778 1109 1781 988 1811 952 1855 951</string>
+            </dict>
+            <key>Hotsoon_blowPeople24.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1.5,0}</string>
+                <key>spriteSize</key>
+                <string>{113,161}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{1932,941},{113,161}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 1 2 0 1 5 2 3 4 2 4 5 0 5 6 0 6 7</string>
+                <key>vertices</key>
+                <string>101 15 116 56 107 101 122 161 9 156 19 43 49 5 85 0</string>
+                <key>verticesUV</key>
+                <string>2024 956 2039 997 2030 1042 2045 1102 1932 1097 1942 984 1972 946 2008 941</string>
+            </dict>
+            <key>Hotsoon_blowPeople25.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3,0}</string>
+                <key>spriteSize</key>
+                <string>{122,161}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{734,920},{122,161}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 3 1 2 3 0 3 4</string>
+                <key>vertices</key>
+                <string>122 8 115 161 0 149 27 34 63 0</string>
+                <key>verticesUV</key>
+                <string>856 928 849 1081 734 1069 761 954 797 920</string>
+            </dict>
+            <key>Hotsoon_blowPeople26.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1,0.5}</string>
+                <key>spriteSize</key>
+                <string>{122,160}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{384,921},{122,160}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 8 9 1 7 8 2 4 6 4 5 6 2 3 4 7 1 2 7 2 6 0 1 9</string>
+                <key>vertices</key>
+                <string>116 12 124 60 113 95 113 160 105 160 2 141 21 97 29 37 67 1 90 0</string>
+                <key>verticesUV</key>
+                <string>498 933 506 981 495 1016 495 1081 487 1081 384 1062 403 1018 411 958 449 922 472 921</string>
+            </dict>
+            <key>Hotsoon_blowPeople27.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{126,161}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{1842,811},{126,161}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>9 10 11 1 2 9 7 2 5 7 8 2 5 6 7 3 4 5 2 3 5 2 8 9 1 9 11 0 1 11</string>
+                <key>vertices</key>
+                <string>121 7 127 61 119 78 109 157 105 161 102 161 1 135 1 127 34 37 69 3 75 0 88 0</string>
+                <key>verticesUV</key>
+                <string>1962 818 1968 872 1960 889 1950 968 1946 972 1943 972 1842 946 1842 938 1875 848 1910 814 1916 811 1929 811</string>
+            </dict>
+            <key>Hotsoon_blowPeople28.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{128,159}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{685,302},{128,159}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>7 2 4 5 6 7 7 8 2 4 5 7 2 3 4 2 8 9 1 2 9 0 1 9</string>
+                <key>vertices</key>
+                <string>119 2 128 66 112 92 109 160 99 160 2 135 0 129 19 101 27 38 72 1</string>
+                <key>verticesUV</key>
+                <string>804 303 813 367 797 393 794 461 784 461 687 436 685 430 704 402 712 339 757 302</string>
+            </dict>
+            <key>Hotsoon_blowPeople29.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{127,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{1670,866},{127,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 7 2 3 4 4 5 6 2 4 6 2 6 7 1 7 8 0 1 8</string>
+                <key>vertices</key>
+                <string>115 3 128 68 112 101 109 155 104 160 1 132 1 126 24 40 70 2</string>
+                <key>verticesUV</key>
+                <string>1784 867 1797 932 1781 965 1778 1019 1773 1024 1670 996 1670 990 1693 904 1739 866</string>
+            </dict>
+            <key>Hotsoon_blowPeople30.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,-1}</string>
+                <key>spriteSize</key>
+                <string>{127,157}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{855,892},{127,157}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 0 5 6 1 4 5 3 4 1 3 1 2 0 1 5</string>
+                <key>vertices</key>
+                <string>128 71 111 106 108 160 1 132 1 125 18 46 67 3 112 3</string>
+                <key>verticesUV</key>
+                <string>982 960 965 995 962 1049 855 1021 855 1014 872 935 921 892 966 892</string>
+            </dict>
+            <key>Hotsoon_blowPeople31.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-0.5,0}</string>
+                <key>spriteSize</key>
+                <string>{127,159}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{983,861},{127,159}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 8 9 5 6 7 3 4 7 4 5 7 8 1 3 1 2 3 8 3 7 0 1 9</string>
+                <key>vertices</key>
+                <string>114 13 127 72 127 78 109 111 109 160 0 131 1 124 15 101 16 44 73 1</string>
+                <key>verticesUV</key>
+                <string>1097 873 1110 932 1110 938 1092 971 1092 1020 983 991 984 984 998 961 999 904 1056 861</string>
+            </dict>
+            <key>Hotsoon_blowPeople32.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1,0.5}</string>
+                <key>spriteSize</key>
+                <string>{126,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,161}</string>
+                <key>textureRect</key>
+                <string>{{1546,894},{126,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 7 8 4 2 3 4 5 6 4 6 2 2 6 8 1 2 8 0 1 8</string>
+                <key>vertices</key>
+                <string>126 19 126 82 109 100 108 159 1 129 0 122 21 84 10 53 69 1</string>
+                <key>verticesUV</key>
+                <string>1672 912 1672 975 1655 993 1654 1052 1547 1022 1546 1015 1567 977 1556 946 1615 894</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>HotsoonBeerPeople.png</string>
+            <key>size</key>
+            <string>{2048,1110}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:064be030f27c6ee8ac9511901a2c7ffa:4a02a55f0ceec9dea3dbeec87c040bb5:b4bd1e0a44ee41dfc79c7c3c88bddeb7$</string>
+            <key>textureFileName</key>
+            <string>HotsoonBeerPeople.png</string>
+        </dict>
+    </dict>
+</plist>

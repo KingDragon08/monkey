@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/gi" android:gravity="center" android:id="@id/xb" android:background="@drawable/ig" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="22.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:text="@string/abe" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/x4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/bo" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/fj" android:id="@id/ww" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="47.0dip" android:includeFontPadding="false" android:drawableRight="@drawable/a5u" android:drawablePadding="10.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/ge" android:id="@id/x5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="25.0dip" android:singleLine="true" android:layout_below="@id/ww" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/fj" android:id="@id/wx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:includeFontPadding="false" android:drawablePadding="5.0dip" android:layout_below="@id/x5" android:layout_centerHorizontal="true" />
+    <FrameLayout android:id="@id/x0" android:layout_width="@dimen/da" android:layout_height="@dimen/da" android:layout_marginTop="15.0dip" android:layout_below="@id/wx" android:layout_centerHorizontal="true">
+        <TextView android:textSize="15.0sp" android:textColor="@color/gi" android:gravity="center" android:background="@drawable/ha" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/a7q" />
+        <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/x1" android:layout_width="@dimen/da" android:layout_height="@dimen/da" android:layout_marginBottom="16.0dip" app:roundAsCircle="true" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/wy" android:layout_width="@dimen/da" android:layout_height="@dimen/da" android:layout_marginRight="44.5dip" android:layout_toLeftOf="@id/x0" android:layout_alignBottom="@id/x0" android:layout_centerHorizontal="true">
+        <TextView android:textSize="15.0sp" android:textColor="@color/gi" android:gravity="center" android:background="@drawable/ha" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/a7q" />
+        <com.ss.android.ugc.live.core.ui.widget.VHeadView android:layout_gravity="center" android:id="@id/wz" android:layout_width="@dimen/da" android:layout_height="@dimen/da" app:roundAsCircle="true" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/da" android:layout_height="@dimen/da" android:layout_marginLeft="44.5dip" android:layout_toRightOf="@id/x0" android:layout_alignBottom="@id/x0" android:layout_centerHorizontal="true">
+        <TextView android:textSize="15.0sp" android:textColor="@color/gi" android:gravity="center" android:background="@drawable/ha" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/a7q" />
+        <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/x3" android:layout_width="@dimen/da" android:layout_height="@dimen/da" app:roundAsCircle="true" />
+    </FrameLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/gp" android:ellipsize="end" android:id="@id/x6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="25.0dip" android:text="safjsalfjsla" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@id/x0" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/xc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/x6" android:layout_centerHorizontal="true">
+        <TextView android:text="@string/qz" style="@style/ProfileEditMainTextStyle" />
+        <TextView android:textColor="@color/ge" android:id="@id/x9" android:layout_marginTop="6.0dip" style="@style/ProfileEditMainTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37.5dip" android:layout_marginTop="15.0dip" android:layout_below="@id/x6" android:layout_alignParentLeft="true">
+        <TextView android:text="@string/r3" style="@style/ProfileEditMainTextStyle" />
+        <TextView android:textColor="@color/ge" android:id="@id/x7" android:layout_marginTop="6.0dip" style="@style/ProfileEditMainTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="37.5dip" android:layout_below="@id/x6" android:layout_alignParentRight="true">
+        <TextView android:text="@string/a3y" style="@style/ProfileEditMainTextStyle" />
+        <TextView android:textColor="@color/ge" android:id="@id/x8" android:layout_marginTop="6.0dip" style="@style/ProfileEditMainTextStyle" />
+    </LinearLayout>
+</RelativeLayout>

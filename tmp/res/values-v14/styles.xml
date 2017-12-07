@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="l" parent="@android:style/Theme.Holo.Light.DarkActionBar" />
+    <style name="a2" parent="@style/p9" />
+    <style name="a3" parent="@style/p_" />
+    <style name="ac" parent="@style/b0">
+        <item name="android:textSize">@dimen/b3</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="ad" parent="@android:style/Theme.Holo.Light.DarkActionBar" />
+    <style name="ae" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="af" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="ag" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="ah" parent="@style/ag" />
+    <style name="ai" parent="@style/ag">
+        <item name="android:textSize">@dimen/fd</item>
+    </style>
+    <style name="aj" parent="@style/ag" />
+    <style name="ak" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="al">
+        <item name="android:background">#00000000</item>
+        <item name="android:divider">@color/ol</item>
+    </style>
+    <style name="p9" parent="@style/p5">
+        <item name="android:actionModeSelectAllDrawable">?bm</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/at</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/at</item>
+    </style>
+    <style name="p_" parent="@style/p6">
+        <item name="android:actionModeSelectAllDrawable">?bm</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/at</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/at</item>
+    </style>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.medialib.illustrator.stickers.ImeCloseEditText android:textSize="@dimen/eu" android:textColor="#ffffffff" android:gravity="center" android:id="@id/apf" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:maxLength="100" style="@style/stickers_ime_edittext"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

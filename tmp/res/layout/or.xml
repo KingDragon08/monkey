@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/ad7" android:layout_width="@dimen/da" android:layout_height="@dimen/da" android:layout_marginLeft="@dimen/fm" android:layout_marginTop="@dimen/f1" android:layout_marginRight="5.0dip" android:layout_marginBottom="@dimen/f1" android:layout_centerVertical="true" fresco:placeholderImage="@drawable/a55" fresco:retryImageScaleType="be" fresco:roundAsCircle="true" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/l" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/f1" android:layout_marginRight="10.0dip" android:layout_marginBottom="@dimen/f1" android:scaleType="centerCrop" android:layout_centerVertical="true" fresco:placeholderImage="@drawable/a9b" />
+    <TextView android:textColor="@color/eu" android:id="@id/at3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.5dip" android:layout_marginTop="@dimen/f1" android:layout_marginRight="6.5dip" android:layout_marginBottom="@dimen/f1" android:layout_toLeftOf="@id/l" android:layout_toRightOf="@id/ad7" android:layout_centerVertical="true" />
+    <View android:layout_marginTop="13.0dip" android:layout_below="@id/ad7" android:layout_alignParentBottom="true" style="@style/ProfileDividerStyle" />
+</RelativeLayout>

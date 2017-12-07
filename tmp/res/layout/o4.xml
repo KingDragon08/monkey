@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ar7" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ar8" android:visibility="invisible" android:layout_width="144.0dip" android:layout_height="180.0dip" android:src="@drawable/afk" />
+    <ImageView android:id="@id/ar9" android:visibility="invisible" android:layout_width="144.0dip" android:layout_height="180.0dip" android:src="@drawable/afj" />
+    <TextView android:textSize="36.0sp" android:gravity="center" android:id="@id/ar_" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

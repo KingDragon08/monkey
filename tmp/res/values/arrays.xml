@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="a">
+        <item>从手机相册选择</item>
+        <item>拍照</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="b">
+        <item>男</item>
+        <item>女</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="c">
+        <item>工商银行</item>
+        <item>农业银行</item>
+        <item>邮储银行</item>
+        <item>邮政储蓄银行</item>
+        <item>建设银行</item>
+        <item>招商银行</item>
+        <item>中国银行</item>
+        <item>交通银行</item>
+        <item>浦发银行</item>
+        <item>广发银行</item>
+        <item>民生银行</item>
+        <item>平安银行</item>
+        <item>光大银行</item>
+        <item>兴业银行</item>
+        <item>中信银行</item>
+        <item>上海银行</item>
+        <item>华夏银行</item>
+    </string-array>
+    <string-array name="d">
+        <item>复制</item>
+        <item>删除</item>
+    </string-array>
+    <integer-array name="e">
+        <item>501</item>
+        <item>502</item>
+        <item>503</item>
+        <item>504</item>
+        <item>511</item>
+    </integer-array>
+    <string-array name="f">
+        <item>威胁辱骂</item>
+        <item>色情骚扰</item>
+        <item>垃圾广告</item>
+        <item>违法信息</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="g">
+        <item>删除</item>
+    </string-array>
+    <string-array name="h">
+        <item>在线音乐</item>
+        <item>本地音乐</item>
+    </string-array>
+    <string-array name="i">
+        <item>清理</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="j">
+        <item>删除</item>
+        <item>举报</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="k">
+        <item>复制</item>
+        <item>删除</item>
+        <item>举报</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="l">
+        <item>举报</item>
+        <item>取消</item>
+    </string-array>
+    <integer-array name="m">
+        <item>301</item>
+        <item>302</item>
+        <item>303</item>
+        <item>304</item>
+        <item>305</item>
+        <item>306</item>
+    </integer-array>
+    <string-array name="n">
+        <item>色情信息</item>
+        <item>政治敏感信息</item>
+        <item>垃圾广告</item>
+        <item>侮辱性语言骚扰女性</item>
+        <item>谩骂、人身攻击</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="o">
+        <item>复制</item>
+        <item>删除</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="p">
+        <item>删除</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="q">
+        <item>复制</item>
+        <item>举报</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="r">
+        <item>前20张</item>
+        <item>前40张</item>
+        <item>前60张</item>
+        <item>前80张</item>
+        <item>前100张</item>
+    </string-array>
+    <string-array name="s">
+        <item></item>
+        <item>fresh_5</item>
+        <item>vivid_4</item>
+        <item>beach_15</item>
+        <item>hts9</item>
+        <item>hts2</item>
+        <item>hts5</item>
+        <item>hts3</item>
+        <item>hts1</item>
+        <item>years</item>
+        <item>teen</item>
+        <item>sincere</item>
+        <item>lively</item>
+        <item>romeo</item>
+        <item>snow</item>
+        <item>pure</item>
+        <item>rose</item>
+        <item>uncommon</item>
+        <item>hide</item>
+        <item>beyond</item>
+    </string-array>
+    <array name="t" />
+    <string-array name="u">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+        <item>Filter_06</item>
+        <item>Filter_07</item>
+        <item>Filter_11</item>
+        <item>Filter_12</item>
+        <item>Filter_13</item>
+        <item>Filter_14</item>
+        <item>Filter_15</item>
+        <item>Filter_16</item>
+        <item>Filter_17</item>
+        <item>Filter_18</item>
+    </string-array>
+    <string-array name="v">
+        <item>无</item>
+        <item>粉黛</item>
+        <item>甜蜜</item>
+        <item>暖茶</item>
+        <item>知性</item>
+        <item>红润</item>
+        <item>小清新</item>
+        <item>自然</item>
+        <item>阳光</item>
+        <item>婴儿肌</item>
+        <item>怀旧</item>
+        <item>明亮</item>
+        <item>可爱</item>
+        <item>水蜜桃</item>
+        <item>落日</item>
+    </string-array>
+    <string-array name="w">
+        <item>正常</item>
+        <item>黑白</item>
+        <item>文艺</item>
+        <item>岁月</item>
+        <item>复古</item>
+        <item>浓郁</item>
+        <item>珞璜</item>
+    </string-array>
+    <string-array name="x">
+        <item>normal</item>
+        <item>hb</item>
+        <item>wy</item>
+        <item>sy</item>
+        <item>fg</item>
+        <item>ny</item>
+        <item>lh</item>
+    </string-array>
+    <array name="y">
+        <item>@drawable/a8_</item>
+        <item>@drawable/a48</item>
+        <item>@drawable/a6w</item>
+        <item>@drawable/a_q</item>
+        <item>@drawable/a8v</item>
+        <item>@drawable/a8z</item>
+        <item>@drawable/a92</item>
+    </array>
+    <string-array name="z">
+        <item>复制到下一帧</item>
+        <item>复制到所有帧</item>
+    </string-array>
+    <string-array name="a0">
+        <item>清除当前帧</item>
+        <item>清除所有帧</item>
+    </string-array>
+    <string-array name="a1">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+    </string-array>
+    <array name="a2">
+        <item>@drawable/afu</item>
+        <item>@drawable/zn</item>
+        <item>@drawable/zs</item>
+        <item>@drawable/zi</item>
+        <item>@drawable/zl</item>
+        <item>@drawable/zr</item>
+        <item>@drawable/zo</item>
+        <item>@drawable/zm</item>
+        <item>@drawable/zp</item>
+        <item>@drawable/zf</item>
+        <item>@drawable/zg</item>
+        <item>@drawable/zk</item>
+        <item>@drawable/zt</item>
+        <item>@drawable/aht</item>
+        <item>@drawable/ahu</item>
+    </array>
+    <string-array name="a3">
+        <item>无</item>
+        <item>自然</item>
+        <item>清新</item>
+        <item>动人</item>
+        <item>日系</item>
+        <item>甜美</item>
+        <item>玫瑰</item>
+        <item>洛丽塔</item>
+        <item>樱花</item>
+        <item>都市</item>
+        <item>曲奇</item>
+        <item>夏威夷</item>
+        <item>红酒</item>
+        <item>初吻</item>
+        <item>冬雪</item>
+    </string-array>
+    <string-array name="a4">
+        <item>举报</item>
+        <item>取消</item>
+    </string-array>
+    <integer-array name="a5">
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+    </integer-array>
+    <string-array name="a6">
+        <item>违法违禁</item>
+        <item>政治有害</item>
+        <item>淫秽色情</item>
+        <item>烟酒驾驶</item>
+        <item>广告诈骗</item>
+        <item>作弊/刷人气</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="a7">
+        <item>正常</item>
+        <item>松露</item>
+        <item>小确幸</item>
+        <item>薄荷</item>
+        <item>@string/q6</item>
+        <item>陷阱</item>
+        <item>特洛伊</item>
+        <item>梦露</item>
+        <item>红茶</item>
+        <item>苏打绿</item>
+    </string-array>
+    <string-array name="a8">
+        <item>normal</item>
+        <item>songlu</item>
+        <item>xiaoquexing</item>
+        <item>bohe</item>
+        <item>@string/q6</item>
+        <item>xianjing</item>
+        <item>teluoyi</item>
+        <item>menglu</item>
+        <item>hongcha</item>
+        <item>sudalv</item>
+    </string-array>
+    <array name="a9">
+        <item>@drawable/a9g</item>
+        <item>@drawable/a9h</item>
+        <item>@drawable/a9i</item>
+        <item>@drawable/a9j</item>
+        <item>@drawable/a9k</item>
+        <item>@drawable/a9l</item>
+        <item>@drawable/a9m</item>
+        <item>@drawable/a9n</item>
+        <item>@drawable/a9o</item>
+        <item>@drawable/a9p</item>
+    </array>
+    <string-array name="a_">
+        <item>关注</item>
+        <item>推荐</item>
+        <item>新鲜</item>
+    </string-array>
+    <integer-array name="aa">
+        <item>401</item>
+        <item>402</item>
+        <item>403</item>
+        <item>404</item>
+        <item>405</item>
+    </integer-array>
+    <string-array name="ab">
+        <item>头像违规</item>
+        <item>用户名违规</item>
+        <item>个人资料违规</item>
+        <item>TA冒充我</item>
+        <item>其他</item>
+    </string-array>
+    <integer-array name="ac">
+        <item>201</item>
+        <item>202</item>
+        <item>203</item>
+        <item>204</item>
+        <item>205</item>
+        <item>206</item>
+        <item>207</item>
+    </integer-array>
+    <string-array name="ad">
+        <item>违法违禁</item>
+        <item>政治谣言</item>
+        <item>淫秽色情</item>
+        <item>人身攻击</item>
+        <item>搬运抄袭</item>
+        <item>广告诈骗</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="ae">
+        <item>保存到本地</item>
+        <item>确认放弃</item>
+        <item>取消</item>
+    </string-array>
+    <array name="af">
+        <item>@drawable/zu</item>
+        <item>@drawable/zv</item>
+        <item>@drawable/a06</item>
+        <item>@drawable/a0g</item>
+        <item>@drawable/a0h</item>
+        <item>@drawable/a0i</item>
+        <item>@drawable/a0j</item>
+        <item>@drawable/a0k</item>
+        <item>@drawable/a0l</item>
+        <item>@drawable/a0m</item>
+        <item>@drawable/zw</item>
+        <item>@drawable/zx</item>
+        <item>@drawable/zy</item>
+        <item>@drawable/zz</item>
+        <item>@drawable/a00</item>
+        <item>@drawable/a01</item>
+        <item>@drawable/a02</item>
+        <item>@drawable/a03</item>
+        <item>@drawable/a04</item>
+        <item>@drawable/a05</item>
+        <item>@drawable/a07</item>
+        <item>@drawable/a08</item>
+        <item>@drawable/a09</item>
+        <item>@drawable/a0_</item>
+        <item>@drawable/a0a</item>
+        <item>@drawable/a0b</item>
+        <item>@drawable/a0c</item>
+        <item>@drawable/a0d</item>
+        <item>@drawable/a0e</item>
+        <item>@drawable/a0f</item>
+    </array>
+    <array name="ag">
+        <item>@drawable/xa</item>
+        <item>@drawable/xb</item>
+    </array>
+</resources>

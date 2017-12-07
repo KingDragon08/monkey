@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/ad7" android:layout_width="@dimen/f5" android:layout_height="@dimen/f5" android:layout_marginLeft="@dimen/f2" android:layout_marginTop="@dimen/f4" android:layout_marginBottom="@dimen/f4" fresco:placeholderImage="@drawable/a55" fresco:retryImageScaleType="be" fresco:roundAsCircle="true" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/l" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="@dimen/f4" android:layout_marginRight="@dimen/f2" android:layout_marginBottom="@dimen/f4" android:scaleType="centerCrop" android:layout_alignParentRight="true" fresco:placeholderImage="@drawable/cf" />
+    <RelativeLayout android:id="@id/atb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/f1" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_toLeftOf="@id/l" android:layout_toRightOf="@id/ad7" android:layout_centerVertical="true">
+        <com.ss.android.ugc.live.notification.linespacingtext.LineSpaceExtraContainer android:id="@id/at6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.ss.android.ugc.live.notification.linespacingtext.LineSpaceTextView android:textSize="14.0sp" android:textColor="@color/f_" android:id="@id/at3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="10.0sp" />
+        </com.ss.android.ugc.live.notification.linespacingtext.LineSpaceExtraContainer>
+        <TextView android:textSize="12.0sp" android:textColor="@color/f8" android:id="@id/at8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_below="@id/at6" android:layout_alignLeft="@id/at6" />
+        <com.ss.android.ugc.live.notification.linespacingtext.LineSpaceExtraContainer android:id="@id/atc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/at8">
+            <com.ss.android.ugc.live.notification.linespacingtext.LineSpaceTextView android:textSize="14.0sp" android:id="@id/atd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="6.0sp" />
+        </com.ss.android.ugc.live.notification.linespacingtext.LineSpaceExtraContainer>
+        <com.ss.android.ugc.live.notification.linespacingtext.LineSpaceExtraContainer android:id="@id/ate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/atc">
+            <com.ss.android.ugc.live.notification.linespacingtext.LineSpaceTextView android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/atf" android:background="@drawable/a1_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+        </com.ss.android.ugc.live.notification.linespacingtext.LineSpaceExtraContainer>
+    </RelativeLayout>
+    <View android:layout_marginLeft="64.0dip" android:layout_below="@id/ad7" android:layout_alignParentBottom="true" style="@style/ProfileDividerStyle" />
+</RelativeLayout>

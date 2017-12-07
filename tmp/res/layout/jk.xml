@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/afj" android:layout_width="75.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/afk" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/afl" android:layout_width="72.0dip" android:layout_height="wrap_content" android:layout_below="@id/afk" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/gs" android:id="@id/afm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="100" android:drawableRight="@drawable/af0" android:drawablePadding="2.0dip" android:layout_below="@id/afl" android:layout_centerHorizontal="true" />
+</RelativeLayout>

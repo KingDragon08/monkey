@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/hr" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bytedance.ies.uikit.viewpager.SSViewPager android:id="@id/vu" android:layout_width="fill_parent" android:layout_height="160.0dip" />
+    <com.bytedance.ies.uikit.layout.ViewPagerShower android:gravity="center_horizontal" android:id="@id/vv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="160.0dip" android:layout_marginBottom="8.0dip" />
+    <com.bytedance.ies.uikit.recyclerview.LoadingStatusView android:layout_gravity="center" android:id="@id/de" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

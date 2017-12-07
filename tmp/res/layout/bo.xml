@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/et" android:background="#ffffffff" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/o7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <SurfaceView android:id="@id/gr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/o8" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="11.0dip" android:layout_marginBottom="64.0dip" android:layout_above="@id/o9" android:layout_below="@id/o7" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/o_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/z4" android:layout_weight="1.0" />
+        <ImageView android:id="@id/oa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/z4" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ob" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/z4" android:layout_weight="1.0" />
+    </LinearLayout>
+    <SeekBar android:id="@id/o9" android:layout_width="fill_parent" android:layout_height="30.0dip" android:max="100" android:progress="10" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/f9" android:id="@id/agk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/agl" android:layout_width="@dimen/c4" android:layout_height="@dimen/c4" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/agk" android:layout_alignParentLeft="true" app:placeholderImage="@drawable/a55" app:roundAsCircle="true" />
+    <TextView android:textSize="@dimen/c5" android:textColor="@color/f3" android:id="@id/agm" android:background="@drawable/p5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="82.0dip" android:minHeight="@dimen/c4" android:layout_toRightOf="@id/agl" android:layout_below="@id/agk" android:layout_alignTop="@id/agl" />
+</RelativeLayout>

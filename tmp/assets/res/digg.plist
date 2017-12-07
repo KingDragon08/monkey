@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>alight_cat.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-4,1}</string>
+                <key>spriteSize</key>
+                <string>{92,86}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,730},{92,86}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>11 12 13 10 11 13 1 13 14 10 1 2 5 8 9 5 6 7 5 7 8 4 5 9 3 9 10 3 4 9 2 3 10 1 10 13 0 1 14 0 14 15</string>
+                <key>vertices</key>
+                <string>90 7 92 35 92 92 13 92 8 74 12 50 0 38 7 29 25 38 25 75 30 76 33 7 42 6 52 19 71 18 80 6</string>
+                <key>verticesUV</key>
+                <string>91 731 93 759 93 816 14 816 9 798 13 774 1 762 8 753 26 762 26 799 31 800 34 731 43 730 53 743 72 742 81 730</string>
+            </dict>
+            <key>alight_cat_border.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2.5,2}</string>
+                <key>spriteSize</key>
+                <string>{93,92}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,636},{93,92}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>17 11 12 5 8 9 6 7 8 5 6 8 21 22 5 4 5 22 25 1 2 29 0 1 23 24 2 22 23 2 22 2 3 4 22 3 21 5 9 18 21 9 18 19 20 18 20 21 17 18 9 17 9 10 17 10 11 16 17 12 15 12 13 15 16 12 30 13 14 30 15 13 0 29 30 26 27 28 25 26 28 1 28 29 25 2 24 1 25 28 0 30 14</string>
+                <key>vertices</key>
+                <string>92 6 94 36 94 94 19 94 4 79 11 52 2 43 1 32 12 28 28 35 31 5 43 4 54 18 69 17 84 2 74 24 49 24 40 18 41 35 53 35 53 49 38 51 37 89 81 89 89 86 86 56 71 48 71 35 82 35 88 23 80 18</string>
+                <key>verticesUV</key>
+                <string>92 640 94 670 94 728 19 728 4 713 11 686 2 677 1 666 12 662 28 669 31 639 43 638 54 652 69 651 84 636 74 658 49 658 40 652 41 669 53 669 53 683 38 685 37 723 81 723 89 720 86 690 71 682 71 669 82 669 88 657 80 652</string>
+            </dict>
+            <key>alight_cool.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1,0.5}</string>
+                <key>spriteSize</key>
+                <string>{84,81}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,1174},{84,81}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>7 8 9 0 7 9 6 0 5 6 7 0 3 4 5 0 1 2 0 2 3 0 3 5 11 12 13 10 11 13</string>
+                <key>vertices</key>
+                <string>64 27 91 27 91 90 34 90 21 85 19 67 21 33 37 21 39 9 61 9 16 83 7 83 7 35 16 35</string>
+                <key>verticesUV</key>
+                <string>58 1192 85 1192 85 1255 28 1255 15 1250 13 1232 15 1198 31 1186 33 1174 55 1174 10 1248 1 1248 1 1200 10 1200</string>
+            </dict>
+            <key>alight_cool_border.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1.5,1.5}</string>
+                <key>spriteSize</key>
+                <string>{89,89}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,998},{89,89}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>13 11 12 15 16 8 18 4 5 17 5 6 20 3 4 12 0 24 24 0 1 23 24 1 22 1 2 22 23 1 3 22 2 3 21 22 20 21 3 19 20 4 18 19 4 17 18 5 16 17 6 16 6 7 16 7 8 15 8 9 15 9 10 14 15 10 13 14 10 13 10 11 12 24 13</string>
+                <key>vertices</key>
+                <string>61 8 69 25 88 25 93 37 93 88 82 93 32 91 4 85 5 33 21 31 33 25 37 8 47 4 44 14 39 33 24 38 24 74 39 86 79 86 85 80 87 69 87 43 80 31 48 36 54 14</string>
+                <key>verticesUV</key>
+                <string>58 1002 66 1019 85 1019 90 1031 90 1082 79 1087 29 1085 1 1079 2 1027 18 1025 30 1019 34 1002 44 998 41 1008 36 1027 21 1032 21 1068 36 1080 76 1080 82 1074 84 1063 84 1037 77 1025 45 1030 51 1008</string>
+            </dict>
+            <key>alight_gift.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1.5,2.5}</string>
+                <key>spriteSize</key>
+                <string>{91,89}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,818},{91,89}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>10 13 14 10 12 13 10 11 12 1 4 14 8 9 10 7 10 14 7 8 10 4 5 7 5 6 7 4 7 14 4 1 2 4 2 3 0 1 14 0 14 15</string>
+                <key>vertices</key>
+                <string>78 8 86 27 94 31 94 53 84 57 84 92 13 92 13 59 4 50 3 28 17 26 17 14 25 6 40 6 48 11 65 3</string>
+                <key>verticesUV</key>
+                <string>76 823 84 842 92 846 92 868 82 872 82 907 11 907 11 874 2 865 1 843 15 841 15 829 23 821 38 821 46 826 63 818</string>
+            </dict>
+            <key>alight_gift_border.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1,2.5}</string>
+                <key>spriteSize</key>
+                <string>{94,93}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,541},{94,93}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>25 10 11 9 25 14 24 11 12 7 15 16 22 1 2 23 1 22 22 2 3 21 22 3 20 3 4 20 21 3 19 20 4 19 4 5 18 19 5 17 18 5 17 5 6 16 17 6 7 16 6 15 7 8 8 14 15 14 8 9 25 13 14 25 9 10 24 25 11 0 23 24 23 0 1 0 24 12</string>
+                <key>vertices</key>
+                <string>79 8 96 33 96 56 86 58 86 94 11 94 9 58 2 51 2 33 19 7 32 1 49 8 66 1 44 28 21 30 8 37 15 53 17 82 23 88 70 89 80 82 82 53 90 47 85 32 55 28 44 20</string>
+                <key>verticesUV</key>
+                <string>78 548 95 573 95 596 85 598 85 634 10 634 8 598 1 591 1 573 18 547 31 541 48 548 65 541 43 568 20 570 7 577 14 593 16 622 22 628 69 629 79 622 81 593 89 587 84 572 54 568 43 560</string>
+            </dict>
+            <key>alight_horse.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0.5}</string>
+                <key>spriteSize</key>
+                <string>{100,93}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,100},{100,93}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 18 19 13 16 17 13 15 16 2 18 0 13 14 15 13 23 12 9 11 12 13 17 23 9 10 11 20 21 7 6 3 4 7 21 3 6 4 5 0 1 2 2 17 18 22 23 17 22 2 3 3 6 7 21 22 3 20 7 8 20 8 9 12 23 20 12 20 9 22 17 2</string>
+                <key>vertices</key>
+                <string>98 27 92 41 78 43 80 67 96 67 100 74 94 86 67 96 28 95 9 86 0 80 1 67 18 64 15 52 7 53 4 41 8 28 43 29 64 8 98 3 36 77 62 78 59 62 42 61</string>
+                <key>verticesUV</key>
+                <string>99 124 93 138 79 140 81 164 97 164 101 171 95 183 68 193 29 192 10 183 1 177 2 164 19 161 16 149 8 150 5 138 9 125 44 126 65 105 99 100 37 174 63 175 60 159 43 158</string>
+            </dict>
+            <key>alight_horse_border.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{100,97}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{100,97}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>9 4 5 7 1 2 8 0 1 7 2 3 6 7 3 6 3 4 9 6 4 0 9 5 8 1 7 0 8 9 22 23 24 32 20 21 36 15 16 36 14 15 39 10 11 39 11 12 38 39 12 37 12 13 37 38 12 36 13 14 36 37 13 36 16 17 35 36 17 35 17 18 34 35 18 33 34 18 33 18 19 32 33 19 32 19 20 31 32 21 30 31 21 30 21 22 30 22 24 30 24 25 29 30 25 29 25 26 28 29 26 28 26 27 41 28 27 40 41 27 10 40 27 10 39 40</string>
+                <key>vertices</key>
+                <string>72 83 44 87 28 83 30 70 37 57 63 57 43 66 43 77 55 78 57 64 100 28 93 43 80 46 82 66 90 62 100 67 100 83 71 97 22 99 0 82 0 65 17 62 15 54 4 54 4 27 45 26 61 5 100 2 74 11 50 32 23 35 23 81 13 74 15 83 26 88 61 91 85 80 74 78 74 20 90 31 92 18 88 11</string>
+                <key>verticesUV</key>
+                <string>73 82 45 86 29 82 31 69 38 56 64 56 44 65 44 76 56 77 58 63 101 27 94 42 81 45 83 65 91 61 101 66 101 82 72 96 23 98 1 81 1 64 18 61 16 53 5 53 5 26 46 25 62 4 101 1 75 10 51 31 24 34 24 80 14 73 16 82 27 87 62 90 86 79 75 77 75 19 91 30 93 17 89 10</string>
+            </dict>
+            <key>alight_rock.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,0}</string>
+                <key>spriteSize</key>
+                <string>{83,86}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,1089},{83,86}}</string>
+                <key>textureRotated</key>
+                <true/>
+                <key>triangles</key>
+                <string>8 9 10 5 6 7 4 5 7 0 3 7 3 4 7 0 8 10 0 1 2 0 2 3 0 7 8</string>
+                <key>vertices</key>
+                <string>71 54 96 54 96 68 62 93 13 93 13 16 27 16 30 36 55 35 55 7 69 7</string>
+                <key>verticesUV</key>
+                <string>40 1147 40 1172 26 1172 1 1138 1 1089 78 1089 78 1103 58 1106 59 1131 87 1131 87 1145</string>
+            </dict>
+            <key>alight_rock_border.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4.5,0}</string>
+                <key>spriteSize</key>
+                <string>{87,90}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,909},{87,90}}</string>
+                <key>textureRotated</key>
+                <true/>
+                <key>triangles</key>
+                <string>10 11 12 7 8 9 6 7 9 0 9 10 5 6 9 0 10 12 0 5 9 3 0 1 3 1 2 0 3 4 5 0 4</string>
+                <key>vertices</key>
+                <string>73 55 84 49 98 55 98 68 63 95 20 95 11 86 11 14 29 14 31 34 53 32 53 5 71 5</string>
+                <key>verticesUV</key>
+                <string>41 971 47 982 41 996 28 996 1 961 1 918 10 909 82 909 82 927 62 929 64 951 91 951 91 969</string>
+            </dict>
+            <key>alight_sugar.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3,-3}</string>
+                <key>spriteSize</key>
+                <string>{94,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,445},{94,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 14 15 11 13 14 11 12 13 10 0 8 10 11 0 10 8 9 7 5 6 0 2 8 3 4 5 8 3 5 8 2 3 0 1 2 8 5 7 0 11 14</string>
+                <key>vertices</key>
+                <string>46 22 70 22 77 37 81 58 94 62 94 74 69 100 60 91 56 79 35 79 22 66 17 42 0 37 6 26 26 6 36 6</string>
+                <key>verticesUV</key>
+                <string>47 461 71 461 78 476 82 497 95 501 95 513 70 539 61 530 57 518 36 518 23 505 18 481 1 476 7 465 27 445 37 445</string>
+            </dict>
+            <key>alight_sugar_border.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,-1}</string>
+                <key>spriteSize</key>
+                <string>{99,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,274},{99,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>31 14 15 18 11 12 10 20 21 24 6 7 25 4 5 27 2 3 29 1 28 28 1 2 27 28 2 25 3 4 25 26 27 25 27 3 24 25 5 24 5 6 24 7 8 8 22 23 8 23 24 22 8 9 21 22 9 10 21 9 20 10 11 11 18 19 11 19 20 18 12 13 17 18 13 17 13 14 16 17 14 31 16 14 30 0 29 30 31 0 29 0 1 0 31 15</string>
+                <key>vertices</key>
+                <string>46 20 65 20 78 33 81 48 100 68 94 77 73 98 62 98 53 85 33 80 21 72 16 45 1 40 3 26 25 4 37 4 22 24 14 26 13 35 30 37 25 57 30 67 40 74 63 71 67 86 84 66 69 65 74 49 66 31 47 27 35 31 30 15</string>
+                <key>verticesUV</key>
+                <string>46 290 65 290 78 303 81 318 100 338 94 347 73 368 62 368 53 355 33 350 21 342 16 315 1 310 3 296 25 274 37 274 22 294 14 296 13 305 30 307 25 327 30 337 40 344 63 341 67 356 84 336 69 335 74 319 66 301 47 297 35 301 30 285</string>
+            </dict>
+            <key>alight_volcano.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-0.5,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{97,73}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,370},{97,73}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3 5 6 7 4 5 7 13 15 16 20 16 17 13 14 15 9 10 11 9 11 12 22 9 12 23 8 9 22 23 9 22 12 13 21 22 13 16 20 21 16 21 13 19 20 17 25 17 18 25 19 17 24 25 18 8 23 24 8 24 18</string>
+                <key>vertices</key>
+                <string>61 40 52 40 52 31 61 31 46 40 37 40 37 31 46 31 77 23 88 55 98 75 91 83 75 87 23 87 7 83 1 73 12 49 24 14 68 14 35 26 29 37 36 41 59 43 69 38 63 26 50 24</string>
+                <key>verticesUV</key>
+                <string>61 396 52 396 52 387 61 387 46 396 37 396 37 387 46 387 77 379 88 411 98 431 91 439 75 443 23 443 7 439 1 429 12 405 24 370 68 370 35 382 29 393 36 397 59 399 69 394 63 382 50 380</string>
+            </dict>
+            <key>alight_volcano_border.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{100,77}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{1,195},{100,77}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>10 7 8 5 12 13 4 13 14 15 2 3 15 1 2 9 0 16 1 15 16 1 16 0 14 15 3 4 14 3 5 13 4 11 12 5 11 5 6 11 6 7 10 11 7 10 8 9 9 16 10</string>
+                <key>vertices</key>
+                <string>79 22 88 50 100 73 93 86 70 89 21 89 3 84 0 73 24 12 69 12 18 51 10 75 24 82 67 83 86 79 89 72 77 51</string>
+                <key>verticesUV</key>
+                <string>80 205 89 233 101 256 94 269 71 272 22 272 4 267 1 256 25 195 70 195 19 234 11 258 25 265 68 266 87 262 90 255 78 234</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>digg.png</string>
+            <key>size</key>
+            <string>{102,1256}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:463832201a4bb898ff40353a453993aa:a8c96ed586b5ea3949290ad2c6b393db:6b713db9acc8b8e3bc4aa112129bbedb$</string>
+            <key>textureFileName</key>
+            <string>digg.png</string>
+        </dict>
+    </dict>
+</plist>

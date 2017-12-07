@@ -1,0 +1,15 @@
+{
+    "packageUrl" : "http://10.6.131.79:8000",
+    "remoteVersionUrl" : "http://10.6.131.79:8000/version.manifest",
+    "remoteManifestUrl" : "http://10.6.131.79:8000/project.manifest",
+    "version" : "1.0.1",
+    "engineVersion" : "3.1",
+
+    "assets" : {
+        
+    },
+
+    "searchPaths" : [
+
+    ]
+}

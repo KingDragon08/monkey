@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/dt" android:gravity="center" android:id="@id/r7" android:background="@color/ag" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/nc" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/pv" android:background="@color/gx" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/lr" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.ss.android.ugc.live.basemodule.view.MentionEditText android:textSize="14.0sp" android:textColorHint="@color/dv" android:id="@id/r8" android:background="@null" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:maxHeight="92.0dip" android:minHeight="32.0dip" android:hint="@string/jg" android:scrollHorizontally="false" android:layout_weight="1.0" android:lineSpacingExtra="3.0dip" android:inputType="textMultiLine" android:textCursorDrawable="@drawable/ol" />
+            <FrameLayout android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/r9" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_x" />
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="32.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/c8" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/r_" android:background="@drawable/bz" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/ad5" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

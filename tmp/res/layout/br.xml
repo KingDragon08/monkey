@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/kx" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/dc" layout="@layout/title_bar" />
+        <View android:layout_marginTop="2.0dip" android:layout_below="@id/dc" style="@style/ProfileDividerStyle" />
+    </RelativeLayout>
+    <fragment android:id="@id/ol" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.ss.android.ugc.live.notification.ui.LikeUsersFragment" />
+</LinearLayout>

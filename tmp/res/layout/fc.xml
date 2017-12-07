@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.live.feed.banner.widget.BannerSwipeRefreshLayout android:id="@id/gh" android:paddingLeft="-0.5dip" android:paddingTop="@dimen/h9" android:paddingRight="-0.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.ss.android.ugc.live.widget.FpsRecyclerView android:id="@id/mm" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.ss.android.ugc.live.feed.banner.widget.BannerSwipeRefreshLayout>
+    <com.bytedance.ies.uikit.recyclerview.LoadingStatusView android:id="@id/de" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+</FrameLayout>

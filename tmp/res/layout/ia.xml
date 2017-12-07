@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.live.search.widget.FlowLayout android:id="@id/abw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="9.5dip" />
+    <View android:background="@color/f7" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

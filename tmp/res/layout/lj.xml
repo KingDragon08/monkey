@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ak9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fm" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/ak_" android:layout_width="22.0dip" android:layout_height="22.0dip" app:placeholderImage="@drawable/a55" app:placeholderImageScaleType="b9" app:actualImageScaleType="b9" app:roundAsCircle="true" app:roundingBorderWidth="1.0dip" app:roundingBorderColor="@color/gi" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/aka" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="15.0dip" app:placeholderImage="@drawable/a55" app:placeholderImageScaleType="b9" app:actualImageScaleType="b9" app:roundAsCircle="true" app:roundingBorderWidth="1.0dip" app:roundingBorderColor="@color/gi" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/akb" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="15.0dip" app:placeholderImage="@drawable/a55" app:placeholderImageScaleType="b9" app:actualImageScaleType="b9" app:roundAsCircle="true" app:roundingBorderWidth="1.0dip" app:roundingBorderColor="@color/gi" />
+    </FrameLayout>
+    <TextView android:gravity="center|left" android:id="@id/ak8" android:paddingRight="@dimen/fm" android:layout_width="fill_parent" android:layout_marginLeft="8.0dip" android:drawableRight="@drawable/agj" android:layout_toRightOf="@id/ak9" android:layout_centerVertical="true" style="@style/MyProfileItemTitleStyle" />
+    <View android:layout_alignParentBottom="true" style="@style/ProfileDividerStyle" />
+</RelativeLayout>

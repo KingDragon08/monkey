@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/u_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" custom:placeholderImage="@drawable/p1" custom:placeholderImageScaleType="b9" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/c_" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dialog_live_end_title" />
+            <include android:id="@id/ua" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dialog_live_end_contribution" />
+            <include android:id="@id/ub" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_live_end_interact" />
+            <include android:id="@id/uc" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dialog_live_end_video" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ud" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <RelativeLayout android:id="@id/ue" android:layout_width="140.0dip" android:layout_height="44.0dip" android:layout_marginRight="15.0dip">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/or" android:gravity="center" android:id="@id/uf" android:background="@drawable/fi" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/qm" />
+                    <ProgressBar android:id="@id/ug" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Small" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/uh" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/a3b" />
+</FrameLayout>

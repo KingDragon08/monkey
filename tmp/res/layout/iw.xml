@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/pt" android:gravity="center" android:id="@id/r_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="15.0dip" android:text="@string/ad5" android:layout_alignParentRight="true" />
+    <com.ss.android.ugc.live.comment.WrapKeyEventBackEditText android:id="@id/r8" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:hint="@string/jg" android:maxLines="3" android:scrollHorizontally="false" android:layout_weight="1.0" android:layout_toLeftOf="@id/r_" android:inputType="textMultiLine" />
+</RelativeLayout>

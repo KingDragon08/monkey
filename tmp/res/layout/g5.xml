@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/a5u" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/a5v" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <com.ss.android.ugc.live.detail.widget.FixedTextureView android:id="@id/a5w" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.ss.android.ugc.live.detail.widget.DiggLayout android:id="@id/a5x" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/a5y" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/layout_video_header" />
+    <LinearLayout android:orientation="vertical" android:id="@id/a5z" android:background="@drawable/cj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.ss.android.ugc.live.detail.widget.danmaku.DanmakuView android:id="@id/a60" android:background="@android:color/transparent" android:paddingBottom="6.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/cn" />
+        <include android:id="@id/a61" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_video_ad_author_info" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentBottom="true" layout="@layout/layout_video_ad_comment_list" />
+    <com.ss.android.ugc.live.comment.CommentLoadingView android:id="@id/a62" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7r" android:layout_centerInParent="true" />
+</RelativeLayout>

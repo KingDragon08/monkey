@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/fs" android:background="@color/bw" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <RelativeLayout android:id="@id/dc" style="@style/title_bar_style">
+        <TextView android:id="@id/fv" style="@style/back_view" />
+        <TextView android:id="@id/c_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aqc" android:layout_centerInParent="true" style="@style/title_text_style" />
+    </RelativeLayout>
+    <View android:layout_height="10.0dip" style="@style/ProfileAreaDividerStyle" />
+    <LinearLayout android:id="@id/a2d" android:background="@color/fn" style="@style/ProfileEditMainItemStyle">
+        <TextView android:text="@string/aai" style="@style/ProfileEditMainTextStyle" />
+        <TextView android:textColor="@color/g0" android:gravity="center|right" android:id="@id/a2e" android:layout_width="fill_parent" style="@style/ProfileEditSubTextStyle" />
+    </LinearLayout>
+    <View style="@style/ProfileDividerStyle" />
+    <LinearLayout android:id="@id/a2f" android:background="@color/fn" style="@style/ProfileEditMainItemStyle">
+        <TextView android:text="@string/u_" style="@style/ProfileEditMainTextStyle" />
+        <TextView android:textColor="@color/g0" android:gravity="center|right" android:id="@id/a2g" android:layout_width="fill_parent" style="@style/ProfileEditSubTextStyle" />
+    </LinearLayout>
+    <View style="@style/ProfileDividerStyle" />
+    <LinearLayout android:id="@id/a2h" android:background="@color/fn" style="@style/ProfileEditMainItemStyle">
+        <TextView android:text="@string/aty" style="@style/ProfileEditMainTextStyle" />
+        <TextView android:textColor="@color/g0" android:gravity="center|right" android:id="@id/a2i" android:layout_width="fill_parent" style="@style/ProfileEditSubTextStyle" />
+    </LinearLayout>
+    <View style="@style/ProfileDividerStyle" />
+</LinearLayout>

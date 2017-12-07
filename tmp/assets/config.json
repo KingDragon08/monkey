@@ -1,0 +1,57 @@
+{
+    "common":{
+       "version": 3
+    },
+    "node_map": [
+        {
+            "node_id": 9,
+            "node_module_name": "app.gift.special.AirplaneNode"
+        },
+        {
+            "node_id": 15,
+            "node_module_name": "app.gift.special.EggNode"
+        },
+        {
+            "node_id": 24,
+            "node_module_name": "app.gift.special.KissNode"
+        },
+        {
+            "node_id": 25,
+            "node_module_name": "app.gift.special.LoveGestureNode"
+        },
+        {
+            "node_id": 46,
+            "node_module_name": "app.gift.special.BalloonCarNode"
+        },
+        {
+            "node_id": 47,
+            "node_module_name": "app.gift.special.RedCarNode"
+        },
+        {
+            "node_id": 48,
+            "node_module_name": "app.gift.special.VolcanoNode"
+        },
+        {
+            "node_id": 94,
+            "node_module_name": "app.gift.special.HotsoonPlanetNode"
+        },
+        {
+            "node_id": 1000000,
+            "node_module_name": "app.gift.special.Roses999Node"
+        }
+    ],
+    "entry": [
+        {
+            "entry_id": 1,
+            "entry_module_name": "app.entry.NormalEnterNode"
+        },
+        {
+            "entry_id": 2,
+            "entry_module_name": "app.entry.TopUserEnterNode"
+        },
+        {
+            "entry_id": 3,
+            "entry_module_name": "app.entry.VipUserEnterNode"
+        }
+    ]
+}

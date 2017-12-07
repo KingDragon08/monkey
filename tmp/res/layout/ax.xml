@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.uikit.tabhost.FragmentTabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/tab_activity">
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <TabWidget android:id="@android:id/tabs" android:background="@drawable/k2" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true" />
+        <FrameLayout android:id="@id/i9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@android:id/tabs" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/i_" android:layout_width="48.0dip" android:layout_height="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/jf" android:layout_alignTop="@android:id/tabs" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ia" android:background="@color/fq" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/ib" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:placeholderImage="@drawable/a55" app:placeholderImageScaleType="be" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/gj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textColor="@color/kb" android:gravity="center" android:id="@id/fb" android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="@dimen/h9" />
+        <View android:id="@id/h7" android:layout_alignParentTop="true" style="@style/ProfileDividerStyle" />
+    </LinearLayout>
+</com.bytedance.ies.uikit.tabhost.FragmentTabHost>

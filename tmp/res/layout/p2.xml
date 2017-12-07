@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/atm" android:background="@drawable/a1s" android:layout_width="140.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/a8i" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/a2_" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/atn" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="12.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" fresco:placeholderImage="@drawable/a55" fresco:retryImageScaleType="be" fresco:roundAsCircle="true" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/fh" android:gravity="center" android:id="@id/ato" android:layout_width="116.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:singleLine="true" android:layout_below="@id/atn" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/fg" android:gravity="center" android:id="@id/atp" android:layout_width="116.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="12.0dip" android:layout_below="@id/ato" android:layout_centerHorizontal="true" />
+    <FrameLayout android:id="@id/ue" android:layout_width="116.0dip" android:layout_height="32.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="12.0dip" android:layout_below="@id/atp" android:layout_alignParentRight="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/atq" android:background="@drawable/a14" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="关注" android:layout_centerHorizontal="true" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/ug" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Small" />
+    </FrameLayout>
+</RelativeLayout>

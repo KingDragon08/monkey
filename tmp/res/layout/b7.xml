@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/kx" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dc" style="@style/title_bar_style">
+        <TextView android:id="@id/fv" style="@style/back_view" />
+        <TextView android:id="@id/c_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aa2" android:layout_centerInParent="true" style="@style/title_text_style" />
+    </RelativeLayout>
+    <View android:id="@id/jm" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/dc" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff808080" android:gravity="center_vertical" android:id="@id/jn" android:background="@color/c2" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/a4o" android:layout_below="@id/jm" android:layout_alignParentLeft="true" />
+    <CheckedTextView android:id="@id/jo" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:checkMark="@drawable/bg" android:text="@string/jr" android:layout_below="@id/jn" style="@style/setting_item" />
+    <View android:id="@id/fd" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_below="@id/jo" />
+    <CheckedTextView android:id="@id/jp" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:checkMark="@drawable/bg" android:text="@string/na" android:layout_below="@id/fd" style="@style/setting_item" />
+    <View android:id="@id/ff" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_below="@id/jp" />
+    <CheckedTextView android:id="@id/jq" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:checkMark="@drawable/bg" android:text="@string/qv" android:layout_below="@id/ff" style="@style/setting_item" />
+    <View android:id="@id/j2" android:background="@color/gr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/jq" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff808080" android:gravity="center_vertical" android:id="@id/jr" android:background="@color/c2" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ar1" android:layout_below="@id/j2" />
+    <CheckedTextView android:id="@id/js" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:checkMark="@drawable/bg" android:text="@string/qy" android:layout_below="@id/jr" style="@style/setting_item" />
+    <View android:id="@id/jt" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_below="@id/js" />
+    <CheckedTextView android:id="@id/ju" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:checkMark="@drawable/bg" android:text="@string/ar6" android:layout_below="@id/jt" style="@style/setting_item" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff808080" android:gravity="center_vertical" android:id="@id/jv" android:background="@color/c2" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/zo" android:layout_below="@id/ju" />
+    <TextView android:id="@id/jw" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:text="@string/zx" android:drawableRight="@drawable/a6c" android:layout_below="@id/jv" style="@style/setting_item" />
+    <LinearLayout android:orientation="vertical" android:id="@id/jx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/jw">
+        <TextView android:textSize="12.0sp" android:textColor="@color/f_" android:gravity="center_vertical" android:id="@id/jy" android:background="@color/c2" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ho" android:layout_below="@id/jw" />
+        <CheckedTextView android:id="@id/jz" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:checkMark="@drawable/bg" android:text="@string/hx" android:layout_below="@id/jy" style="@style/setting_item" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/asd" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="15.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/ase" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholderImage="@drawable/a6j" app:placeholderImageScaleType="b9" />
+        <View android:id="@id/asf" android:background="@color/fx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/m9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7q" />
+    </FrameLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/gp" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/asg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="143.0dip" android:text="@string/gh" android:includeFontPadding="false" android:drawablePadding="8.0dip" android:layout_toRightOf="@id/asd" android:layout_centerVertical="true" />
+    <View android:background="@color/gr" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_toLeftOf="@id/ash" />
+    <FrameLayout android:id="@id/ash" android:layout_width="125.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/asi" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/gy" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/ge" android:layout_gravity="center_horizontal" android:id="@id/asj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/io" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

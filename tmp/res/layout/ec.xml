@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/i6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/i5" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/f3" android:id="@id/c_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/jb" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="8.0dip" android:src="@drawable/o7" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="@color/f7" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="16.0dip" />
+    <RelativeLayout android:id="@id/yg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/yh" android:layout_width="288.0dip" android:layout_height="160.0dip" android:layout_marginLeft="38.0dip" android:layout_marginRight="49.0dip" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/yi" android:layout_width="96.0dip" android:layout_height="53.0dip" />
+        <ImageView android:id="@id/yj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="38.0dip" android:layout_marginRight="49.0dip" android:src="@drawable/yv" android:scaleType="fitXY" />
+        <ImageView android:id="@id/yk" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/aex" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/gz" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="38.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="49.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/f9" android:id="@id/yl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alu" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/ym" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/oi" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/yn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="33.0dip" android:layout_marginBottom="64.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/pu" />
+        <ImageView android:id="@id/yo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:layout_marginBottom="-12.0dip" android:src="@drawable/afy" />
+    </RelativeLayout>
+</LinearLayout>

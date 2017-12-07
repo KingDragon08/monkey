@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/a56" android:layout_width="@dimen/da" android:layout_height="@dimen/da" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" app:placeholderImage="@drawable/a55" app:actualImageScaleType="b9" app:roundAsCircle="true" />
+    <FrameLayout android:id="@id/a8t" android:layout_width="50.0dip" android:layout_height="18.0dip" android:layout_marginRight="@dimen/fm" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="12.0dip" android:textColor="@color/ge" android:gravity="center" android:id="@id/k8" android:background="@drawable/h_" android:layout_width="50.0dip" android:layout_height="18.0dip" android:text="@string/aox" android:layout_alignParentRight="true" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/a8u" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Small" />
+    </FrameLayout>
+    <TextView android:textSize="15.0dip" android:textColor="@color/fj" android:id="@id/il" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/a8t" android:layout_toRightOf="@id/a56" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

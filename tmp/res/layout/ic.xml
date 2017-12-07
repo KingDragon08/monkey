@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/a56" android:layout_width="@dimen/fz" android:layout_height="@dimen/fz" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_centerVertical="true" app:placeholderImage="@drawable/a55" app:actualImageScaleType="b9" app:roundAsCircle="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/ue" android:layout_toRightOf="@id/a56" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/g8" android:ellipsize="end" android:id="@id/z7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="35.0dip" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/g9" android:ellipsize="end" android:id="@id/abx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="35.0dip" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="@id/z7" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/ue" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginRight="@dimen/fm" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/aby" android:layout_width="wrap_content" android:layout_height="32.0dip" android:minWidth="64.0dip" android:layout_alignParentRight="true" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/ug" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Small" />
+    </FrameLayout>
+</RelativeLayout>

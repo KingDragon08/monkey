@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ac4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="78.0dip" android:layout_height="78.0dip">
+            <RelativeLayout android:id="@id/ac5" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_centerInParent="true">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/ac6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <View android:id="@id/ac7" android:background="@drawable/d_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/gx" android:id="@id/ac8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="灵魂出窍" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/fn" android:paddingLeft="15.0dip" android:paddingRight="10.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="@dimen/h9">
+        <RelativeLayout android:id="@id/g7" android:background="@drawable/j0" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/g8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/acp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <EditText android:textSize="14.0sp" android:textColorHint="@color/gp" android:id="@id/g9" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:lines="1" android:layout_toRightOf="@id/g8" android:inputType="text" android:imeOptions="actionSearch" />
+            <LinearLayout android:gravity="center" android:id="@id/g_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:id="@id/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/acp" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/dt" android:gravity="center" android:id="@id/gb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/dh" />
+            </LinearLayout>
+            <ImageView android:id="@id/gc" android:background="@drawable/aco" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="15.0sp" android:textColor="@color/fj" android:id="@id/gd" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/g7" />
+    </LinearLayout>
+    <View android:background="@color/gr" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/ge" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.bytedance.ies.uikit.recyclerview.LoadingStatusView android:id="@id/gf" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/profile_live_title_bar" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/aqm" />
+    <EditText android:id="@id/a22" android:layout_height="48.0dip" android:layout_marginTop="1.0dip" android:hint="@string/aag" android:lines="1" android:inputType="textPersonName" style="@style/verify_edit" />
+    <EditText android:id="@id/a23" android:layout_height="48.0dip" android:layout_marginTop="1.0dip" android:hint="@string/a91" android:lines="1" android:maxLength="11" android:digits="\ 0123456789" android:inputType="phone" style="@style/verify_edit" />
+    <EditText android:id="@id/a24" android:layout_height="48.0dip" android:layout_marginTop="1.0dip" android:hint="@string/u7" android:lines="1" android:maxLength="18" android:digits="0123456789Xx" style="@style/verify_edit" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gb" android:gravity="center" android:id="@id/a25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="34.0dip" android:text="@string/ci" android:includeFontPadding="false" android:drawableLeft="@drawable/a4f" android:drawablePadding="6.0dip" />
+    <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/a26" android:background="@drawable/iw" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:text="@string/aql" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="32.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="#ffb0b0b0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aq5" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/gb" android:id="@id/a27" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aq8" />
+    </LinearLayout>
+</LinearLayout>

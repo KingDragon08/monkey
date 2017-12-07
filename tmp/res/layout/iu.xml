@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="36.0dip" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/ad7" android:layout_width="@dimen/hz" android:layout_height="@dimen/hz" android:layout_marginTop="10.0dip" android:layout_marginRight="6.0dip" fresco:placeholderImage="@drawable/a55" fresco:retryImageScaleType="be" fresco:roundAsCircle="true" />
+    <ImageView android:id="@id/ad8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a6b" android:layout_alignParentRight="true" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/zp" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="2.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

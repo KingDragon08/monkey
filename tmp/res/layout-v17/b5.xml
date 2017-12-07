@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/kx" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dc" style="@style/title_bar_style">
+        <TextView android:id="@id/fv" style="@style/back_view" />
+        <TextView android:id="@id/c_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_5" android:layout_centerInParent="true" style="@style/title_text_style" />
+        <View android:background="@color/gr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <CheckedTextView android:id="@id/iz" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:layout_marginTop="8.0dip" android:checkMark="@drawable/bg" android:text="@string/nd" android:layout_below="@id/dc" style="@style/setting_item" />
+    <View android:id="@id/ff" android:background="@color/gr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" android:layout_below="@id/iz" />
+    <CheckedTextView android:id="@id/j0" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:checkMark="@drawable/bg" android:text="@string/nk" android:layout_below="@id/ff" style="@style/setting_item" />
+    <CheckedTextView android:id="@id/j1" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:layout_marginTop="8.0dip" android:checkMark="@drawable/bg" android:text="@string/ne" android:layout_below="@id/j0" style="@style/setting_item" />
+    <View android:id="@id/j2" android:background="@color/gr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" android:layout_below="@id/j1" />
+    <CheckedTextView android:id="@id/j3" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:checkMark="@drawable/bg" android:text="@string/nf" android:layout_below="@id/j2" style="@style/setting_item" />
+    <CheckedTextView android:id="@id/j4" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:layout_marginTop="10.0dip" android:checkMark="@drawable/bg" android:text="@string/ng" android:layout_below="@id/j3" style="@style/setting_item" />
+    <TextView android:textSize="12.0sp" android:id="@id/j5" android:paddingLeft="16.0dip" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="0.0dip" android:text="@string/nh" android:layout_below="@id/j4" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="12.0sp" android:id="@id/j6" android:paddingLeft="16.0dip" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="0.0dip" android:text="@string/nj" android:layout_below="@id/j7" android:layout_alignParentLeft="true" />
+    <CheckedTextView android:id="@id/j7" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:checkMark="@drawable/bg" android:text="@string/ni" android:layout_below="@id/j5" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/setting_item" />
+    <LinearLayout android:orientation="vertical" android:id="@id/j8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/j6">
+        <CheckedTextView android:id="@id/j9" android:layout_width="fill_parent" android:layout_height="@dimen/g1" android:layout_marginTop="10.0dip" android:checkMark="@drawable/bg" android:text="@string/h_" android:layout_below="@id/j6" style="@style/setting_item" />
+        <TextView android:textSize="12.0sp" android:id="@id/j_" android:paddingLeft="16.0dip" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hu" android:layout_below="@id/j9" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    </LinearLayout>
+</RelativeLayout>

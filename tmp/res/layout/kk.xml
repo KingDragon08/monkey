@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.live.qrcode.view.BarcodeView android:id="@id/ahp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.ss.android.ugc.live.qrcode.view.ViewfinderView android:id="@id/ahq" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

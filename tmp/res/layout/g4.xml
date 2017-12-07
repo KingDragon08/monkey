@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ct" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dc" layout="@layout/profile_live_title_bar" />
+    <View android:background="@color/ix" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/j3" android:layout_gravity="center_horizontal" android:id="@id/a5q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" />
+    <RelativeLayout android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="16.0dip">
+        <TextView android:textSize="15.0dip" android:textColor="@color/k9" android:id="@id/a5r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="15.0dip" android:text="@string/aby" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <EditText android:textSize="15.0sp" android:textColor="@color/fj" android:textColorHint="@color/g0" android:id="@id/a5s" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:hint="@string/j4" android:maxLines="1" android:layout_toLeftOf="@id/a5r" android:layout_centerVertical="true" android:inputType="number" android:imeOptions="actionGo" />
+    </RelativeLayout>
+    <TextView android:enabled="false" android:textSize="16.0sp" android:textColor="@color/cw" android:gravity="center" android:id="@id/eh" android:background="@drawable/gp" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:text="@string/a63" android:lineSpacingExtra="0.0sp" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/f9" android:gravity="center_horizontal" android:id="@id/a5t" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/bz" />
+</LinearLayout>

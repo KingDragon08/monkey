@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/a7c" android:background="@drawable/e9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bytedance.ies.uikit.viewpager.ImageViewTouchViewPager android:id="@id/a7d" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/or" android:gravity="center" android:id="@id/a7e" android:background="@drawable/op" android:layout_width="50.0dip" android:layout_height="28.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/acd" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/or" android:gravity="center" android:id="@id/a7f" android:background="@drawable/op" android:layout_width="50.0dip" android:layout_height="28.0dip" android:layout_marginLeft="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+[
+  {
+    "packageName": "com.ss.android.ugc.live.livebroadcast_so",
+    "pluginType": 2
+  },
+  {
+    "packageName": "com.bytedance.common.plugin.hotsoon.cronet",
+    "pluginType": 2,
+    "loadSign": 1
+  },
+  {
+    "_comment": "直播插件(外置|耦合)",
+    "packageName": "com.ss.android.ies.live.liveresource",
+    "pluginType": 2
+  }
+]

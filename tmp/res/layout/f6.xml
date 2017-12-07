@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ix" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dc" layout="@layout/profile_live_title_bar" />
+    <com.bytedance.ies.uikit.layout.SwipeOverlayFrameLayout android:id="@id/a9" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:background="@color/or" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="16.0dip">
+                <TextView android:textColor="@color/f_" android:gravity="center_vertical" android:id="@id/a28" android:layout_width="72.0dip" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:text="@string/dz" android:lineSpacingExtra="2.0sp" />
+                <EditText android:textSize="14.0sp" android:textColor="@color/f_" android:textColorHint="@color/f9" android:id="@id/rt" android:background="@null" android:layout_width="255.0dip" android:layout_height="wrap_content" android:hint="@string/e0" android:maxLength="11" android:layout_toRightOf="@id/a28" android:layout_centerVertical="true" android:inputType="number" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/k9" android:gravity="center" android:id="@id/ru" android:layout_width="96.0dip" android:layout_height="32.0dip" android:layout_marginRight="12.0dip" android:text="@string/dw" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:layout_height="1.0px" style="@style/ProfileDividerStyle" />
+            <RelativeLayout android:background="@color/or" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:textColor="@color/f_" android:gravity="center_vertical" android:id="@id/a29" android:layout_width="72.0dip" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:text="@string/e7" android:lineSpacingExtra="2.0sp" />
+                <EditText android:textSize="14.0sp" android:textColor="@color/f_" android:textColorHint="@color/f9" android:id="@id/rv" android:background="@null" android:layout_width="255.0dip" android:layout_height="wrap_content" android:hint="@string/e8" android:layout_toRightOf="@id/a29" android:layout_centerVertical="true" android:inputType="number" />
+            </RelativeLayout>
+            <View android:layout_height="1.0px" style="@style/ProfileDividerStyle" />
+            <RelativeLayout android:background="@color/or" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:textColor="@color/f_" android:gravity="center_vertical" android:id="@id/a2_" android:layout_width="72.0dip" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:text="@string/e2" android:lineSpacingExtra="2.0sp" />
+                <EditText android:textSize="14.0sp" android:textColor="@color/f_" android:textColorHint="@color/f9" android:id="@id/rw" android:background="@null" android:layout_width="255.0dip" android:layout_height="wrap_content" android:hint="@string/e4" android:layout_toRightOf="@id/a2_" android:layout_centerVertical="true" android:inputType="textPassword" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <CheckBox android:id="@id/rx" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:button="@drawable/o_" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/f_" android:id="@id/ry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/dq" />
+            </LinearLayout>
+            <Button android:textSize="16.0sp" android:textColor="@color/ps" android:id="@id/rz" android:background="@drawable/iw" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="16.0dip" android:text="@string/e5" style="?android:attr/borderlessButtonStyle" />
+        </LinearLayout>
+    </com.bytedance.ies.uikit.layout.SwipeOverlayFrameLayout>
+</LinearLayout>

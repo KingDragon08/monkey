@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/c9" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_centerInParent="true" fresco:actualImageScaleType="b_" />
+    <ImageView android:layout_gravity="center" android:id="@id/acc" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/a9s" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/acd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a9q" android:layout_alignRight="@id/c9" android:layout_alignBottom="@id/c9" />
+    <ProgressBar android:id="@id/m9" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ol" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/sn" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/so" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="72.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ae9" android:scaleType="fitXY" />
+        <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/sp" android:layout_width="192.0dip" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:text="@string/q7" android:shadowColor="@color/ep" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="0.1" />
+        <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ae_" android:scaleType="fitXY" />
+    </LinearLayout>
+    <View android:id="@id/mw" android:background="@color/ba" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="@dimen/by" android:layout_above="@id/nz" />
+    <include android:id="@id/sq" layout="@layout/live_filter_choose_view" />
+    <include android:id="@id/sr" layout="@layout/live_enlarge_eyes_choose_view" />
+    <include android:id="@id/ss" layout="@layout/live_beauty_level_choose_view" />
+    <View android:id="@id/st" android:background="@color/ba" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/nz" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/nz" android:background="@color/b_" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/l6" android:gravity="center" android:id="@id/su" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/oy" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/l6" android:gravity="center" android:id="@id/sv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/q5" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/l6" android:gravity="center" android:id="@id/sw" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/f7" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

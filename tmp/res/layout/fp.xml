@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ol" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <SurfaceView android:id="@id/hz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/a3v" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" custom:placeholderImage="@drawable/p1" custom:placeholderImageScaleType="b9" />
+    <FrameLayout android:id="@id/en" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/i2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.github.rahatarmanahmed.cpv.CircularProgressView android:id="@id/i3" android:visibility="invisible" android:layout_width="32.0dip" android:layout_height="32.0dip" custom:cpv_color="#fffdcaf5" custom:cpv_thickness="3.0dip" custom:cpv_indeterminate="true" custom:cpv_animAutostart="false" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/gi" android:layout_gravity="center" android:id="@id/i4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zf" />
+    </LinearLayout>
+    <ViewStub android:id="@id/a3w" android:layout="@layout/kb" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

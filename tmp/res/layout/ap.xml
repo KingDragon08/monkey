@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/e_" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dc" layout="@layout/title_bar" />
+    <include android:id="@id/ht" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/tool_bar_comment" />
+    <FrameLayout android:id="@id/en" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ht" android:layout_below="@id/dc" />
+    <View android:id="@id/q" style="@style/night_mode_overlay" />
+</RelativeLayout>

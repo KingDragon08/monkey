@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.ies.uikit.layout.MaxSizeLinearLayout android:orientation="vertical" android:background="@drawable/vh" android:paddingLeft="40.0dip" android:paddingTop="0.0dip" android:paddingRight="40.0dip" android:paddingBottom="0.0dip" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="240.0dip" app:maxWidth="320.0dip">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textSize="23.0sp" android:textColor="#ff464646" android:id="@id/aq0" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:id="@id/fd" android:background="#ff707070" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="4.0dip" />
+            <View android:id="@id/ff" android:background="#ff707070" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="2.0dip" />
+        </LinearLayout>
+        <ScrollView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="100.0dip">
+                <TextView android:textSize="13.0sp" android:textColor="#ffff6d6d" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/aq1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/ap0" />
+                <TextView android:textSize="13.0sp" android:textColor="#ff464646" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" />
+            </LinearLayout>
+        </ScrollView>
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/aq2" android:layout_width="@dimen/hd" android:layout_height="@dimen/hd" android:layout_marginBottom="28.0dip">
+            <ImageView android:id="@id/aq3" android:background="@drawable/tz" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ProgressBar android:id="@id/aq4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/hd" android:maxHeight="@dimen/hd" android:indeterminate="true" android:indeterminateDrawable="@drawable/rv" android:indeterminateDuration="750" android:minWidth="@dimen/hd" android:minHeight="@dimen/hd" />
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/aq5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.1" />
+                <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/aq6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/aq7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/vz" />
+            </LinearLayout>
+        </FrameLayout>
+        <TextView android:textSize="15.0sp" android:textColor="#ffff6d6d" android:layout_gravity="center_horizontal" android:id="@id/aq8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" />
+    </com.bytedance.ies.uikit.layout.MaxSizeLinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aq9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <ImageView android:background="@drawable/b1" android:duplicateParentState="true" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/b2" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:id="@id/pt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

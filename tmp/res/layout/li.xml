@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="9.0sp" android:textColor="@color/gi" android:id="@id/ak6" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="@dimen/fm" android:layout_marginTop="12.5dip" android:includeFontPadding="false" android:lineSpacingExtra="-3.0dip" />
+    <TextView android:id="@id/ak7" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/ak6" android:layout_alignTop="@id/ak6" style="@style/MyProfileItemTitleStyle" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/g0" android:id="@id/ak8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignLeft="@id/ak7" android:layout_alignBottom="@id/ak6" />
+    <View android:layout_marginTop="12.5dip" android:layout_below="@id/ak6" android:layout_alignParentBottom="true" style="@style/ProfileDividerStyle" />
+</RelativeLayout>

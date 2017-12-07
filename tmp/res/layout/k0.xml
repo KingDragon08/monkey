@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bytedance.ies.uikit.viewpager.SSViewPager android:id="@id/ft" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/dc" android:background="#ff22292c" android:layout_width="fill_parent" android:layout_height="@dimen/h9">
+        <TextView android:textSize="18.0sp" android:textColor="@color/kb" android:id="@id/ic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/ed" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/ag_" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/p3" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/afy" android:background="#ff22292c" android:layout_width="fill_parent" android:layout_height="@dimen/h9" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/ag0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/media_choose_btn" />
+        <TextView android:id="@id/ag1" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/a42" android:layout_alignParentRight="true" style="@style/media_choose_btn" />
+    </RelativeLayout>
+</RelativeLayout>

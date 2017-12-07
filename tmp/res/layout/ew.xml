@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/a10" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="0.0dip">
+        <ImageView android:id="@id/a11" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a3_" android:scaleType="fitXY" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+        <com.ss.android.ugc.live.core.ui.widget.VHeadView android:gravity="center_horizontal" android:id="@id/a12" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_centerInParent="true" android:layout_centerHorizontal="true" fresco:retryImageScaleType="bb" fresco:roundAsCircle="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#ff404040" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/a13" android:layout_width="72.0dip" android:layout_height="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" android:maxEms="10" android:singleLine="true" android:layout_centerHorizontal="true" />
+</LinearLayout>

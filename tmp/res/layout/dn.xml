@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.ss.android.ies.live.sdk.chatroom.widget.PushStreamSurfaceView android:id="@id/eu" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+        <ImageView android:id="@id/u7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/a6s" />
+        <ImageView android:layout_gravity="right" android:id="@id/ev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/a6r" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/hq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="63.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/gi" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@string/xw" />
+        <View android:background="@color/hp" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <com.ss.android.ies.live.sdk.chatroom.widget.LevelSelectView android:id="@id/u8" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_marginTop="24.0dip" custom:max_level="5" custom:current_level="3" custom:item_bg_color="@color/gs" custom:item_radius="24.0dip" custom:text_color="@color/gi" custom:text_size="20.0sp" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/fj" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/u9" android:background="@drawable/ao" android:layout_width="200.0dip" android:layout_height="44.0dip" android:layout_marginTop="26.0dip" android:layout_marginBottom="16.0dip" android:text="@string/xq" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/co" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <FrameLayout android:id="@id/gg" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="9.0dip" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a44" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="18.0sp" android:textColor="@color/gs" android:layout_gravity="center_horizontal" android:id="@id/c_" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/sk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:id="@id/sl" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:id="@id/sm" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/m_" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/a4k" />
+        </FrameLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/f5" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="402.0dip">
+        <include layout="@layout/view_rank_dialog_top" />
+    </FrameLayout>
+</LinearLayout>

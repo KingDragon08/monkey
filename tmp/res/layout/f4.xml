@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ct" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dc" layout="@layout/profile_live_title_bar" />
+    <View android:background="@color/ix" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <ImageView android:layout_gravity="center" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="130.0dip" android:src="@drawable/a86" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/f3" android:gravity="center_horizontal" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="42.0dip" android:text="@string/by" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/f9" android:gravity="center_horizontal" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/c1" />
+    <TextView android:enabled="true" android:textSize="16.0sp" android:textColor="@color/gx" android:gravity="center" android:id="@id/eh" android:background="@drawable/gp" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="32.0dip" android:text="@string/qa" android:lineSpacingExtra="0.0sp" />
+</LinearLayout>

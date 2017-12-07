@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/a53" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/mi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/a3y">
+        <LinearLayout android:orientation="vertical" android:id="@id/a54" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/a55" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.ss.android.ugc.live.core.ui.widget.VHeadView android:layout_gravity="center_horizontal" android:id="@id/a56" android:layout_width="@dimen/fk" android:layout_height="@dimen/fk" android:layout_marginTop="32.0dip" app:roundAsCircle="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/ok" android:layout_gravity="center_horizontal" android:id="@id/a57" android:paddingTop="8.0dip" android:paddingBottom="24.0dip" android:text="@string/ik" style="@style/ProfileEditMainTextStyle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/a58" android:background="@color/fn" style="@style/ProfileEditMainItemStyle">
+                <RelativeLayout style="@style/ProfileEditRelativeLayoutStyle">
+                    <TextView android:textColor="@color/du" android:text="@string/a67" android:layout_centerVertical="true" style="@style/ProfileEditMainTextStyle" />
+                    <EditText android:id="@id/a4x" android:background="@null" android:layout_width="fill_parent" android:layout_marginRight="16.0dip" android:maxLines="1" android:maxLength="10" android:layout_toLeftOf="@id/a59" android:inputType="text" style="@style/ProfileEditContentStyle" />
+                    <TextView android:textColor="@color/g0" android:id="@id/a59" android:visibility="invisible" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ProfileUserTextStyle" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View style="@style/ProfileDividerStyle" />
+            <LinearLayout android:id="@id/a5_" android:background="@color/fn" style="@style/ProfileEditMainItemStyle">
+                <RelativeLayout style="@style/ProfileEditRelativeLayoutStyle">
+                    <TextView android:textColor="@color/du" android:text="@string/sz" android:layout_centerVertical="true" style="@style/ProfileEditMainTextStyle" />
+                    <TextView android:id="@id/a5a" style="@style/ProfileEditContentStyle" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/ok" android:gravity="center" android:id="@id/a5b" android:background="@drawable/a12" android:layout_width="80.0dip" android:layout_height="32.0dip" android:text="@string/il" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View style="@style/ProfileDividerStyle" />
+            <LinearLayout android:id="@id/a5c" android:background="@color/fn" style="@style/ProfileEditMainItemStyle">
+                <RelativeLayout style="@style/ProfileEditRelativeLayoutStyle">
+                    <TextView android:textColor="@color/du" android:text="@string/adm" android:layout_centerVertical="true" style="@style/ProfileEditMainTextStyle" />
+                    <TextView android:textColorHint="@color/dt" android:id="@id/a5d" android:hint="@string/rf" style="@style/ProfileEditContentStyle" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View style="@style/ProfileDividerStyle" />
+            <LinearLayout android:id="@id/a5e" android:background="@color/fn" style="@style/ProfileEditMainItemStyle">
+                <RelativeLayout style="@style/ProfileEditRelativeLayoutStyle">
+                    <TextView android:textColor="@color/du" android:text="@string/fm" android:layout_centerVertical="true" style="@style/ProfileEditMainTextStyle" />
+                    <TextView android:textColorHint="@color/dt" android:id="@id/a5f" android:hint="@string/fn" style="@style/ProfileEditContentStyle" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_height="16.0dip" style="@style/ProfileAreaDividerStyle" />
+        <EditText android:textSize="14.0sp" android:textColorHint="@color/dt" android:gravity="center|left|top" android:id="@id/a5g" android:background="@color/fn" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="128.0dip" android:hint="有趣的个性签名会吸引更多的粉丝～" android:maxLines="10" android:maxLength="60" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffd0d0d0" android:layout_gravity="right" android:id="@id/a5h" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/60" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/a3y" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <View android:id="@id/fs" android:background="@color/bw" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <include layout="@layout/profile_live_title_bar" />
+    </LinearLayout>
+</RelativeLayout>

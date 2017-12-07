@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/md" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.live.shortvideo.widget.SViewPager android:id="@id/ft" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/me" android:background="@color/or" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+        <RadioButton android:id="@id/mf" android:background="@drawable/pq" android:checked="true" android:button="@null" android:text="求学" style="@style/radioButtonSelected2" />
+        <RadioButton android:id="@id/mg" android:background="@drawable/pq" android:text="教师" style="@style/radioButton2" />
+        <RadioButton android:id="@id/mh" android:background="@drawable/pq" android:text="报考" style="@style/radioButton2" />
+    </RadioGroup>
+</RelativeLayout>

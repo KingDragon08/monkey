@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/ja" android:layout_width="279.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="279.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/f3" android:layout_gravity="center_horizontal" android:id="@id/aqg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aeb" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/f_" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/aqh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/ae9" />
+        </LinearLayout>
+        <View android:layout_gravity="center_horizontal" android:background="@color/f7" android:layout_width="279.0dip" android:layout_height="0.5dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/f_" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/aqi" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    </LinearLayout>
+</LinearLayout>

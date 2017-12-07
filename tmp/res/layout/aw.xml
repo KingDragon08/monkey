@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/c2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dc" style="@style/title_bar_style">
+        <TextView android:id="@id/fv" style="@style/back_view" />
+        <TextView android:id="@id/c_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zx" android:layout_centerInParent="true" style="@style/title_text_style" />
+    </RelativeLayout>
+    <View android:id="@id/fd" android:background="@color/gr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/dc" />
+    <android.support.v7.widget.RecyclerView android:id="@id/i8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" android:layout_below="@id/fd" />
+    <com.bytedance.ies.uikit.recyclerview.LoadingStatusView android:id="@id/de" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

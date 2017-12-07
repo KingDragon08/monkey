@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gi" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="15.0sp" android:textColor="@color/fj" android:id="@id/a03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/n1" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <FrameLayout android:id="@id/wy" android:layout_width="@dimen/fn" android:layout_height="@dimen/fn">
+            <TextView android:textSize="15.0sp" android:textColor="@color/gi" android:gravity="center" android:id="@id/a04" android:background="@drawable/hb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/a7q" />
+            <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/wz" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="b9" app:roundAsCircle="true" app:roundingBorderWidth="1.0dip" app:roundingBorderColor="@color/gi" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/x0" android:layout_width="@dimen/fn" android:layout_height="@dimen/fn" android:layout_marginLeft="-8.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/gi" android:gravity="center" android:id="@id/a05" android:background="@drawable/hb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/a7q" />
+            <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/x1" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="b9" app:roundAsCircle="true" app:roundingBorderWidth="1.0dip" app:roundingBorderColor="@color/gi" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/x2" android:layout_width="@dimen/fn" android:layout_height="@dimen/fn" android:layout_marginLeft="-8.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/gi" android:gravity="center" android:id="@id/a06" android:background="@drawable/hb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/a7q" />
+            <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/x3" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="b9" app:roundAsCircle="true" app:roundingBorderWidth="1.0dip" app:roundingBorderColor="@color/gi" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/a6c" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

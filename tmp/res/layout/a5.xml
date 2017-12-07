@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <View android:background="@color/le" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <ScrollView android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gp" android:gravity="center" android:layout_gravity="center" android:id="@id/ea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/el" />
+            <EditText android:id="@id/eb" android:background="@drawable/ar" android:hint="@string/ey" android:layout_below="@id/ea" style="@style/bank_bind_view" />
+            <EditText android:id="@id/ec" android:background="@drawable/ar" android:hint="@string/ev" android:maxLength="18" android:layout_below="@id/eb" style="@style/bank_bind_view" />
+            <EditText android:id="@id/ed" android:background="@drawable/ar" android:hint="@string/ez" android:maxLength="23" android:layout_below="@id/ec" android:inputType="number" style="@style/bank_bind_view" />
+            <LinearLayout android:id="@id/dl" android:background="@drawable/ar" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:layout_below="@id/ed">
+                <TextView android:textSize="15.0sp" android:textColor="@color/ge" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/a9s" />
+                <EditText android:id="@id/ee" android:background="@null" android:padding="0.0dip" android:layout_height="@dimen/bp" android:layout_margin="0.0dip" android:hint="@string/f0" android:maxLength="11" android:inputType="number" style="@style/bank_bind_view" />
+            </LinearLayout>
+            <TextView android:textSize="15.0sp" android:textColor="@color/fj" android:gravity="center" android:id="@id/ef" android:background="@drawable/ar" android:paddingLeft="27.5dip" android:paddingRight="27.5dip" android:layout_width="wrap_content" android:layout_height="@dimen/bp" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/f2" android:layout_below="@id/dl" android:layout_alignParentRight="true" />
+            <EditText android:id="@id/eg" android:background="@drawable/ar" android:layout_marginRight="5.0dip" android:hint="@string/ex" android:layout_toLeftOf="@id/ef" android:layout_below="@id/dl" style="@style/bank_bind_view" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/fj" android:gravity="center" android:id="@id/eh" android:background="@drawable/as" android:layout_width="fill_parent" android:layout_height="@dimen/bp" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" android:text="@string/a63" android:layout_below="@id/ef" />
+            <com.ss.android.ugc.live.widget.CenterTextView android:textSize="14.0sp" android:textColor="@color/gp" android:id="@id/ei" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/eh" />
+            <RelativeLayout android:id="@id/ej" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_below="@id/ei" android:layout_centerHorizontal="true">
+                <TextView android:textSize="14.0sp" android:textColor="@color/fj" android:id="@id/ek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/er" android:layout_alignParentBottom="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/ga" android:id="@id/el" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eq" android:layout_toRightOf="@id/ek" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

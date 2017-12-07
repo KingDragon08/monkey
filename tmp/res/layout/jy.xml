@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/afx" android:background="@color/kx" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/ep" android:verticalSpacing="@dimen/ep" android:numColumns="4" />
+    <RelativeLayout android:id="@id/afy" android:background="#800a0909" android:layout_width="fill_parent" android:layout_height="@dimen/h9" android:layout_alignParentBottom="true">
+        <TextView android:enabled="false" android:id="@id/afz" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/a44" android:layout_alignParentLeft="true" style="@style/media_choose_btn" />
+        <TextView android:id="@id/ag0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/media_choose_btn" />
+        <TextView android:id="@id/ag1" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/a42" android:layout_alignParentRight="true" style="@style/media_choose_btn" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/ag2" android:background="#aa000000" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/a46" android:layout_alignBottom="@id/afx" />
+    <ProgressBar android:id="@id/ag3" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Inverse" />
+</RelativeLayout>

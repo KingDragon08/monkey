@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/a3y" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/fn" android:layout_width="fill_parent" android:layout_height="44.5dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/kb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/amo" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/a9d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="19.0dip" android:src="@drawable/a43" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/aaa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.0dip" android:layout_toLeftOf="@id/a9d" android:layout_centerVertical="true">
+            <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/aab" android:layout_width="@dimen/fp" android:layout_height="@dimen/fp" android:layout_alignParentRight="true" app:placeholderImage="@drawable/a6l" app:placeholderImageScaleType="b8" app:roundAsCircle="true" app:roundingBorderWidth="1.0dip" app:roundingBorderColor="@color/fn" />
+            <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/aac" android:layout_width="@dimen/fp" android:layout_height="@dimen/fp" android:layout_alignParentRight="true" app:placeholderImage="@drawable/a6l" app:placeholderImageScaleType="b8" app:roundAsCircle="true" app:roundingBorderWidth="1.0dip" app:roundingBorderColor="@color/fn" />
+            <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/aad" android:layout_width="@dimen/fp" android:layout_height="@dimen/fp" android:layout_alignParentRight="true" app:placeholderImage="@drawable/a6l" app:placeholderImageScaleType="b8" app:roundAsCircle="true" app:roundingBorderWidth="1.0dip" app:roundingBorderColor="@color/fn" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:layout_below="@id/a9v" android:layout_alignParentTop="true" style="@style/ProfileDividerStyle" />
+    <View android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <View android:layout_below="@id/a9v" android:layout_alignParentTop="true" style="@style/ProfileDividerStyle" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/a9y" android:layout_width="wrap_content" android:layout_height="wrap_content" app:placeholderImage="@drawable/cf" app:placeholderImageScaleType="be" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/or" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/arf" android:shadowColor="#51000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.1" android:layout_centerInParent="true" />
+    <View android:id="@id/a4e" android:background="@color/b7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

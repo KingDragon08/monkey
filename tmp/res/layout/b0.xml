@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/gj" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:id="@id/fa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/a_y" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/ob" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a5f" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/ij" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ade" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View style="@style/ProfileDividerStyle" />
+    <RelativeLayout android:background="@color/c2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@color/or" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ey" android:layout_marginRight="@dimen/ey" android:layout_centerInParent="true">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/ik" android:layout_width="@dimen/fs" android:layout_height="@dimen/fr" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_alignParentLeft="true" app:placeholderImage="@drawable/aed" app:placeholderImageScaleType="be" app:roundAsCircle="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/ob" android:id="@id/il" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_toRightOf="@id/ik" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/ob" android:id="@id/im" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/ik" android:layout_below="@id/il" />
+            <ImageView android:id="@id/in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ez" android:layout_marginTop="102.0dip" android:layout_marginRight="@dimen/ez" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:id="@id/io" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="220.0dip" android:text="@string/ab2" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/ob" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/acn" android:layout_below="@id/in" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/ip" android:background="@color/or" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ey" android:layout_marginRight="@dimen/ey" android:layout_centerInParent="true">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iq" android:layout_width="@dimen/fs" android:layout_height="@dimen/fr" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_alignParentLeft="true" app:placeholderImage="@drawable/aed" app:placeholderImageScaleType="be" app:roundAsCircle="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/ob" android:id="@id/ir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_toRightOf="@id/iq" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/ob" android:id="@id/is" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/iq" android:layout_below="@id/ir" />
+            <ImageView android:id="@id/it" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ez" android:layout_marginTop="102.0dip" android:layout_marginRight="@dimen/ez" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/ob" android:id="@id/iu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/it" android:layout_centerHorizontal="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="24.0dip" android:src="@drawable/afo" android:layout_below="@id/iu" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

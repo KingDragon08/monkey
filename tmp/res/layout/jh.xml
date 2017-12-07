@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/af5" android:background="@android:color/transparent" android:paddingLeft="@dimen/hq" android:paddingRight="@dimen/hq" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.ss.android.ugc.live.core.ui.widget.VHeadView android:id="@id/af6" android:layout_width="@dimen/cm" android:layout_height="@dimen/cm" android:src="@drawable/a_o" app:placeholderImage="@drawable/a55" app:placeholderImageScaleType="be" app:roundAsCircle="true" />
+        <TextView android:textSize="@dimen/hh" android:textColor="@color/gx" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/af7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hg" android:maxEms="9" android:singleLine="true" android:shadowColor="@color/f3" android:shadowDx="0.5" android:shadowDy="0.5" android:shadowRadius="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/hf" android:textColor="@color/gx" android:ellipsize="end" android:id="@id/af8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/he" android:maxEms="60" android:shadowColor="#51000000" android:shadowDx="1.0" android:shadowDy="1.0" />
+</LinearLayout>

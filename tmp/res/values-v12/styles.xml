@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a_" parent="@style/p7" />
+    <style name="aa" parent="@style/p8" />
+    <style name="ab">
+        <item name="android:background">@null</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textCursorDrawable">@drawable/mr</item>
+    </style>
+    <style name="p7" parent="@style/e9">
+        <item name="android:textCursorDrawable">@drawable/a_</item>
+    </style>
+    <style name="p8" parent="@style/e_">
+        <item name="android:textCursorDrawable">@drawable/a_</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ao9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/ao_" android:background="@drawable/qx" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aoa" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/aob" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/ais" style="@style/ss_alt_view_text" />
+            <ProgressBar android:id="@id/aoc" android:layout_width="12.0dip" android:layout_height="12.0dip" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/qz" />
+            <Button android:id="@id/aod" android:background="@drawable/ql" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:minWidth="50.0dip" android:minHeight="25.0dip" android:text="@string/ajx" style="@style/ss_alt_view_text" />
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@id/aoe" android:background="@drawable/qy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aiq" style="@style/ss_more_view_text" />
+        <ImageView android:id="@id/aof" android:paddingTop="15.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/v4" android:scaleType="center" />
+        <View android:id="@id/aog" android:background="@drawable/qx" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+</FrameLayout>

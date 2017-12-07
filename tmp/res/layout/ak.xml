@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/b7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/c0" android:background="@color/b7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip">
+            <android.support.v7.widget.RecyclerView android:id="@id/gu" android:background="@color/b7" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/l8" android:gravity="center" android:id="@id/gv" android:background="@drawable/k5" android:paddingLeft="9.0dip" android:paddingTop="2.0dip" android:paddingRight="9.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="123" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/go" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_above="@id/c0">
+        <ScrollView android:id="@id/gw" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/gq" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <SurfaceView android:id="@id/gr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+        <ImageView android:id="@id/gx" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/gy" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/fv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/ah5" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/or" android:gravity="center" android:id="@id/eh" android:background="@drawable/k8" android:layout_width="65.0dip" android:layout_height="28.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/a63" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/l8" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/gi" android:gravity="center" android:id="@id/gz" android:background="@drawable/a6u" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="左右移动调整裁剪区域" android:layout_centerInParent="true" />
+</RelativeLayout>

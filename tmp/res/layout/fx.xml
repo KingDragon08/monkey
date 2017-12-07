@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.live.widget.FpsRecyclerView android:id="@id/mm" android:background="@color/g1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.bytedance.ies.uikit.recyclerview.LoadingStatusView android:id="@id/de" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/h7" android:layout_centerInParent="true" />
+</RelativeLayout>
